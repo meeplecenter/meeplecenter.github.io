@@ -1,0 +1,53 @@
+Copyright © 2026 Meeple Center. All rights reserved.
+
+ARTWORK AND BRANDING LICENSE
+
+Most of this directory is NOT covered by the MIT license in the root of this
+repository. The following files are the proprietary property of Meeple Center
+("the Owner"):
+
+  - MeepleCenter_Logo.svg  — the Meeple Center logo
+  - Meeple_Blue.svg, Meeple_Green.svg, Meeple_Purple.svg,
+    Meeple_Red.svg, Meeple_Yellow.svg — the colored meeple illustrations
+
+EXCEPTION: Meeple_Generic.svg
+
+`Meeple_Generic.svg` is NOT covered by this license. It is an uncolored,
+unbranded silhouette used by the stylesheet as a mask shape, and it is offered
+under the MIT license along with the rest of the code — see `../LICENSE`. You
+may use, copy, modify, and redistribute it freely. Everything else in this
+directory is reserved as set out below.
+
+NO LICENSE IS GRANTED
+
+These files are published here only so the Meeple Center website can be hosted
+and maintained. Publishing them does not place them in the public domain and
+does not grant anyone a license to them.
+
+For the reserved files listed above, without the Owner's prior written
+permission, you may NOT copy, reproduce,
+distribute, publish, sublicense, sell, modify, recolor, redraw, adapt, or
+create derivative works from these files, and you may NOT use them or the
+"Meeple Center" name or branding in any medium or for any purpose — including
+in another website, application, print material, product, merchandise, or
+training dataset. This applies to non-commercial, educational, and personal use
+as well as commercial use.
+
+The logo and meeple illustrations identify Meeple Center. Reusing them, even in
+altered form, is likely to suggest an affiliation or endorsement that does not
+exist.
+
+IF YOU ARE REUSING THE CODE
+
+The website's source code is offered under the MIT license (see `../LICENSE`)
+and you are welcome to it, along with `Meeple_Generic.svg`. To use it, delete
+or replace the other files in this directory and remove references to the
+Meeple Center name from the pages.
+
+PERMISSION AND CONTACT
+
+Requests to use the artwork are welcome and will be considered:
+
+Meeple Center
+Austin, Minnesota
+meeplecenter@gmail.com

@@ -2,6 +2,8 @@
 
 This is the website for Meeple Center. It's a small, plain HTML website hosted using GitHub pages.
 
+> The code is MIT-licensed and free to reuse, as is the generic meeple silhouette. The logo and the colored meeples in `assets/` are **not** — they're copyright Meeple Center, all rights reserved. See [LICENSE](LICENSE) and [assets/LICENSE](assets/LICENSE).
+
 ## File structure
 
 - `index.html`: the homepage (About)
@@ -107,3 +109,15 @@ A few things worth knowing:
 ### One note on the weekly catalog refresh
 
 GitHub pauses scheduled workflows in repositories with no activity for 60 days, and emails the owner when it does. If the catalog copy ever goes stale for that reason, open the **Actions** tab and re-enable it.
+
+## License
+
+This repository is licensed in two parts.
+
+**The code is MIT-licensed** — see [LICENSE](LICENSE). The HTML, CSS, JavaScript, scripts, and this documentation are free for anyone to use, modify, and redistribute, commercially or otherwise, as long as they keep the copyright notice. `assets/Meeple_Generic.svg` is included in this: it's an uncolored, unbranded silhouette that the stylesheet uses as a mask, so the code works out of the box without it needing to be replaced.
+
+**The branded artwork is not.** The logo (`MeepleCenter_Logo.svg`) and the colored meeples (`Meeple_Blue.svg`, `Meeple_Green.svg`, `Meeple_Purple.svg`, `Meeple_Red.svg`, `Meeple_Yellow.svg`) are copyright © 2026 Meeple Center, all rights reserved, under a separate license: [assets/LICENSE](assets/LICENSE). They may not be copied, recolored, redrawn, or reused anywhere else, for any purpose, without written permission. The "Meeple Center" name and branding are reserved the same way.
+
+So: if you want to build on this site, take the code and the generic meeple, then delete the branded files in `assets/` and swap in your own logo and name. To ask about using the artwork, email meeplecenter@gmail.com.
+
+Neither license covers third-party material. Google Fonts, the embedded Google Calendar, and the Zeffy form keep their own terms, and board game titles in the catalog belong to their publishers.
