@@ -1,0 +1,1994 @@
+{
+  "generatedAt": "2026-08-19T13:46:00.099Z",
+  "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
+  "count": 169,
+  "games": [
+    {
+      "title": "7 Wonders",
+      "types": [
+        "Drafting",
+        "Eurogame"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
+      "title": "Air, Land, & Sea",
+      "types": [
+        "Rec. Two Player"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Alubari",
+      "types": [
+        "Eurogame",
+        "Worker Placement"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Animal Upon Animal",
+      "types": [
+        "Dexterity",
+        "Family Game"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Ascension: Valley of the Ancients",
+      "types": [
+        "Deck-Building",
+        "Rec. Two Player"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Azul",
+      "types": [
+        "Tile Placement",
+        "Drafting",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Azul: Summer Pavilion",
+      "types": [
+        "Tile Placement",
+        "Drafting",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Backgammon",
+      "types": [
+        "Abstract",
+        "Classic"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Balderdash",
+      "types": [
+        "Party",
+        "Word Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Bananagrams",
+      "types": [
+        "Word Game",
+        "Racing"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Bang: The Walking Dead",
+      "types": [
+        "Social Deduction"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Beat the Parents",
+      "types": [
+        "Party",
+        "Family Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Betrayal at Baldur's Gate",
+      "types": [
+        "Co-Op"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Betrayal of House on the Hill",
+      "types": [
+        "Co-Op"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Between Two Castle of the Mad King Ludwig",
+      "types": [],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Block Party",
+      "types": [
+        "Abstract",
+        "Party",
+        "Family Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Blockbuster",
+      "types": [
+        "Party",
+        "Trivia"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "",
+      "status": "lendable"
+    },
+    {
+      "title": "Blokus",
+      "types": [
+        "Tile Placement",
+        "Abstract",
+        "Under Age 5"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Bob Ross",
+      "types": [
+        "Eurogame",
+        "Racing"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Boggle",
+      "types": [
+        "Word Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Bohnanza",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Bombusters",
+      "types": [
+        "Co-Op",
+        "Deduction",
+        "Trick Taking",
+        "Family Game"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Botany",
+      "types": [],
+      "max": 5,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
+      "title": "Bottom of the 9th",
+      "types": [],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Braintopia",
+      "types": [
+        "Trivia"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Buzzwords",
+      "types": [
+        "Word Game",
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Campy Creatures",
+      "types": [],
+      "max": 5,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Carcassonne",
+      "types": [
+        "Area Control",
+        "Eurogame",
+        "Tile Placement"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Carcassonne: Court, King, & Robber",
+      "types": [
+        "Tile Placement",
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Cartographers",
+      "types": [
+        "Flip & Write"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Cascadia",
+      "types": [
+        "Tile Placement",
+        "Drafting",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Cascadia: Landmarks",
+      "types": [
+        "Tile Placement",
+        "Drafting",
+        "Eurogame"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Castle Panic",
+      "types": [
+        "AmeriTrash",
+        "Co-Op",
+        "War"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Catan Dice",
+      "types": [
+        "Roll & Write"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Catan Starfarers",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Chameleon",
+      "types": [
+        "Party",
+        "Word Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Chinese Checkers",
+      "types": [
+        "Abstract"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Coaster Games",
+      "types": [
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Codenames",
+      "types": [
+        "Word Game",
+        "Co-Op",
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Codenames: Pictures",
+      "types": [
+        "Word Game",
+        "Co-Op",
+        "Party",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Command of Nature",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Coup",
+      "types": [
+        "Social Deduction"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Cranium",
+      "types": [
+        "Word Game",
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Cry Havoc",
+      "types": [
+        "War"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Deck of Cards",
+      "types": [
+        "Abstract"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Decrypto",
+      "types": [
+        "Word Game",
+        "Co-Op"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Dixit",
+      "types": [
+        "Abstract"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Drop It",
+      "types": [
+        "Abstract",
+        "Dexterity",
+        "Rec. Two Player"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Dungeon Mayhem",
+      "types": [
+        "Card Game",
+        "War",
+        "Family Game"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Earth",
+      "types": [
+        "Tableau",
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Epic Card Game",
+      "types": [
+        "Deck-Building",
+        "Rec. Two Player"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Farmini",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Flamecraft",
+      "types": [
+        "Eurogame",
+        "Worker Placement"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Flip 7",
+      "types": [
+        "Press Your Luck",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Fun Facts",
+      "types": [
+        "Abstract",
+        "Word Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "G.I. Joe Deck-Building Game*",
+      "types": [
+        "Deck-Building",
+        "Co-Op"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Guesstures",
+      "types": [
+        "Word Game",
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 15,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Horrified",
+      "types": [
+        "Co-Op",
+        "Area Control"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Horrified: American Monsters",
+      "types": [
+        "Co-Op",
+        "Area Control"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Hues and Cues",
+      "types": [
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 90,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Imaginiff",
+      "types": [
+        "Party",
+        "Social Deduction",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Imhotep",
+      "types": [
+        "Area Control",
+        "Worker Placement",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Invasion of the Cow Snatchers",
+      "types": [
+        "AmeriTrash",
+        "Solo Mode"
+      ],
+      "max": 0,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Jeopardy Card Game",
+      "types": [
+        "Trivia"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Junkart",
+      "types": [
+        "Abstract",
+        "Family Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Just One",
+      "types": [
+        "Party",
+        "Word Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Kalah (Mancala)",
+      "types": [
+        "Abstract",
+        "Rec. Two Player"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "King of Tokyo",
+      "types": [
+        "Dice Rolling",
+        "Press Your Luck"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Kingdom Builder",
+      "types": [
+        "Area Control"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Kingdomino",
+      "types": [
+        "Tile Placement"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Kites",
+      "types": [
+        "Party",
+        "Real Time"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Let's Go Fish",
+      "types": [
+        "Abstract",
+        "Dexterity",
+        "Rec. Two Player"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Life Goals",
+      "types": [
+        "Card Game",
+        "Family Game"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Longshot",
+      "types": [
+        "Racing"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Love Letters",
+      "types": [
+        "Social Deduction",
+        "Card Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Lovecraft Letter",
+      "types": [
+        "Social Deduction",
+        "Card Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Lucky's Misadventure: Ep. 42",
+      "types": [
+        "Deck-Building",
+        "Card Game"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Machi Koro",
+      "types": [
+        "Eurogame",
+        "City Building"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Mantis",
+      "types": [
+        "Drafting",
+        "Party",
+        "Family Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Marvel United: Spiderverse*",
+      "types": [
+        "Area Control",
+        "Co-Op",
+        "Worker Placement"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Marvel United*",
+      "types": [
+        "Area Control",
+        "Co-Op",
+        "Worker Placement"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "MIlle Bourne",
+      "types": [
+        "Card Game",
+        "Racing"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Monopoly Gamer",
+      "types": [
+        "Classic"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Monsters & Madiens",
+      "types": [],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Morels",
+      "types": [
+        "Rec. Two Player"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Munchkin",
+      "types": [
+        "Card Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Munchkin Booty",
+      "types": [
+        "Card Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Next Stop London",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "",
+      "status": "lendable"
+    },
+    {
+      "title": "Nidavellir",
+      "types": [
+        "Card Game",
+        "Drafting",
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "No Thanks!",
+      "types": [
+        "Abstract",
+        "Party",
+        "Press Your Luck",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Not Alone",
+      "types": [
+        "Co-Op",
+        "Racing"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Pandemic",
+      "types": [
+        "Co-Op"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Pandemic Contagion",
+      "types": [
+        "Co-Op"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Pandemic Fall of Rome",
+      "types": [
+        "Co-Op"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Pandemic: Hot Zone",
+      "types": [
+        "Co-Op"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Pass the Pigs",
+      "types": [
+        "Abstract",
+        "Press Your Luck",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Patchwork",
+      "types": [
+        "Drafting",
+        "Tile Placement",
+        "Rec. Two Player"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Phase 10",
+      "types": [
+        "Card Game",
+        "Classic"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Photosynthesis",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Poetry for Neanderthals",
+      "types": [
+        "Party",
+        "Word Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Point Salad",
+      "types": [
+        "Drafting",
+        "Card Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Poker Chips",
+      "types": [
+        "Abstract"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Quacks of Quedlinburg",
+      "types": [
+        "Press Your Luck",
+        "Bag Building"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Queendomino",
+      "types": [
+        "Tile Placement"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Qwirkle",
+      "types": [
+        "Abstract"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Qwixx",
+      "types": [
+        "Abstract",
+        "Tile Placement"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Rack-O",
+      "types": [
+        "Card Game",
+        "Classic"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Railroad Ink",
+      "types": [
+        "Roll & Write"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Ramen Fury",
+      "types": [
+        "Card Game",
+        "Drafting"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Really Loud Librarians",
+      "types": [
+        "Party",
+        "Word Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Relative Insanity",
+      "types": [
+        "Party"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Roll For The Galaxy",
+      "types": [
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Root",
+      "types": [
+        "Asymetrical",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Root: Clockwork Expansion",
+      "types": [
+        "Asymetrical",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Sagrada",
+      "types": [
+        "Drafting",
+        "Tile Placement"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Santorini",
+      "types": [
+        "Abstract",
+        "Rec. Two Player"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Scattergories",
+      "types": [
+        "Word Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Sentinels of the Multiverse",
+      "types": [
+        "Deck-Building",
+        "Co-Op"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Sequence",
+      "types": [
+        "Abstract",
+        "Classic",
+        "Card Game"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Settlers of Catan",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 120,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Settlers of Catan 5-6 Player Expansion",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 120,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Shadows Over Camelot",
+      "types": [
+        "Co-Op",
+        "War"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Sheriff of Nottingham",
+      "types": [
+        "Social Deduction",
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Sink n' Sand",
+      "types": [
+        "Dexterity",
+        "Abstract",
+        "Under Age 5"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Skip-bo",
+      "types": [
+        "Card Game",
+        "Classic"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Skull",
+      "types": [
+        "Card Game",
+        "Party",
+        "Social Deduction"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Skull (2nd Copy)",
+      "types": [
+        "Card Game",
+        "Party",
+        "Social Deduction"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Sleeping Queens",
+      "types": [
+        "Card Game"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Smallworld",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
+      "title": "Smash-Up (2nd Copy)",
+      "types": [
+        "Card Game",
+        "Deck-Building",
+        "AmeriTrash"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Smash-Up & Expansion",
+      "types": [
+        "Card Game",
+        "Deck-Building",
+        "AmeriTrash"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "house"
+    },
+    {
+      "title": "Snug as a Bug in a Rug",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Sorry",
+      "types": [
+        "Classic"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Spirit Island",
+      "types": [
+        "Co-Op",
+        "Asymetrical"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
+      "title": "Splendor",
+      "types": [
+        "Eurogame",
+        "Drafting"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Star Realms: Colony Wars*",
+      "types": [
+        "Deck-Building",
+        "Rec. Two Player"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Star Realms*",
+      "types": [
+        "Deck-Building",
+        "Rec. Two Player"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Star Wars: Deck-Building Game",
+      "types": [
+        "Deck-Building",
+        "War",
+        "Rec. Two Player"
+      ],
+      "max": 2,
+      "open": false,
+      "time": 0,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Super Mega Lucky Box",
+      "types": [
+        "AmeriTrash",
+        "Abstract"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Super Pinball 4-Cade",
+      "types": [
+        "Abstract",
+        "Roll & Write"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Super Pinball Ramp It Up",
+      "types": [
+        "Abstract",
+        "Roll & Write"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Sushi Go Party",
+      "types": [
+        "Drafting",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Taco Cat Goat Cheese Pizza",
+      "types": [
+        "AmeriTrash",
+        "Racing",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Telesrations: Upside Drawn",
+      "types": [
+        "Abstract"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Tenzi",
+      "types": [
+        "AmeriTrash",
+        "Racing",
+        "Family Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Tenzi (2nd Copy)",
+      "types": [
+        "AmeriTrash",
+        "Racing",
+        "Family Game"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Terraforming Mars",
+      "types": [
+        "Tableau",
+        "Eurogame",
+        "Solo Mode"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
+      "title": "The Bears and the Bees",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "The Crew",
+      "types": [
+        "Trick Taking"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "The Grizzled",
+      "types": [
+        "Co-Op",
+        "War"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "The Mind",
+      "types": [
+        "Abstract",
+        "Card Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 120,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Ticket to Ride",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Ticket to Ride: New York City",
+      "types": [
+        "Area Control",
+        "Eurogame"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Tiny Epic Pirates",
+      "types": [],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Tiny Towns",
+      "types": [
+        "Abstract"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Tokiado",
+      "types": [
+        "Eurogame",
+        "Worker Placement"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Tsuro",
+      "types": [
+        "Abstract"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Tsuro: Pheonix Rising",
+      "types": [
+        "Abstract"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Unlock: Heroic Adventures",
+      "types": [
+        "Word Game",
+        "Puzzle",
+        "Rec. Two Player"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 60,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Upwords",
+      "types": [
+        "Abstract",
+        "Word Game"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 90,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Villanious",
+      "types": [
+        "Asymetrical",
+        "Deck-Building"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Villanious: Evil Comes Prepared",
+      "types": [
+        "Asymetrical",
+        "Deck-Building"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Villanious: The Worst Takes it All",
+      "types": [
+        "Asymetrical",
+        "Deck-Building"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Villanious: Wicked to the Core",
+      "types": [
+        "Asymetrical",
+        "Deck-Building"
+      ],
+      "max": 6,
+      "open": false,
+      "time": 90,
+      "weight": "Heavy",
+      "status": "house"
+    },
+    {
+      "title": "Welcome To the Moon",
+      "types": [
+        "Flip & Write"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 60,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
+      "title": "Wingspan",
+      "types": [
+        "Eurogame",
+        "Tableau Building"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 120,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
+      "title": "Yahtzee",
+      "types": [
+        "Roll & Write"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 30,
+      "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "Zircles",
+      "types": [
+        "Abstract"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 30,
+      "weight": "Light",
+      "status": "house"
+    },
+    {
+      "title": "Zombie Dice",
+      "types": [
+        "AmeriTrash",
+        "Press Your Luck",
+        "Family Game"
+      ],
+      "max": 7,
+      "open": true,
+      "time": 15,
+      "weight": "Light",
+      "status": "lendable"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+name: Refresh game catalog cache
+
+# Rebuilds data/games.json, the copy of the library spreadsheet that
+# catalog.html draws first so the table appears without waiting on Google.
+# The page still checks the live sheet in the background on every load, so
+# this job is about how fast the catalog paints and whether it survives an
+# outage -- not about how current it is.
+
+on:
+  schedule:
+    # Mondays at 11:00 UTC (6am Central in summer, 5am in winter). GitHub runs
+    # scheduled jobs on a best-effort basis, so it may start a bit late.
+    - cron: "0 11 * * 1"
+  workflow_dispatch:
+    inputs:
+      allow_shrink:
+        description: "Write even if the game count dropped by half (use after a real purge)"
+        type: boolean
+        default: false
+
+# Never let a manual run and the weekly run push over each other.
+concurrency:
+  group: refresh-catalog
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Fetch the spreadsheet
+        env:
+          ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '' }}
+        run: node scripts/fetch-catalog.js
+
+      - name: Commit if the catalog changed
+        run: |
+          if git diff --quiet -- data/games.json; then
+            echo "Catalog unchanged; nothing to commit."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/games.json
+          git commit -m "Refresh game catalog cache ($(node -p "require('./data/games.json').count") games)"
+          git push

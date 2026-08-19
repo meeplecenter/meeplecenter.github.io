@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game Catalog | Meeple Center</title>
+<meta name="description" content="Search and filter the Meeple Center lending library of board games.">
+<link rel="icon" href="assets/MeepleCenter_Logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://docs.google.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Mono:wght@400;500&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/catalog-data.js" defer></script>
+<script src="js/catalog.js" defer></script>
+</head>
+<body data-page="catalog">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><img src="assets/MeepleCenter_Logo.svg" alt="Meeple Center home"></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a data-nav="about" href="index.html">About</a></li>
+        <li><a data-nav="membership" href="membership.html">Membership</a></li>
+        <li><a data-nav="catalog" href="catalog.html" class="active">Game Catalog</a></li>
+        <li><a data-nav="events" href="calendar.html">Events</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="hero-tag">Borrow one game a week with your membership</p>
+      <h1>Game Catalog</h1>
+      <p class="lead">Check games out and return them at any game night.</p>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <div class="filters">
+        <div class="filter-group">
+          <label for="search">Search</label>
+          <input type="search" id="search" placeholder="Search by title or type...">
+        </div>
+        <div class="filter-group">
+          <label for="filter-type">Type</label>
+          <select id="filter-type">
+            <option value="">All types</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-players">Players</label>
+          <select id="filter-players">
+            <option value="">Any player count</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-time">Play time</label>
+          <select id="filter-time">
+            <option value="">Any length</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-weight">Complexity</label>
+          <select id="filter-weight">
+            <option value="">Any complexity</option>
+            <option value="Light">Light</option>
+            <option value="Medium">Medium</option>
+            <option value="Heavy">Heavy</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <label for="filter-status">Rental</label>
+          <select id="filter-status">
+            <option value="">All</option>
+            <option value="lendable">Available to rent</option>
+            <option value="house">In-house only</option>
+          </select>
+        </div>
+        <div class="filter-group">
+          <span class="filter-spacer" aria-hidden="true">&nbsp;</span>
+          <button type="button" id="reset" class="btn">Reset filters</button>
+        </div>
+      </div>
+
+      <div class="catalog-meta">
+        <p id="result-count" role="status" aria-live="polite">Loading the catalog&hellip;</p>
+      </div>
+
+      <div class="table-wrap">
+        <table id="catalog">
+          <thead>
+            <tr>
+              <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="title">Game</button></th>
+              <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="type">Type</button></th>
+              <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="players">Players</button></th>
+              <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="time">Time (min)</button></th>
+              <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="weight">Complexity</button></th>
+              <th scope="col" aria-sort="none"><button type="button" class="sort-btn" data-sort="status">Rental</button></th>
+            </tr>
+          </thead>
+          <tbody></tbody>
+        </table>
+      </div>
+
+      <p id="catalog-status" class="catalog-status">Loading the game catalog&hellip;</p>
+
+      <noscript>
+        <p class="catalog-status">
+          The catalog is loaded live from our library spreadsheet, so it needs
+          JavaScript to display here. You can
+          <a href="https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261">
+          browse the spreadsheet directly</a> instead.
+        </p>
+      </noscript>
+
+      <div id="no-results" hidden>
+        <p>No games match those filters.</p>
+        <p><button type="button" id="clear" class="btn">Clear filters</button></p>
+      </div>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="rainbow-rule" aria-hidden="true"></div>
+  <div class="container">
+    <p class="footer-name">Meeple Center</p>
+    <p>Austin, Minnesota &middot; <a href="mailto:meeplecenter@gmail.com">meeplecenter@gmail.com</a></p>
+    <p>A member-supported 501(c)(7) non-profit tabletop gaming community.</p>
+    <p class="footer-legal">&copy; 2026 Meeple Center. All rights reserved. &middot; Website developed by Ethan Grahn.</p>
+  </div>
+</footer>
+</body>
+</html>

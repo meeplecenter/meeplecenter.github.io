@@ -1,0 +1,1062 @@
+/* ==========================================================================
+   Meeple Center: Shared Stylesheet
+   ========================================================================== */
+
+/* --------------------------------------------------------------------------
+   1. Theme tokens
+   -------------------------------------------------------------------------- */
+:root {
+  /* Logo colors */
+  --ink: #123f4e;          /* the wordmark teal: text, borders, dark panels */
+  --ink-deep: #0b2c38;     /* footer and hero panel */
+  /* Meeple colors */
+  --blue: #2e86ab;         /* the logo keyline and the blue meeple */
+  --purple: #7b5ea7;
+  --green: #3fa37b;
+  --gold: #f5c242;
+  --berry: #e23e62;
+
+  /* Lighter tints, used only on dark panels where the base color is too dim */
+  --blue-lift: #6ec1e4;
+  --green-lift: #6fd3ab;
+  --berry-lift: #ff7d96;
+
+  /* Surfaces */
+  --paper: #edf3f5;        /* page background: ink, watered down */
+  --surface: #ffffff;      /* cards, header, table rows */
+  --band: #dce9ed;         /* alternating section band */
+  --muted: #4a6672;        /* secondary text, dark enough to stay readable */
+  --line: #123f4e;         /* borders match the ink, like the logo outline */
+  --line-soft: #c2d8de;    /* hairlines inside components */
+  --drop: #c2d8de;         /* the hard offset "shadow" under tokens */
+  --on-dark: #eaf4f6;
+
+  /* Per-page accent, overridden by [data-page] below */
+  --accent: var(--blue);
+  --accent-lift: var(--blue-lift);
+
+  --radius: 18px;
+  --radius-sm: 10px;
+  --border: 2px;
+
+  --font-display: "Baloo 2", "Trebuchet MS", "Segoe UI", system-ui, sans-serif;
+  --font-body: "Figtree", "Segoe UI", -apple-system, BlinkMacSystemFont, Roboto,
+    Helvetica, Arial, sans-serif;
+  --font-mono: "DM Mono", ui-monospace, "Cascadia Mono", Consolas, monospace;
+}
+
+body[data-page="about"]      { --accent: var(--green);  --accent-lift: var(--green-lift); }
+body[data-page="membership"] { --accent: var(--berry);  --accent-lift: var(--berry-lift); }
+body[data-page="catalog"]    { --accent: var(--gold);   --accent-lift: var(--gold); }
+body[data-page="events"]     { --accent: var(--blue);   --accent-lift: var(--blue-lift); }
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --ink: #eaf4f6;
+    --ink-deep: #071f28;
+    --paper: #0d2831;
+    --surface: #133845;
+    --band: #10313c;
+    --muted: #9fbcc5;
+    --line: #2f6377;
+    --line-soft: #24505f;
+    --drop: #071f28;
+    --blue: #6ec1e4;
+    --green: #57c79a;
+    --berry: #ff7d96;
+    --purple: #b394dd;
+  }
+}
+
+/* --------------------------------------------------------------------------
+   2. Base
+   -------------------------------------------------------------------------- */
+*,
+*::before,
+*::after { box-sizing: border-box; }
+
+html { -webkit-text-size-adjust: 100%; }
+
+body {
+  margin: 0;
+  font-family: var(--font-body);
+  font-size: 1.0625rem;
+  line-height: 1.65;
+  background: var(--paper);
+  color: var(--ink);
+}
+
+img { max-width: 100%; display: block; }
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 800;
+  line-height: 1.05;
+  margin-top: 0;
+  letter-spacing: -0.005em;
+}
+
+h1 { font-size: clamp(2.4rem, 5.5vw, 3.9rem); }
+h2 { font-size: clamp(1.75rem, 3.4vw, 2.5rem); margin-bottom: 0.75rem; }
+h3 { font-size: 1.3rem; margin-bottom: 0.35rem; }
+
+p { margin: 0 0 1.1rem; }
+p:last-child { margin-bottom: 0; }
+
+a {
+  color: var(--ink);
+  text-decoration-color: var(--blue);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+a:hover { color: var(--blue); }
+
+ul, ol { padding-left: 1.3rem; }
+li { margin-bottom: 0.4rem; }
+
+code {
+  font-family: var(--font-mono);
+  font-size: 0.9em;
+  background: var(--band);
+  padding: 0.1em 0.35em;
+  border-radius: 5px;
+}
+
+:focus-visible {
+  outline: 3px solid var(--blue);
+  outline-offset: 3px;
+  border-radius: 4px;
+}
+
+.sr-only {
+  position: absolute;
+  width: 1px; height: 1px;
+  padding: 0; margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  white-space: nowrap;
+  border: 0;
+}
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  background: var(--ink);
+  color: #fff;
+  padding: 0.8rem 1.25rem;
+  border-radius: var(--radius-sm);
+  font-weight: 700;
+  z-index: 1000;
+}
+.skip-link:focus { left: 1rem; top: 1rem; }
+
+/* --------------------------------------------------------------------------
+   3. Layout helpers
+   -------------------------------------------------------------------------- */
+.container {
+  max-width: 1120px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+/* Caps the measure of running text without pulling it off the page's left
+   edge, so every section still starts in the same column. */
+.narrow { max-width: 68ch; }
+.center { text-align: center; }
+.center .narrow { margin-inline: auto; }
+.muted { color: var(--muted); }
+
+.lead {
+  font-size: 1.2rem;
+  line-height: 1.55;
+  color: var(--muted);
+}
+
+/* Small mono label. Only used where it carries information (a season, a
+   cadence, a section's role), never as decoration. */
+.eyebrow {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.5rem;
+}
+
+/* The five meeple colors as a solid rule. Used once, at the footer edge. */
+.rainbow-rule {
+  height: 8px;
+  background: linear-gradient(
+    to right,
+    var(--purple) 0 20%,
+    var(--green) 20% 40%,
+    var(--gold) 40% 60%,
+    var(--berry) 60% 80%,
+    var(--blue) 80% 100%
+  );
+}
+
+/* --------------------------------------------------------------------------
+   4. Header / nav
+   -------------------------------------------------------------------------- */
+.site-header {
+  position: sticky;
+  top: 0;
+  z-index: 100;
+  background: var(--surface);
+  border-bottom: 3px solid var(--line);
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 0.75rem 1.5rem;
+  padding-top: 0.7rem;
+  padding-bottom: 0.7rem;
+}
+
+/* The logo art has a white background, so it sits on a white chip. In light
+   mode the chip is invisible against the header; in dark mode it reads as a
+   deliberate sticker rather than a stray white box. */
+.logo {
+  display: block;
+  line-height: 0;
+  background: #fff;
+  border-radius: 10px;
+  padding: 3px 8px;
+}
+.logo img { height: 50px; width: auto; }
+
+.site-nav ul {
+  display: flex;
+  align-items: center;
+  gap: 0.35rem;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  flex-wrap: wrap;
+}
+
+.site-nav li { margin: 0; }
+
+.site-nav a {
+  display: inline-block;
+  padding: 0.45rem 0.9rem 0.3rem;
+  text-decoration: none;
+  color: var(--ink);
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  border-bottom: 4px solid transparent;
+  border-radius: 6px 6px 0 0;
+  transition: border-color 0.15s ease, background-color 0.15s ease;
+}
+
+/* Each destination keeps one meeple color, on every page. */
+.site-nav a[data-nav="about"]      { --nav-color: var(--green); }
+.site-nav a[data-nav="membership"] { --nav-color: var(--berry); }
+.site-nav a[data-nav="catalog"]    { --nav-color: var(--gold); }
+.site-nav a[data-nav="events"]     { --nav-color: var(--blue); }
+
+.site-nav a:hover { border-bottom-color: var(--nav-color); }
+
+.site-nav a.active {
+  background: var(--ink);
+  color: var(--surface);
+  border-bottom-color: var(--nav-color);
+}
+
+@media (prefers-color-scheme: dark) {
+  .site-nav a.active { background: var(--ink-deep); color: var(--on-dark); }
+}
+
+/* --------------------------------------------------------------------------
+   5. Hero
+   -------------------------------------------------------------------------- */
+.hero {
+  background: var(--ink-deep);
+  color: var(--on-dark);
+  padding: 3.5rem 0 3rem;
+  overflow: hidden;
+}
+
+.hero h1 { color: #fff; margin-bottom: 1rem; }
+.hero .lead { color: #c9e2e9; max-width: 46ch; }
+.hero a { color: #fff; }
+
+.hero-tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--accent-lift);
+  margin-bottom: 1rem;
+}
+
+.hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 1.75rem;
+}
+
+/* Home page only: text on the left, the table scene on the right. */
+.hero-split {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+  align-items: center;
+  gap: 2.5rem;
+}
+
+/* Three facts a first-time visitor actually needs before anything else. */
+.hero-facts {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1.75rem;
+  margin-top: 2.25rem;
+  padding-top: 1.5rem;
+  border-top: 2px solid rgba(255, 255, 255, 0.16);
+  list-style: none;
+  padding-left: 0;
+}
+
+.hero-facts li { margin: 0; }
+
+.hero-facts b {
+  display: block;
+  font-family: var(--font-display);
+  font-size: 1.5rem;
+  font-weight: 800;
+  color: #fff;
+  line-height: 1.1;
+}
+
+.hero-facts span {
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: #9fc2cd;
+}
+
+/* --- The signature: five meeples standing at the far edge of the table --- */
+.table-scene { width: 100%; height: auto; }
+/* The meeples are whole artwork files, so they bring their own outlines. */
+.table-scene .tabletop { fill: #fff; stroke: #0b2c38; stroke-width: 6; }
+.table-scene .piece { stroke: #0b2c38; stroke-width: 4; stroke-linejoin: round; }
+
+.table-scene .seat {
+  opacity: 0;
+  transform: translateY(26px);
+  animation: seat-in 0.55s cubic-bezier(0.2, 1.4, 0.5, 1) forwards;
+}
+.table-scene .seat-1 { animation-delay: 0.15s; }
+.table-scene .seat-2 { animation-delay: 0.28s; }
+.table-scene .seat-3 { animation-delay: 0.41s; }
+.table-scene .seat-4 { animation-delay: 0.54s; }
+.table-scene .seat-5 { animation-delay: 0.67s; }
+
+.table-scene .pieces {
+  opacity: 0;
+  animation: fade-in 0.5s ease 0.9s forwards;
+}
+
+@keyframes seat-in {
+  to { opacity: 1; transform: translateY(0); }
+}
+@keyframes fade-in {
+  to { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .table-scene .seat,
+  .table-scene .pieces {
+    animation: none;
+    opacity: 1;
+    transform: none;
+  }
+}
+
+@media (max-width: 860px) {
+  .hero-split { grid-template-columns: minmax(0, 1fr); gap: 1.5rem; }
+  /* min() so the scene never pushes the page wider than the screen */
+  .table-scene { width: min(100%, 460px); margin: 0 auto; }
+}
+
+/* --------------------------------------------------------------------------
+   6. Buttons
+   -------------------------------------------------------------------------- */
+.btn {
+  display: inline-block;
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1.05rem;
+  line-height: 1.2;
+  padding: 0.7rem 1.4rem;
+  border-radius: var(--radius-sm);
+  border: var(--border) solid var(--line);
+  background: var(--surface);
+  color: var(--ink);
+  text-decoration: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 0 var(--drop);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.btn:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 2px 2px 0 var(--drop);
+}
+
+.btn:active {
+  transform: translate(4px, 4px);
+  box-shadow: 0 0 0 var(--drop);
+}
+
+.btn-primary {
+  background: var(--gold);
+  color: #123f4e;
+  border-color: #0b2c38;
+  box-shadow: 4px 4px 0 #0b2c38;
+}
+.btn-primary:hover { box-shadow: 2px 2px 0 #0b2c38; }
+.btn-primary:active { box-shadow: 0 0 0 #0b2c38; }
+
+/* On the dark hero panel the default button needs a light outline. */
+.hero .btn {
+  background: transparent;
+  color: #fff;
+  border-color: #fff;
+  box-shadow: 4px 4px 0 rgba(255, 255, 255, 0.25);
+}
+.hero .btn:hover { box-shadow: 2px 2px 0 rgba(255, 255, 255, 0.25); }
+.hero .btn:active { box-shadow: 0 0 0 rgba(255, 255, 255, 0.25); }
+
+.hero .btn-primary {
+  background: var(--gold);
+  color: #123f4e;
+  border-color: #0b2c38;
+  box-shadow: 4px 4px 0 #061a21;
+}
+.hero .btn-primary:hover { box-shadow: 2px 2px 0 #061a21; }
+.hero .btn-primary:active { box-shadow: 0 0 0 #061a21; }
+
+/* --------------------------------------------------------------------------
+   7. Sections
+   -------------------------------------------------------------------------- */
+/* One symmetric rhythm for every band, so nothing has to cancel anything
+   out: sections and bands both pad 3.5rem top and bottom. */
+.section,
+.section-band {
+  padding: 3.5rem 0;
+}
+
+.section-band {
+  background: var(--band);
+  border-top: 3px solid var(--line);
+  border-bottom: 3px solid var(--line);
+}
+
+/* --------------------------------------------------------------------------
+   8. Cards
+   -------------------------------------------------------------------------- */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  gap: 1.5rem;
+  margin-top: 2rem;
+}
+
+.card {
+  padding: 1.5rem;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+  transition: transform 0.12s ease, box-shadow 0.12s ease;
+}
+
+.card:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 3px 3px 0 var(--drop);
+}
+
+.card p:last-child { margin-bottom: 0; }
+
+/* The card heading sits on one line with its meeple. */
+.card-title {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+}
+
+/* Every meeple drawn as an icon comes from assets/Meeple_Generic.svg, pulled in
+   as a mask: the shape lives in one file and the color is just `background`.
+   Give an element one of these classes, a width and a height, and it is a
+   meeple. `.meeple-icon` is the general-purpose one; it paints itself in the
+   surrounding text color unless something sets `background`. */
+.card-meeple,
+.meeple-icon {
+  display: inline-block;
+  flex: none;
+  background: currentColor;
+  -webkit-mask: url("../assets/Meeple_Generic.svg") no-repeat center / contain;
+  mask: url("../assets/Meeple_Generic.svg") no-repeat center / contain;
+}
+
+/* The card icon is a meeple in one of the five colors, cycled in logo order. */
+.card-meeple {
+  width: 34px;
+  height: 34px;
+  background: var(--purple);
+}
+.grid .card:nth-child(5n + 2) .card-meeple { background: var(--green); }
+.grid .card:nth-child(5n + 3) .card-meeple { background: var(--gold); }
+.grid .card:nth-child(5n + 4) .card-meeple { background: var(--berry); }
+.grid .card:nth-child(5n + 5) .card-meeple { background: var(--blue); }
+
+/* --------------------------------------------------------------------------
+   9. Steps (a real sequence, so it is numbered)
+   -------------------------------------------------------------------------- */
+.steps {
+  list-style: none;
+  counter-reset: step;
+  margin: 2rem 0 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(215px, 1fr));
+  gap: 1.5rem;
+}
+
+.steps li {
+  counter-increment: step;
+  margin: 0;
+  padding: 1.4rem;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+}
+
+.steps li::before {
+  content: counter(step);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2rem;
+  height: 2.2rem;
+  margin-bottom: 0.7rem;
+  border: var(--border) solid var(--line);
+  border-radius: 50%;
+  background: var(--gold);
+  color: #123f4e;
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.15rem;
+}
+
+/* --------------------------------------------------------------------------
+   10. Tables
+   -------------------------------------------------------------------------- */
+.table-wrap {
+  overflow-x: auto;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+  margin-top: 1.75rem;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.98rem;
+}
+
+thead {
+  background: var(--ink);
+  color: #fff;
+}
+
+@media (prefers-color-scheme: dark) {
+  thead { background: var(--ink-deep); color: var(--on-dark); }
+}
+
+th {
+  font-family: var(--font-display);
+  font-weight: 700;
+  font-size: 1rem;
+  white-space: nowrap;
+}
+
+th, td {
+  padding: 0.75rem 1rem;
+  text-align: left;
+  border-bottom: 1px solid var(--line-soft);
+}
+
+tbody tr:last-child td { border-bottom: 0; }
+tbody tr:hover { background: var(--band); }
+td { vertical-align: middle; }
+
+/* Dues line up like a price list. */
+.dues td:nth-child(2) { font-family: var(--font-mono); }
+
+/* Level names read as row headers but should not look like the dark thead. */
+.dues tbody th {
+  font-family: var(--font-display);
+  font-size: 1.05rem;
+  white-space: nowrap;
+}
+
+/* The three yes/no columns: narrow, centred, icon only. */
+.dues .tick-col { text-align: center; width: 1%; }
+.dues td:last-child { min-width: 20rem; }
+.dues th.tick-col { white-space: normal; min-width: 6.5rem; }
+
+.tick {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 1.75rem;
+  height: 1.75rem;
+  border-radius: 50%;
+  border: 2px solid currentColor;
+}
+
+.tick svg {
+  width: 1rem;
+  height: 1rem;
+  fill: none;
+  stroke: currentColor;
+  stroke-width: 3;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+}
+
+.tick.yes { color: var(--green); }
+.tick.no  { color: var(--berry); opacity: 0.75; }
+
+/* The Wizard row wears a gold frame so it reads as the recommended level. */
+.dues tr.featured > * {
+  background: color-mix(in srgb, var(--gold) 16%, var(--surface));
+  border-top: 3px solid var(--gold);
+  border-bottom: 3px solid var(--gold);
+}
+
+.dues tr.featured > :first-child { box-shadow: inset 4px 0 0 var(--gold); }
+.dues tr.featured > :last-child  { box-shadow: inset -4px 0 0 var(--gold); }
+.dues tr.featured:hover > * {
+  background: color-mix(in srgb, var(--gold) 26%, var(--surface));
+}
+
+.popular-badge {
+  display: block;
+  width: max-content;
+  margin-top: 0.35rem;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  background: var(--gold);
+  color: #123f4e;
+  font-family: var(--font-mono);
+  font-size: 0.65rem;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.table-note {
+  margin-top: 0.85rem;
+  font-size: 0.9rem;
+  color: var(--muted);
+  max-width: 68ch;
+}
+
+/* --------------------------------------------------------------------------
+   11. Forms and filters
+   -------------------------------------------------------------------------- */
+label {
+  display: block;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: var(--muted);
+  margin-bottom: 0.35rem;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="search"],
+select,
+textarea {
+  width: 100%;
+  padding: 0.55rem 0.7rem;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius-sm);
+  font-family: inherit;
+  font-size: 1rem;
+  background: var(--surface);
+  color: var(--ink);
+}
+
+textarea { resize: vertical; min-height: 120px; }
+
+.filters {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  align-items: flex-end;
+  padding: 1.25rem;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+  min-width: 150px;
+  max-width: 230px;
+  flex: 1 1 150px;
+}
+
+.filter-group label { margin-bottom: 0.35rem; }
+
+/* Search gets the extra room; the Reset button only takes what it needs. */
+.filters .filter-group:first-child { flex: 2 1 220px; max-width: 340px; }
+.filters .filter-group:last-child {
+  flex: 0 0 auto;
+  min-width: 0;
+  align-items: flex-start;
+}
+.filter-group .btn { padding: 0.5rem 1.1rem; font-size: 0.95rem; }
+
+/* Keeps the Reset button's baseline level with the inputs beside it. */
+.filter-spacer { display: block; height: 1.6rem; }
+
+/* --------------------------------------------------------------------------
+   12. Badges and chips
+   -------------------------------------------------------------------------- */
+.badge {
+  display: inline-block;
+  padding: 0.15rem 0.7rem;
+  border: var(--border) solid var(--line);
+  border-radius: 999px;
+  background: var(--chip, var(--band));
+  color: var(--chip-ink, var(--ink));
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+/* Type colors, grouped into families so a row of tags still reads as a set.
+   The tags come from the library spreadsheet, which volunteers can add to at
+   any time -- anything unlisted here falls back to the plain --band chip. */
+.badge[data-type="Eurogame"],
+.badge[data-type="Worker Placement"],
+.badge[data-type="Area Control"],
+.badge[data-type="Asymetrical"],
+.badge[data-type="City Building"],
+.badge[data-type="Bag Building"],
+.badge[data-type="Roll & Write"],
+.badge[data-type="Flip & Write"],
+.badge[data-type="Dice Rolling"]     { --chip: var(--blue);   --chip-ink: #fff; }
+
+.badge[data-type="Abstract"],
+.badge[data-type="Puzzle"],
+.badge[data-type="Classic"],
+.badge[data-type="Deduction"],
+.badge[data-type="Solo Mode"],
+.badge[data-type="Tile Placement"]   { --chip: var(--purple); --chip-ink: #fff; }
+
+.badge[data-type="Party"],
+.badge[data-type="Social Deduction"],
+.badge[data-type="Trivia"],
+.badge[data-type="Word Game"],
+.badge[data-type="Real Time"],
+.badge[data-type="Press Your Luck"],
+.badge[data-type="Racing"]           { --chip: var(--berry);  --chip-ink: #fff; }
+
+.badge[data-type="Family Game"],
+.badge[data-type="Under Age 5"],
+.badge[data-type="Co-Op"],
+.badge[data-type="Dexterity"],
+.badge[data-type="Rec. Two Player"]  { --chip: var(--green);  --chip-ink: #fff; }
+
+.badge[data-type="Card Game"],
+.badge[data-type="Deck-Building"],
+.badge[data-type="Drafting"],
+.badge[data-type="Trick Taking"],
+.badge[data-type="Tableau"],
+.badge[data-type="Tableau Building"] { --chip: var(--gold);   --chip-ink: #123f4e; }
+
+.badge[data-type="AmeriTrash"],
+.badge[data-type="War"]              { --chip: var(--ink);    --chip-ink: #fff; }
+
+/* In dark mode the chip colors lighten, so their text has to darken. */
+@media (prefers-color-scheme: dark) {
+  .badge[data-type] { --chip-ink: #071f28; }
+  .badge[data-type="AmeriTrash"],
+  .badge[data-type="War"] { --chip: var(--line); --chip-ink: var(--on-dark); }
+}
+
+/* Games carry several type tags, so the cell wraps rather than stretching. */
+.type-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.3rem;
+  max-width: 22rem;
+}
+
+/* Cards use the badge as a season/frequency label. */
+.card .badge {
+  --chip: var(--band);
+  margin-bottom: 0.6rem;
+}
+
+/* --------------------------------------------------------------------------
+   13. Catalog: player pips, complexity, availability
+   -------------------------------------------------------------------------- */
+
+/* Player count, drawn as one meeple per seat up to five. Wider games keep four
+   meeples and finish with a numeral, so the column stays an even width; the
+   library spreadsheet records only a maximum, so a trailing "+" on that numeral
+   marks the open-ended "7+ Player" bucket. Injected by js/catalog.js. */
+/* The cell carries the count in words as a `title`, so hovering anywhere in it
+   spells out what the meeples mean. */
+.col-players {
+  cursor: help;
+}
+
+.pips {
+  display: inline-flex;
+  align-items: center;
+  gap: 2px;
+}
+
+.pips .meeple-icon {
+  width: 15px;
+  height: 15px;
+  background: var(--ink);
+}
+
+/* The legend above the table, showing what one meeple stands for. */
+.pips-key .meeple-icon {
+  width: 14px;
+  height: 14px;
+  vertical-align: -2px;
+}
+
+/* The numeral that stands in for the fifth meeple and beyond. Sized to a
+   meeple so a row of pips lines up with its neighbors either way. */
+.pips .more {
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  line-height: 15px;
+  min-width: 15px;
+  margin-left: 1px;
+}
+
+/* Complexity, colored along its own scale: easy, middling, demanding. */
+tr[data-weight="Light"]  td:nth-child(5) { color: var(--green); }
+tr[data-weight="Medium"] td:nth-child(5) { color: var(--muted); }
+tr[data-weight="Heavy"]  td:nth-child(5) { color: var(--berry); font-weight: 600; }
+
+#catalog td:nth-child(5) { font-family: var(--font-mono); font-size: 0.85rem; }
+#catalog td:nth-child(4) { font-family: var(--font-mono); font-size: 0.85rem; }
+
+/* Rental reads as a state, not a sentence: a game either goes home with you
+   or stays at the Center. The mark carries it, so it wants the room a glyph
+   needs rather than the table's body size. */
+#catalog th:nth-child(6),
+#catalog td:nth-child(6) { text-align: center; }
+.rental-mark {
+  display: inline-block;
+  font-size: 1.1rem;
+  line-height: 1;
+}
+#catalog tr[data-status="lendable"] .rental-mark { color: var(--green); }
+#catalog tr[data-status="house"] .rental-mark { color: var(--muted); }
+
+#catalog td:first-child { font-weight: 600; }
+
+/* Loading / failure message for the live spreadsheet fetch. */
+.catalog-status {
+  margin-top: 1.5rem;
+  padding: 1.25rem 1.5rem;
+  border: var(--border) dashed var(--line);
+  border-radius: var(--radius);
+  text-align: center;
+  color: var(--muted);
+}
+
+.catalog-status.is-error { color: var(--berry); border-color: var(--berry); }
+
+.catalog-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: 0.5rem;
+  margin-top: 1.75rem;
+  font-family: var(--font-mono);
+  font-size: 0.85rem;
+  color: var(--muted);
+}
+
+#result-count { margin: 0; }
+
+#no-results {
+  margin-top: 1.5rem;
+  padding: 1.5rem;
+  border: var(--border) dashed var(--line);
+  border-radius: var(--radius);
+  text-align: center;
+}
+
+/* --------------------------------------------------------------------------
+   14. Calendar embed
+   -------------------------------------------------------------------------- */
+.embed-wrap {
+  position: relative;
+  width: 100%;
+  aspect-ratio: 16 / 10;
+  min-height: 320px;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius);
+  overflow: hidden;
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+  margin-top: 1.75rem;
+}
+
+.embed-wrap iframe {
+  width: 100%;
+  height: 100%;
+  border: 0;
+  display: block;
+}
+
+/* --------------------------------------------------------------------------
+   15. Callout (closing invitation on each page)
+   -------------------------------------------------------------------------- */
+.callout {
+  background: var(--ink-deep);
+  color: var(--on-dark);
+  border-radius: var(--radius);
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 0 auto 4rem;   /* top spacing comes from the section above it */
+  max-width: 1120px;
+}
+
+.callout h2 { color: #fff; }
+.callout p { color: #c9e2e9; max-width: 54ch; margin-inline: auto; }
+.callout a { color: #fff; }
+.callout .btn { margin-top: 1.5rem; }
+
+.callout-meeples {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-bottom: 1.25rem;
+}
+.callout-meeples .meeple-icon { width: 26px; height: 26px; }
+.callout-meeples .meeple-icon:nth-child(1) { background: var(--purple); }
+.callout-meeples .meeple-icon:nth-child(2) { background: var(--green); }
+.callout-meeples .meeple-icon:nth-child(3) { background: var(--gold); }
+.callout-meeples .meeple-icon:nth-child(4) { background: var(--berry); }
+.callout-meeples .meeple-icon:nth-child(5) { background: var(--blue); }
+
+@media (max-width: 1180px) {
+  .callout { margin-left: 1.5rem; margin-right: 1.5rem; }
+}
+
+/* --------------------------------------------------------------------------
+   16. Footer
+   -------------------------------------------------------------------------- */
+.site-footer {
+  background: var(--ink-deep);
+  color: #b7d3db;
+  padding: 0 0 2.5rem;
+  font-size: 0.95rem;
+}
+
+.site-footer .container { padding-top: 2.5rem; }
+
+.footer-name {
+  font-family: var(--font-display);
+  font-weight: 800;
+  font-size: 1.4rem;
+  color: #fff;
+  margin-bottom: 0.25rem;
+}
+
+.site-footer a { color: #fff; }
+.site-footer p { margin-bottom: 0.4rem; }
+
+.footer-legal {
+  margin-top: 1.5rem;
+  font-family: var(--font-mono);
+  font-size: 0.75rem;
+  color: #7ba3b0;
+}
+
+/* --------------------------------------------------------------------------
+   17. Small screens
+   -------------------------------------------------------------------------- */
+@media (max-width: 720px) {
+  body { font-size: 1rem; }
+
+  .header-inner {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .logo img { height: 46px; }
+
+  .site-nav ul { gap: 0.15rem; }
+  .site-nav a { padding: 0.4rem 0.6rem 0.25rem; font-size: 1rem; }
+
+  .hero { padding: 2.5rem 0 2.25rem; }
+  .section, .section-band { padding: 2.75rem 0; }
+
+  .grid, .steps { grid-template-columns: 1fr; }
+
+  .callout { padding: 2.25rem 1.5rem; margin-bottom: 2.75rem; }
+
+  .hero-facts { gap: 1.25rem; }
+}
+
+/* --------------------------------------------------------------------------
+   18. Sortable table headers
+   -------------------------------------------------------------------------- */
+.sort-btn {
+  background: none;
+  border: 0;
+  padding: 0;
+  margin: 0;
+  font: inherit;
+  color: inherit;
+  cursor: pointer;
+  text-align: left;
+  display: inline-flex;
+  align-items: center;
+  gap: 0.3rem;
+}
+
+.sort-btn:hover { color: var(--gold); }
+
+th[aria-sort="none"] .sort-btn::after {
+  content: "\2195";
+  opacity: 0.4;
+  font-size: 0.8em;
+}
+th[aria-sort="ascending"] .sort-btn::after { content: "\25B2"; font-size: 0.7em; }
+th[aria-sort="descending"] .sort-btn::after { content: "\25BC"; font-size: 0.7em; }
