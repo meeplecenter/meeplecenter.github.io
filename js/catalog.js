@@ -36,7 +36,7 @@
   var EMPTY = "&mdash;";
 
   var tbody = null;
-  var rows = []; // [{ el, title, types, max, open, time, weight, status }]
+  var rows = []; // [{ el, title, types, locations, max, open, time, weight, status }]
 
   var els = {}; // cache of filter/control elements, looked up once
 
@@ -101,12 +101,14 @@
       '<span class="sr-only">' + playersLabel(game) + "</span>";
   }
 
-  function typesHtml(game) {
-    if (!game.types.length) { return EMPTY; }
+  // Both tag columns are drawn the same way; only the attribute the CSS
+  // colors them by differs.
+  function tagsHtml(tags, attr) {
+    if (!tags || !tags.length) { return EMPTY; }
     var html = "";
-    for (var i = 0; i < game.types.length; i++) {
-      var tag = escapeHtml(game.types[i]);
-      html += '<span class="badge" data-type="' + tag + '">' + tag + "</span>";
+    for (var i = 0; i < tags.length; i++) {
+      var tag = escapeHtml(tags[i]);
+      html += '<span class="badge" ' + attr + '="' + tag + '">' + tag + "</span>";
     }
     return '<span class="type-tags">' + html + "</span>";
   }
@@ -125,12 +127,13 @@
 
   function rowHtml(game) {
     return "<td>" + escapeHtml(game.title) + "</td>" +
-      "<td>" + typesHtml(game) + "</td>" +
+      "<td>" + tagsHtml(game.types, "data-type") + "</td>" +
       '<td class="col-players" title="' + escapeHtml(playersLabel(game)) + '">' +
         pipsHtml(game) + "</td>" +
       "<td>" + (game.time ? game.time : EMPTY) + "</td>" +
       "<td>" + (game.weight || EMPTY) + "</td>" +
-      '<td class="col-rental">' + rentalHtml(game) + "</td>";
+      '<td class="col-rental">' + rentalHtml(game) + "</td>" +
+      "<td>" + tagsHtml(game.locations, "data-location") + "</td>";
   }
 
   function render(games) {
@@ -152,6 +155,7 @@
         el: tr,
         title: game.title,
         types: game.types,
+        locations: game.locations || [],
         max: game.max,
         open: game.open,
         time: game.time,
@@ -187,17 +191,24 @@
 
   function populateFilters(games) {
     var types = {};
+    var locations = {};
     var counts = {};
     var times = {};
 
     for (var i = 0; i < games.length; i++) {
       var game = games[i];
       for (var t = 0; t < game.types.length; t++) { types[game.types[t]] = true; }
+      var locs = game.locations || [];
+      for (var l = 0; l < locs.length; l++) { locations[locs[l]] = true; }
       if (game.max) { counts[game.max] = true; }
       if (game.time) { times[game.time] = true; }
     }
 
     addOptions(els.type, Object.keys(types).sort(function (a, b) {
+      return a.localeCompare(b);
+    }));
+
+    addOptions(els.location, Object.keys(locations).sort(function (a, b) {
       return a.localeCompare(b);
     }));
 
@@ -232,6 +243,15 @@
     return false;
   }
 
+  function matchesLocation(game, val) {
+    if (!val) { return true; }
+    var locs = game.locations || [];
+    for (var i = 0; i < locs.length; i++) {
+      if (locs[i] === val) { return true; }
+    }
+    return false;
+  }
+
   // The sheet records only a maximum, so "5 or more" means "seats at least 5".
   function matchesPlayers(game, val) {
     if (!val) { return true; }
@@ -260,6 +280,7 @@
 
     var term = els.search ? els.search.value.trim().toLowerCase() : "";
     var type = els.type ? els.type.value : "";
+    var location = els.location ? els.location.value : "";
     var players = els.players ? els.players.value : "";
     var time = els.time ? els.time.value : "";
     var weight = els.weight ? els.weight.value : "";
@@ -272,6 +293,7 @@
       var visible =
         matchesSearch(game, term) &&
         matchesType(game, type) &&
+        matchesLocation(game, location) &&
         matchesPlayers(game, players) &&
         matchesTime(game, time) &&
         matchesWeight(game, weight) &&
@@ -302,6 +324,7 @@
   function resetFilters() {
     if (els.search) { els.search.value = ""; }
     if (els.type) { els.type.value = ""; }
+    if (els.location) { els.location.value = ""; }
     if (els.players) { els.players.value = ""; }
     if (els.time) { els.time.value = ""; }
     if (els.weight) { els.weight.value = ""; }
@@ -324,9 +347,11 @@
         var wb = WEIGHT_ORDER.hasOwnProperty(b.weight) ? WEIGHT_ORDER[b.weight] : -1;
         return wa - wb;
       case "type":
-        return (a.types[0] || "").toLowerCase() < (b.types[0] || "").toLowerCase()
-          ? -1
-          : (a.types[0] || "").toLowerCase() > (b.types[0] || "").toLowerCase() ? 1 : 0;
+      case "location":
+        var list = key === "type" ? "types" : "locations";
+        var at = ((a[list] || [])[0] || "").toLowerCase();
+        var bt = ((b[list] || [])[0] || "").toLowerCase();
+        return at < bt ? -1 : at > bt ? 1 : 0;
       case "title":
       case "status":
       default:
@@ -430,6 +455,7 @@
     return {
       search: els.search ? els.search.value : "",
       type: els.type ? els.type.value : "",
+      location: els.location ? els.location.value : "",
       players: els.players ? els.players.value : "",
       time: els.time ? els.time.value : "",
       weight: els.weight ? els.weight.value : "",
@@ -444,6 +470,7 @@
   function restoreState(state) {
     if (els.search) { els.search.value = state.search; }
     if (els.type) { els.type.value = state.type; }
+    if (els.location) { els.location.value = state.location; }
     if (els.players) { els.players.value = state.players; }
     if (els.time) { els.time.value = state.time; }
     if (els.weight) { els.weight.value = state.weight; }
@@ -473,8 +500,8 @@
   function signature(games) {
     return games.map(function (g) {
       return [
-        g.title, (g.types || []).join("|"), g.max, g.open, g.time,
-        g.weight, g.status
+        g.title, (g.types || []).join("|"), (g.locations || []).join("|"),
+        g.max, g.open, g.time, g.weight, g.status
       ].join("\t");
     }).sort().join("\n");
   }
@@ -555,6 +582,7 @@
 
     els.search = byId("search");
     els.type = byId("filter-type");
+    els.location = byId("filter-location");
     els.players = byId("filter-players");
     els.time = byId("filter-time");
     els.weight = byId("filter-weight");
@@ -570,6 +598,7 @@
 
     if (els.search) { els.search.addEventListener("input", debouncedApply); }
     if (els.type) { els.type.addEventListener("change", applyFilters); }
+    if (els.location) { els.location.addEventListener("change", applyFilters); }
     if (els.players) { els.players.addEventListener("change", applyFilters); }
     if (els.time) { els.time.addEventListener("change", applyFilters); }
     if (els.weight) { els.weight.addEventListener("change", applyFilters); }

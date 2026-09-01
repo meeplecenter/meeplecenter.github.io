@@ -99,13 +99,17 @@
     return m ? parseInt(m[1], 10) : 0;
   }
 
-  // Type tags live in the "Type" column and in the unnamed columns after it,
-  // comma-separated, e.g. "Tile Placement, Abstract" + "Under Age 5".
-  function collectTypes(record, from) {
+  // Both tag columns spill: the sheet writes comma-separated values in the
+  // named column ("Tile Placement, Abstract") and continues into the unnamed
+  // columns after it ("Under Age 5"). So a column runs until the next named
+  // one starts -- Type stops where Location begins -- and the last one runs
+  // to the end of the row. Pass a negative "to" for that.
+  function collectTags(record, from, to) {
     var seen = {};
     var list = [];
     if (from < 0) { return list; }
-    for (var i = from; i < record.length; i++) {
+    var end = to < 0 || to > record.length ? record.length : to;
+    for (var i = from; i < end; i++) {
       var parts = record[i].split(",");
       for (var p = 0; p < parts.length; p++) {
         var tag = parts[p].trim();
@@ -128,7 +132,8 @@
       length: headerIndex(header, "Length"),
       rental: headerIndex(header, "Rental"),
       mc: headerIndex(header, "MC"),
-      type: headerIndex(header, "Type")
+      type: headerIndex(header, "Type"),
+      location: headerIndex(header, "Location")
     };
 
     var games = [];
@@ -143,7 +148,8 @@
 
       games.push({
         title: title,
-        types: collectTypes(record, idx.type),
+        types: collectTags(record, idx.type, idx.location),
+        locations: collectTags(record, idx.location, -1),
         max: firstNumber(players),
         open: players.indexOf("+") !== -1, // "7+ Player" has no upper bound
         time: firstNumber(cell(record, idx.length)),

@@ -56,15 +56,17 @@ The spreadsheet is the [Meeple Center library sheet](https://docs.google.com/spr
 | Spreadsheet column | On the website |
 | --- | --- |
 | `Title` | The game's name. **A row with a blank title is skipped**, which is how the empty rows at the bottom of the sheet stay off the site. |
-| `Type` (and the column to its right) | The colored tags, and the "Type" filter. Separate several with commas: `Eurogame, Drafting`. |
+| `Type` (and the unnamed columns between it and `Location`) | The colored type tags, and the "Type" filter. Separate several with commas: `Eurogame, Drafting`. |
 | `Max Player Count` | The row of meeples. `5+ Player` draws four meeples and a `5+`. |
 | `Length` | The play time in minutes. It reads the first number it finds, so `~60 Minutes` becomes `60`. |
 | `MC` | Complexity: `1` shows as Light, `2` as Medium, `3` as Heavy. Left blank, the row shows a dash. |
 | `Rental` | `TRUE` shows as a green checkmark, anything else as a gray circled x. |
+| `Location` (and the unnamed columns after it) | Where the game is, as its own column of chips, and the "Location" filter. Separate several with commas. |
 
 Two things worth knowing:
 
-- **Type tags don't need any setup.** Invent a new one in the spreadsheet and it appears on the site and in the Type dropdown on its own. It'll be a plain grey tag unless someone adds a color for it in the "Type colors" block in `css/styles.css`.
+- **Type and location tags don't need any setup.** Invent a new one in the spreadsheet and it appears on the site and in its dropdown on its own. It'll be a plain grey chip unless someone adds a color for it in the "Type colors" or "Location chips" block in `css/styles.css`.
+- **Column order matters for tags.** Type tags are read from the `Type` column up to `Location`, and locations from `Location` to the end of the row. If a new named column is inserted between them, `js/catalog-data.js` needs to know where the boundary now is.
 - **`Plays`, `Size`, `Condition`, and `Donated By` are ignored** by the website. They're only in the spreadsheet.
 
 ### The weekly saved copy

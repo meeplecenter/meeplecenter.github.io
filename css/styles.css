@@ -799,9 +799,18 @@ textarea { resize: vertical; min-height: 120px; }
 .badge[data-type="AmeriTrash"],
 .badge[data-type="War"]              { --chip: var(--ink);    --chip-ink: #fff; }
 
+/* Location chips: where the game physically is right now. Only three values
+   come out of the sheet today, so each gets its own color rather than a
+   family; anything new falls back to the plain --band chip like the types do. */
+.badge[data-location="Hot Off the Press"] { --chip: var(--gold);  --chip-ink: #123f4e; }
+.badge[data-location="Storage"]           { --chip: var(--ink);   --chip-ink: #fff; }
+.badge[data-location="Currently Rented"]  { --chip: var(--berry); --chip-ink: #fff; }
+
 /* In dark mode the chip colors lighten, so their text has to darken. */
 @media (prefers-color-scheme: dark) {
-  .badge[data-type] { --chip-ink: #071f28; }
+  .badge[data-type],
+  .badge[data-location] { --chip-ink: #071f28; }
+  .badge[data-location="Storage"] { --chip: var(--line); --chip-ink: var(--on-dark); }
   .badge[data-type="AmeriTrash"],
   .badge[data-type="War"] { --chip: var(--line); --chip-ink: var(--on-dark); }
 }
