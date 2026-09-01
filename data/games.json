@@ -1,13 +1,14 @@
 {
-  "generatedAt": "2026-08-19T13:46:00.099Z",
+  "generatedAt": "2026-08-31T11:08:15.992Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
-  "count": 169,
+  "count": 171,
   "games": [
     {
       "title": "7 Wonders",
       "types": [
         "Drafting",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -30,7 +31,8 @@
       "title": "Alubari",
       "types": [
         "Eurogame",
-        "Worker Placement"
+        "Worker Placement",
+        "Storage"
       ],
       "max": 5,
       "open": false,
@@ -42,7 +44,8 @@
       "title": "Animal Upon Animal",
       "types": [
         "Dexterity",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -54,7 +57,8 @@
       "title": "Ascension: Valley of the Ancients",
       "types": [
         "Deck-Building",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -67,7 +71,8 @@
       "types": [
         "Tile Placement",
         "Drafting",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -80,7 +85,8 @@
       "types": [
         "Tile Placement",
         "Drafting",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -116,7 +122,8 @@
       "title": "Bananagrams",
       "types": [
         "Word Game",
-        "Racing"
+        "Racing",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -127,7 +134,8 @@
     {
       "title": "Bang: The Walking Dead",
       "types": [
-        "Social Deduction"
+        "Social Deduction",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -139,7 +147,8 @@
       "title": "Beat the Parents",
       "types": [
         "Party",
-        "Family Game"
+        "Family Game",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -150,7 +159,8 @@
     {
       "title": "Betrayal at Baldur's Gate",
       "types": [
-        "Co-Op"
+        "Co-Op",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -161,7 +171,8 @@
     {
       "title": "Betrayal of House on the Hill",
       "types": [
-        "Co-Op"
+        "Co-Op",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -171,7 +182,9 @@
     },
     {
       "title": "Between Two Castle of the Mad King Ludwig",
-      "types": [],
+      "types": [
+        "Hot Off the Press"
+      ],
       "max": 7,
       "open": true,
       "time": 60,
@@ -183,7 +196,8 @@
       "types": [
         "Abstract",
         "Party",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -195,7 +209,8 @@
       "title": "Blockbuster",
       "types": [
         "Party",
-        "Trivia"
+        "Trivia",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -254,7 +269,8 @@
         "Co-Op",
         "Deduction",
         "Trick Taking",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -264,7 +280,9 @@
     },
     {
       "title": "Botany",
-      "types": [],
+      "types": [
+        "Storage"
+      ],
       "max": 5,
       "open": false,
       "time": 120,
@@ -317,7 +335,8 @@
       "types": [
         "Area Control",
         "Eurogame",
-        "Tile Placement"
+        "Tile Placement",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -329,7 +348,8 @@
       "title": "Carcassonne: Court, King, & Robber",
       "types": [
         "Tile Placement",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -340,7 +360,8 @@
     {
       "title": "Cartographers",
       "types": [
-        "Flip & Write"
+        "Flip & Write",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -353,7 +374,8 @@
       "types": [
         "Tile Placement",
         "Drafting",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -366,7 +388,8 @@
       "types": [
         "Tile Placement",
         "Drafting",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -402,7 +425,8 @@
       "title": "Catan Starfarers",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -414,7 +438,8 @@
       "title": "Chameleon",
       "types": [
         "Party",
-        "Word Game"
+        "Word Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -449,7 +474,8 @@
       "types": [
         "Word Game",
         "Co-Op",
-        "Party"
+        "Party",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -463,7 +489,8 @@
         "Word Game",
         "Co-Op",
         "Party",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -483,7 +510,8 @@
     {
       "title": "Coup",
       "types": [
-        "Social Deduction"
+        "Social Deduction",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -506,7 +534,8 @@
     {
       "title": "Cry Havoc",
       "types": [
-        "War"
+        "War",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -529,7 +558,8 @@
       "title": "Decrypto",
       "types": [
         "Word Game",
-        "Co-Op"
+        "Co-Op",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -540,7 +570,8 @@
     {
       "title": "Dixit",
       "types": [
-        "Abstract"
+        "Abstract",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -578,7 +609,8 @@
       "title": "Earth",
       "types": [
         "Tableau",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -611,7 +643,8 @@
       "title": "Flamecraft",
       "types": [
         "Eurogame",
-        "Worker Placement"
+        "Worker Placement",
+        "Currently Rented"
       ],
       "max": 5,
       "open": false,
@@ -623,7 +656,8 @@
       "title": "Flip 7",
       "types": [
         "Press Your Luck",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -635,7 +669,8 @@
       "title": "Fun Facts",
       "types": [
         "Abstract",
-        "Word Game"
+        "Word Game",
+        "Currently Rented"
       ],
       "max": 6,
       "open": false,
@@ -647,7 +682,8 @@
       "title": "G.I. Joe Deck-Building Game*",
       "types": [
         "Deck-Building",
-        "Co-Op"
+        "Co-Op",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -694,7 +730,8 @@
     {
       "title": "Hues and Cues",
       "types": [
-        "Party"
+        "Party",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -720,7 +757,8 @@
       "types": [
         "Area Control",
         "Worker Placement",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -767,7 +805,8 @@
       "title": "Just One",
       "types": [
         "Party",
-        "Word Game"
+        "Word Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -791,7 +830,8 @@
       "title": "King of Tokyo",
       "types": [
         "Dice Rolling",
-        "Press Your Luck"
+        "Press Your Luck",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -813,7 +853,8 @@
     {
       "title": "Kingdomino",
       "types": [
-        "Tile Placement"
+        "Tile Placement",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -825,7 +866,8 @@
       "title": "Kites",
       "types": [
         "Party",
-        "Real Time"
+        "Real Time",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -838,7 +880,8 @@
       "types": [
         "Abstract",
         "Dexterity",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -861,7 +904,8 @@
     {
       "title": "Longshot",
       "types": [
-        "Racing"
+        "Racing",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -873,7 +917,8 @@
       "title": "Love Letters",
       "types": [
         "Social Deduction",
-        "Card Game"
+        "Card Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -885,7 +930,8 @@
       "title": "Lovecraft Letter",
       "types": [
         "Social Deduction",
-        "Card Game"
+        "Card Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -897,7 +943,8 @@
       "title": "Lucky's Misadventure: Ep. 42",
       "types": [
         "Deck-Building",
-        "Card Game"
+        "Card Game",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -909,7 +956,8 @@
       "title": "Machi Koro",
       "types": [
         "Eurogame",
-        "City Building"
+        "City Building",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -922,7 +970,8 @@
       "types": [
         "Drafting",
         "Party",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -991,7 +1040,8 @@
     {
       "title": "Morels",
       "types": [
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 2,
       "open": false,
@@ -1002,7 +1052,8 @@
     {
       "title": "Munchkin",
       "types": [
-        "Card Game"
+        "Card Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1013,7 +1064,8 @@
     {
       "title": "Munchkin Booty",
       "types": [
-        "Card Game"
+        "Card Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1023,7 +1075,9 @@
     },
     {
       "title": "Next Stop London",
-      "types": [],
+      "types": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 30,
@@ -1035,7 +1089,8 @@
       "types": [
         "Card Game",
         "Drafting",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1049,7 +1104,8 @@
         "Abstract",
         "Party",
         "Press Your Luck",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1061,7 +1117,8 @@
       "title": "Not Alone",
       "types": [
         "Co-Op",
-        "Racing"
+        "Racing",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1105,7 +1162,8 @@
     {
       "title": "Pandemic: Hot Zone",
       "types": [
-        "Co-Op"
+        "Co-Op",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1118,7 +1176,8 @@
       "types": [
         "Abstract",
         "Press Your Luck",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1131,7 +1190,8 @@
       "types": [
         "Drafting",
         "Tile Placement",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 2,
       "open": false,
@@ -1143,7 +1203,8 @@
       "title": "Phase 10",
       "types": [
         "Card Game",
-        "Classic"
+        "Classic",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1155,7 +1216,8 @@
       "title": "Photosynthesis",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1167,7 +1229,8 @@
       "title": "Poetry for Neanderthals",
       "types": [
         "Party",
-        "Word Game"
+        "Word Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1176,10 +1239,22 @@
       "status": "lendable"
     },
     {
+      "title": "Point Galaxy",
+      "types": [
+        "Hot Off the Press"
+      ],
+      "max": 5,
+      "open": false,
+      "time": 30,
+      "weight": "Medium",
+      "status": "lendable"
+    },
+    {
       "title": "Point Salad",
       "types": [
         "Drafting",
-        "Card Game"
+        "Card Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1202,7 +1277,8 @@
       "title": "Quacks of Quedlinburg",
       "types": [
         "Press Your Luck",
-        "Bag Building"
+        "Bag Building",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1213,7 +1289,8 @@
     {
       "title": "Queendomino",
       "types": [
-        "Tile Placement"
+        "Tile Placement",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1224,7 +1301,8 @@
     {
       "title": "Qwirkle",
       "types": [
-        "Abstract"
+        "Abstract",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1236,7 +1314,8 @@
       "title": "Qwixx",
       "types": [
         "Abstract",
-        "Tile Placement"
+        "Tile Placement",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1271,7 +1350,8 @@
       "title": "Ramen Fury",
       "types": [
         "Card Game",
-        "Drafting"
+        "Drafting",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1283,7 +1363,8 @@
       "title": "Really Loud Librarians",
       "types": [
         "Party",
-        "Word Game"
+        "Word Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1317,7 +1398,8 @@
       "title": "Root",
       "types": [
         "Asymetrical",
-        "Eurogame"
+        "Eurogame",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -1329,7 +1411,8 @@
       "title": "Root: Clockwork Expansion",
       "types": [
         "Asymetrical",
-        "Eurogame"
+        "Eurogame",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -1341,7 +1424,8 @@
       "title": "Sagrada",
       "types": [
         "Drafting",
-        "Tile Placement"
+        "Tile Placement",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1353,7 +1437,8 @@
       "title": "Santorini",
       "types": [
         "Abstract",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1376,7 +1461,8 @@
       "title": "Sentinels of the Multiverse",
       "types": [
         "Deck-Building",
-        "Co-Op"
+        "Co-Op",
+        "Storage"
       ],
       "max": 5,
       "open": false,
@@ -1401,7 +1487,8 @@
       "title": "Settlers of Catan",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -1413,7 +1500,8 @@
       "title": "Settlers of Catan 5-6 Player Expansion",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -1422,10 +1510,23 @@
       "status": "lendable"
     },
     {
+      "title": "Shackleton Base",
+      "types": [
+        "Asymetrical",
+        "Storage"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Heavy",
+      "status": "lendable"
+    },
+    {
       "title": "Shadows Over Camelot",
       "types": [
         "Co-Op",
-        "War"
+        "War",
+        "Storage"
       ],
       "max": 7,
       "open": true,
@@ -1437,7 +1538,8 @@
       "title": "Sheriff of Nottingham",
       "types": [
         "Social Deduction",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1450,7 +1552,8 @@
       "types": [
         "Dexterity",
         "Abstract",
-        "Under Age 5"
+        "Under Age 5",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1475,7 +1578,8 @@
       "types": [
         "Card Game",
         "Party",
-        "Social Deduction"
+        "Social Deduction",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1488,7 +1592,8 @@
       "types": [
         "Card Game",
         "Party",
-        "Social Deduction"
+        "Social Deduction",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -1499,7 +1604,8 @@
     {
       "title": "Sleeping Queens",
       "types": [
-        "Card Game"
+        "Card Game",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1511,7 +1617,8 @@
       "title": "Smallworld",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1524,7 +1631,8 @@
       "types": [
         "Card Game",
         "Deck-Building",
-        "AmeriTrash"
+        "AmeriTrash",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -1537,7 +1645,8 @@
       "types": [
         "Card Game",
         "Deck-Building",
-        "AmeriTrash"
+        "AmeriTrash",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -1569,7 +1678,8 @@
       "title": "Spirit Island",
       "types": [
         "Co-Op",
-        "Asymetrical"
+        "Asymetrical",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -1581,7 +1691,8 @@
       "title": "Splendor",
       "types": [
         "Eurogame",
-        "Drafting"
+        "Drafting",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1593,7 +1704,8 @@
       "title": "Star Realms: Colony Wars*",
       "types": [
         "Deck-Building",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1605,7 +1717,8 @@
       "title": "Star Realms*",
       "types": [
         "Deck-Building",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1618,7 +1731,8 @@
       "types": [
         "Deck-Building",
         "War",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 2,
       "open": false,
@@ -1630,7 +1744,8 @@
       "title": "Super Mega Lucky Box",
       "types": [
         "AmeriTrash",
-        "Abstract"
+        "Abstract",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1642,7 +1757,8 @@
       "title": "Super Pinball 4-Cade",
       "types": [
         "Abstract",
-        "Roll & Write"
+        "Roll & Write",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1654,7 +1770,8 @@
       "title": "Super Pinball Ramp It Up",
       "types": [
         "Abstract",
-        "Roll & Write"
+        "Roll & Write",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1666,7 +1783,8 @@
       "title": "Sushi Go Party",
       "types": [
         "Drafting",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1679,7 +1797,8 @@
       "types": [
         "AmeriTrash",
         "Racing",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1703,7 +1822,8 @@
       "types": [
         "AmeriTrash",
         "Racing",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1716,7 +1836,8 @@
       "types": [
         "AmeriTrash",
         "Racing",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1729,7 +1850,8 @@
       "types": [
         "Tableau",
         "Eurogame",
-        "Solo Mode"
+        "Solo Mode",
+        "Storage"
       ],
       "max": 5,
       "open": false,
@@ -1739,7 +1861,9 @@
     },
     {
       "title": "The Bears and the Bees",
-      "types": [],
+      "types": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 90,
@@ -1749,7 +1873,8 @@
     {
       "title": "The Crew",
       "types": [
-        "Trick Taking"
+        "Trick Taking",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1761,7 +1886,8 @@
       "title": "The Grizzled",
       "types": [
         "Co-Op",
-        "War"
+        "War",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1773,7 +1899,8 @@
       "title": "The Mind",
       "types": [
         "Abstract",
-        "Card Game"
+        "Card Game",
+        "Storage"
       ],
       "max": 7,
       "open": true,
@@ -1785,7 +1912,8 @@
       "title": "Ticket to Ride",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1797,7 +1925,8 @@
       "title": "Ticket to Ride: New York City",
       "types": [
         "Area Control",
-        "Eurogame"
+        "Eurogame",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1817,7 +1946,8 @@
     {
       "title": "Tiny Towns",
       "types": [
-        "Abstract"
+        "Abstract",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1829,7 +1959,8 @@
       "title": "Tokiado",
       "types": [
         "Eurogame",
-        "Worker Placement"
+        "Worker Placement",
+        "Hot Off the Press"
       ],
       "max": 5,
       "open": false,
@@ -1840,7 +1971,8 @@
     {
       "title": "Tsuro",
       "types": [
-        "Abstract"
+        "Abstract",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1851,7 +1983,8 @@
     {
       "title": "Tsuro: Pheonix Rising",
       "types": [
-        "Abstract"
+        "Abstract",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1864,7 +1997,8 @@
       "types": [
         "Word Game",
         "Puzzle",
-        "Rec. Two Player"
+        "Rec. Two Player",
+        "Hot Off the Press"
       ],
       "max": 6,
       "open": false,
@@ -1876,7 +2010,8 @@
       "title": "Upwords",
       "types": [
         "Abstract",
-        "Word Game"
+        "Word Game",
+        "Storage"
       ],
       "max": 4,
       "open": false,
@@ -1900,7 +2035,8 @@
       "title": "Villanious: Evil Comes Prepared",
       "types": [
         "Asymetrical",
-        "Deck-Building"
+        "Deck-Building",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -1912,7 +2048,8 @@
       "title": "Villanious: The Worst Takes it All",
       "types": [
         "Asymetrical",
-        "Deck-Building"
+        "Deck-Building",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -1924,7 +2061,8 @@
       "title": "Villanious: Wicked to the Core",
       "types": [
         "Asymetrical",
-        "Deck-Building"
+        "Deck-Building",
+        "Storage"
       ],
       "max": 6,
       "open": false,
@@ -1935,7 +2073,8 @@
     {
       "title": "Welcome To the Moon",
       "types": [
-        "Flip & Write"
+        "Flip & Write",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
@@ -1947,7 +2086,8 @@
       "title": "Wingspan",
       "types": [
         "Eurogame",
-        "Tableau Building"
+        "Tableau Building",
+        "Hot Off the Press"
       ],
       "max": 4,
       "open": false,
@@ -1982,7 +2122,8 @@
       "types": [
         "AmeriTrash",
         "Press Your Luck",
-        "Family Game"
+        "Family Game",
+        "Hot Off the Press"
       ],
       "max": 7,
       "open": true,
