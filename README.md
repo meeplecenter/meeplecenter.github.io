@@ -19,6 +19,35 @@ This is the website for Meeple Center. It's a small, plain HTML website hosted u
 
 Every page links to the same stylesheet, so a change to `css/styles.css` updates the look of the whole site at once.
 
+## The members' shop is maintained elsewhere
+
+Most of `www.meeplecenter.org` is this repository, served by GitHub Pages. Four paths are not:
+
+| Path | Served by |
+| --- | --- |
+| `/shop`, `/shop/...` | the members' shop, maintained in a separate private repository |
+| `/api/...` | same |
+| `/webhooks/...` | same |
+| `/admin` | same |
+
+Those run on a Cloudflare Worker that sits in front of this site. Requests to those paths go
+to the Worker; **everything else falls through to these files, exactly as before.** Nothing
+about editing, previewing, or deploying this site changes because the shop exists.
+
+Three things are worth knowing if you edit this repo:
+
+- **Don't create a page at one of those paths.** A file named `shop.html` is fine; a folder
+  called `shop/` or `api/` would be shadowed by the Worker and never load.
+- **`css/styles.css` and `assets/MeepleCenter_Logo.svg` are used by the shop too.** The shop's
+  pages link them directly from this site, so they stay visually identical with no copying.
+  Renaming or moving either file will break the shop's styling — change the contents freely,
+  but leave the paths alone.
+- **A shared style belongs here**, in `css/styles.css`, not in the shop. The shop only holds
+  styling that nothing on this site uses.
+
+If the shop ever misbehaves, this site is unaffected: it is a separate deployment and can be
+switched off without touching these files.
+
 ## The look of the site
 
 The design comes from the logo: the deep teal of the words, the five meeple colors (purple, green, yellow, red, blue), and heavy rounded shapes with hard offset shadows. Two things are worth knowing if you edit pages:
@@ -84,6 +113,12 @@ As a safety net, the refresh refuses to overwrite a good copy if the game count 
 ## Updating membership levels or dues
 
 Membership levels and prices live in a table in `membership.html`. Open the file, find the table, and edit the level names, prices, or descriptions directly in the `<td>` cells. No other files need to change.
+
+One exception, once the members' shop is live: **how long a membership grants shop access is
+configured separately**, in the shop's own repository. Changing "$15/yr" to "$20/yr" here is
+purely a text edit, but changing a level from monthly to annual, or adding a new level, needs
+a matching change over there — otherwise members on the new level may not get shop access.
+Mention it to whoever maintains the shop.
 
 ## The membership form
 
