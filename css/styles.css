@@ -48,7 +48,7 @@
 body[data-page="about"]      { --accent: var(--green);  --accent-lift: var(--green-lift); }
 body[data-page="membership"] { --accent: var(--berry);  --accent-lift: var(--berry-lift); }
 body[data-page="catalog"]    { --accent: var(--gold);   --accent-lift: var(--gold); }
-body[data-page="events"]     { --accent: var(--blue);   --accent-lift: var(--blue-lift); }
+body[data-page="calendar"]   { --accent: var(--blue);   --accent-lift: var(--blue-lift); }
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -258,7 +258,7 @@ code {
 .site-nav a[data-nav="about"]      { --nav-color: var(--green); }
 .site-nav a[data-nav="membership"] { --nav-color: var(--berry); }
 .site-nav a[data-nav="catalog"]    { --nav-color: var(--gold); }
-.site-nav a[data-nav="events"]     { --nav-color: var(--blue); }
+.site-nav a[data-nav="calendar"]   { --nav-color: var(--blue); }
 
 .site-nav a:hover { border-bottom-color: var(--nav-color); }
 

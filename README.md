@@ -9,7 +9,7 @@ This is the website for Meeple Center. It's a small, plain HTML website hosted u
 - `index.html`: the homepage (About)
 - `membership.html`: membership levels, dues, and the sign-up form
 - `catalog.html`: the searchable list of games in the lending library
-- `calendar.html`: the Events page with the Google Calendar embed
+- `calendar.html`: the Calendar page with the Google Calendar embed
 - `css/styles.css`: all the styling for every page, in one file
 - `js/catalog.js`: builds the Game Catalog table and powers its filters
 - `js/catalog-data.js`: reads the library spreadsheet; shared by the page and the weekly refresh
@@ -53,7 +53,7 @@ switched off without touching these files.
 The design comes from the logo: the deep teal of the words, the five meeple colors (purple, green, yellow, red, blue), and heavy rounded shapes with hard offset shadows. Two things are worth knowing if you edit pages:
 
 - **The meeple shape** lives in one file, `assets/Meeple_Generic.svg`. To draw a meeple anywhere, write `<span class="meeple-icon"></span>` and give it a size and a color in CSS: the shape is pulled in as a mask, so the color is just the element's `background` (by default it matches the surrounding text). Nothing needs to be copied into a new page.
-- **Each page owns a color**, set by the `data-page` attribute on the `<body>` tag (`about`, `membership`, `catalog`, `events`). It tints the nav underline and the small label above the page heading.
+- **Each page owns a color**, set by the `data-page` attribute on the `<body>` tag (`about`, `membership`, `catalog`, `calendar`). It tints the nav underline and the small label above the page heading.
 
 Fonts load from Google Fonts. If you open the files with no internet connection the site still works and just falls back to your computer's built-in fonts.
 
@@ -74,7 +74,7 @@ The recommended approach is to use VS Code's built-in browser. This will load ev
 
 ## Setting up the Google Calendar
 
-The Events page (`calendar.html`) shows a live Google Calendar so you don't have to update the website every time you schedule an event. It is already connected to the public **meeplecenter@gmail.com** calendar, so adding an event there makes it appear on the website automatically: no code changes needed.
+The Calendar page (`calendar.html`) shows a live Google Calendar so you don't have to update the website every time you schedule an event. It is already connected to the public **meeplecenter@gmail.com** calendar, so adding an event there makes it appear on the website automatically: no code changes needed.
 
 ## Adding a game to the catalog
 
