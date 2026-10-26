@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-09-14T11:16:09.497Z",
+  "generatedAt": "2026-10-26T17:13:34.047Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
-  "count": 171,
+  "count": 144,
   "games": [
     {
       "title": "7 Wonders",
@@ -19,33 +19,6 @@
       "status": "lendable"
     },
     {
-      "title": "Air, Land, & Sea",
-      "types": [
-        "Rec. Two Player"
-      ],
-      "locations": [],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "lendable"
-    },
-    {
-      "title": "Alubari",
-      "types": [
-        "Eurogame",
-        "Worker Placement"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 5,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
       "title": "Animal Upon Animal",
       "types": [
         "Dexterity",
@@ -59,21 +32,6 @@
       "time": 30,
       "weight": "Light",
       "status": "lendable"
-    },
-    {
-      "title": "Ascension: Valley of the Ancients",
-      "types": [
-        "Deck-Building",
-        "Rec. Two Player"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "house"
     },
     {
       "title": "Azul",
@@ -113,7 +71,9 @@
         "Abstract",
         "Classic"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 2,
       "open": false,
       "time": 30,
@@ -126,7 +86,9 @@
         "Party",
         "Word Game"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 6,
       "open": false,
       "time": 60,
@@ -207,7 +169,10 @@
     },
     {
       "title": "Between Two Castle of the Mad King Ludwig",
-      "types": [],
+      "types": [
+        "Tile Placement",
+        "Drafting"
+      ],
       "locations": [
         "Hot Off the Press"
       ],
@@ -255,7 +220,9 @@
         "Abstract",
         "Under Age 5"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 30,
@@ -316,7 +283,9 @@
     },
     {
       "title": "Botany",
-      "types": [],
+      "types": [
+        "Eurogame"
+      ],
       "locations": [
         "Storage"
       ],
@@ -327,21 +296,13 @@
       "status": "lendable"
     },
     {
-      "title": "Bottom of the 9th",
-      "types": [],
-      "locations": [],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "lendable"
-    },
-    {
       "title": "Braintopia",
       "types": [
         "Trivia"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 6,
       "open": false,
       "time": 30,
@@ -354,22 +315,14 @@
         "Word Game",
         "Party"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 60,
       "weight": "Light",
       "status": "house"
-    },
-    {
-      "title": "Campy Creatures",
-      "types": [],
-      "locations": [],
-      "max": 5,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "lendable"
     },
     {
       "title": "Carcassonne",
@@ -455,7 +408,9 @@
         "Co-Op",
         "War"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 6,
       "open": false,
       "time": 60,
@@ -467,7 +422,9 @@
       "types": [
         "Roll & Write"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 2,
       "open": false,
       "time": 30,
@@ -490,7 +447,7 @@
       "status": "house"
     },
     {
-      "title": "Chameleon",
+      "title": "Chameleon*",
       "types": [
         "Party",
         "Word Game"
@@ -521,7 +478,9 @@
       "types": [
         "Party"
       ],
-      "locations": [],
+      "locations": [
+        "Gravity Storm"
+      ],
       "max": 7,
       "open": true,
       "time": 30,
@@ -564,7 +523,9 @@
     {
       "title": "Command of Nature",
       "types": [],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 60,
@@ -591,25 +552,13 @@
         "Word Game",
         "Party"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 60,
       "weight": "Light",
-      "status": "house"
-    },
-    {
-      "title": "Cry Havoc",
-      "types": [
-        "War"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "house"
     },
     {
@@ -621,21 +570,6 @@
       "max": 7,
       "open": true,
       "time": 30,
-      "weight": "Light",
-      "status": "lendable"
-    },
-    {
-      "title": "Decrypto",
-      "types": [
-        "Word Game",
-        "Co-Op"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 7,
-      "open": true,
-      "time": 60,
       "weight": "Light",
       "status": "lendable"
     },
@@ -674,7 +608,9 @@
         "War",
         "Family Game"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 15,
@@ -702,21 +638,13 @@
         "Deck-Building",
         "Rec. Two Player"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 2,
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
-    },
-    {
-      "title": "Farmini",
-      "types": [],
-      "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -765,27 +693,14 @@
       "status": "lendable"
     },
     {
-      "title": "G.I. Joe Deck-Building Game*",
-      "types": [
-        "Deck-Building",
-        "Co-Op"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
       "title": "Guesstures",
       "types": [
         "Word Game",
         "Party"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 15,
@@ -804,19 +719,6 @@
       "time": 60,
       "weight": "Medium",
       "status": "lendable"
-    },
-    {
-      "title": "Horrified: American Monsters",
-      "types": [
-        "Co-Op",
-        "Area Control"
-      ],
-      "locations": [],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
-      "status": "house"
     },
     {
       "title": "Hues and Cues",
@@ -839,7 +741,9 @@
         "Social Deduction",
         "Family Game"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 30,
@@ -868,7 +772,9 @@
         "AmeriTrash",
         "Solo Mode"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 0,
       "open": false,
       "time": 30,
@@ -880,7 +786,9 @@
       "types": [
         "Trivia"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 2,
       "open": false,
       "time": 30,
@@ -893,7 +801,9 @@
         "Abstract",
         "Family Game"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 6,
       "open": false,
       "time": 30,
@@ -921,7 +831,9 @@
         "Abstract",
         "Rec. Two Player"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 2,
       "open": false,
       "time": 15,
@@ -948,7 +860,9 @@
       "types": [
         "Area Control"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 4,
       "open": false,
       "time": 60,
@@ -1006,7 +920,9 @@
         "Card Game",
         "Family Game"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 30,
@@ -1058,21 +974,6 @@
       "status": "lendable"
     },
     {
-      "title": "Lucky's Misadventure: Ep. 42",
-      "types": [
-        "Deck-Building",
-        "Card Game"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
       "title": "Machi Koro",
       "types": [
         "Eurogame",
@@ -1088,7 +989,7 @@
       "status": "lendable"
     },
     {
-      "title": "Mantis",
+      "title": "Mantis*",
       "types": [
         "Drafting",
         "Party",
@@ -1104,40 +1005,14 @@
       "status": "lendable"
     },
     {
-      "title": "Marvel United: Spiderverse*",
-      "types": [
-        "Area Control",
-        "Co-Op",
-        "Worker Placement"
-      ],
-      "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
-      "status": "house"
-    },
-    {
-      "title": "Marvel United*",
-      "types": [
-        "Area Control",
-        "Co-Op",
-        "Worker Placement"
-      ],
-      "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
-      "status": "house"
-    },
-    {
       "title": "MIlle Bourne",
       "types": [
         "Card Game",
         "Racing"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 6,
       "open": false,
       "time": 60,
@@ -1149,7 +1024,9 @@
       "types": [
         "Classic"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 4,
       "open": false,
       "time": 60,
@@ -1164,20 +1041,6 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
-    },
-    {
-      "title": "Morels",
-      "types": [
-        "Rec. Two Player"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 2,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -1237,7 +1100,7 @@
       "status": "lendable"
     },
     {
-      "title": "No Thanks!",
+      "title": "No Thanks!*",
       "types": [
         "Abstract",
         "Party",
@@ -1285,7 +1148,9 @@
       "types": [
         "Co-Op"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 5,
       "open": false,
       "time": 60,
@@ -1297,7 +1162,9 @@
       "types": [
         "Co-Op"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 5,
       "open": false,
       "time": 60,
@@ -1427,7 +1294,9 @@
       "types": [
         "Abstract"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 6,
       "open": false,
       "time": 15,
@@ -1464,7 +1333,7 @@
       "status": "lendable"
     },
     {
-      "title": "Qwirkle",
+      "title": "Qwirkle*",
       "types": [
         "Abstract"
       ],
@@ -1510,26 +1379,13 @@
       "types": [
         "Roll & Write"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 6,
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
-    },
-    {
-      "title": "Ramen Fury",
-      "types": [
-        "Card Game",
-        "Drafting"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 5,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1552,7 +1408,9 @@
       "types": [
         "Party"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 60,
@@ -1564,7 +1422,9 @@
       "types": [
         "Eurogame"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 5,
       "open": false,
       "time": 90,
@@ -1636,26 +1496,13 @@
       "types": [
         "Word Game"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 6,
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "house"
-    },
-    {
-      "title": "Sentinels of the Multiverse",
-      "types": [
-        "Deck-Building",
-        "Co-Op"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Heavy",
       "status": "house"
     },
     {
@@ -1712,7 +1559,7 @@
       ],
       "max": 4,
       "open": false,
-      "time": 60,
+      "time": 90,
       "weight": "Heavy",
       "status": "lendable"
     },
@@ -1768,7 +1615,9 @@
         "Card Game",
         "Classic"
       ],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 6,
       "open": false,
       "time": 30,
@@ -1790,22 +1639,6 @@
       "time": 60,
       "weight": "Light",
       "status": "lendable"
-    },
-    {
-      "title": "Skull (2nd Copy)",
-      "types": [
-        "Card Game",
-        "Party",
-        "Social Deduction"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
-      "status": "house"
     },
     {
       "title": "Sleeping Queens",
@@ -1837,22 +1670,6 @@
       "status": "lendable"
     },
     {
-      "title": "Smash-Up (2nd Copy)",
-      "types": [
-        "Card Game",
-        "Deck-Building",
-        "AmeriTrash"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
-      "status": "house"
-    },
-    {
       "title": "Smash-Up & Expansion",
       "types": [
         "Card Game",
@@ -1871,7 +1688,9 @@
     {
       "title": "Snug as a Bug in a Rug",
       "types": [],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 4,
       "open": false,
       "time": 15,
@@ -1906,7 +1725,7 @@
       "status": "lendable"
     },
     {
-      "title": "Splendor",
+      "title": "Splendor*",
       "types": [
         "Eurogame",
         "Drafting"
@@ -1921,7 +1740,7 @@
       "status": "lendable"
     },
     {
-      "title": "Star Realms: Colony Wars*",
+      "title": "Star Realms",
       "types": [
         "Deck-Building",
         "Rec. Two Player"
@@ -1936,7 +1755,7 @@
       "status": "lendable"
     },
     {
-      "title": "Star Realms*",
+      "title": "Star Realms: Colony Wars",
       "types": [
         "Deck-Building",
         "Rec. Two Player"
@@ -1982,36 +1801,6 @@
       "status": "lendable"
     },
     {
-      "title": "Super Pinball 4-Cade",
-      "types": [
-        "Abstract",
-        "Roll & Write"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "lendable"
-    },
-    {
-      "title": "Super Pinball Ramp It Up",
-      "types": [
-        "Abstract",
-        "Roll & Write"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "lendable"
-    },
-    {
       "title": "Sushi Go Party",
       "types": [
         "Drafting",
@@ -2047,7 +1836,9 @@
       "types": [
         "Abstract"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 60,
@@ -2103,18 +1894,6 @@
       "status": "lendable"
     },
     {
-      "title": "The Bears and the Bees",
-      "types": [],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Light",
-      "status": "lendable"
-    },
-    {
       "title": "The Crew",
       "types": [
         "Trick Taking"
@@ -2129,22 +1908,7 @@
       "status": "lendable"
     },
     {
-      "title": "The Grizzled",
-      "types": [
-        "Co-Op",
-        "War"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 5,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
-      "status": "lendable"
-    },
-    {
-      "title": "The Mind",
+      "title": "The Mind*",
       "types": [
         "Abstract",
         "Card Game"
@@ -2191,7 +1955,9 @@
     {
       "title": "Tiny Epic Pirates",
       "types": [],
-      "locations": [],
+      "locations": [
+        "Hot Off the Press"
+      ],
       "max": 4,
       "open": false,
       "time": 60,
@@ -2287,64 +2053,6 @@
       "status": "house"
     },
     {
-      "title": "Villanious",
-      "types": [
-        "Asymetrical",
-        "Deck-Building"
-      ],
-      "locations": [],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
-      "title": "Villanious: Evil Comes Prepared",
-      "types": [
-        "Asymetrical",
-        "Deck-Building"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
-      "title": "Villanious: The Worst Takes it All",
-      "types": [
-        "Asymetrical",
-        "Deck-Building"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
-      "title": "Villanious: Wicked to the Core",
-      "types": [
-        "Asymetrical",
-        "Deck-Building"
-      ],
-      "locations": [
-        "Storage"
-      ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
-      "status": "house"
-    },
-    {
       "title": "Welcome To the Moon",
       "types": [
         "Flip & Write"
@@ -2374,11 +2082,13 @@
       "status": "lendable"
     },
     {
-      "title": "Yahtzee",
+      "title": "Yahtzee*",
       "types": [
         "Roll & Write"
       ],
-      "locations": [],
+      "locations": [
+        "Storage"
+      ],
       "max": 7,
       "open": true,
       "time": 30,
@@ -2386,19 +2096,7 @@
       "status": "lendable"
     },
     {
-      "title": "Zircles",
-      "types": [
-        "Abstract"
-      ],
-      "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
-      "status": "house"
-    },
-    {
-      "title": "Zombie Dice",
+      "title": "Zombie Dice*",
       "types": [
         "AmeriTrash",
         "Press Your Luck",
