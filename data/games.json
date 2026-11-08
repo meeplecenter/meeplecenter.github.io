@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-10-26T17:13:34.047Z",
+  "generatedAt": "2026-11-08T15:50:42.475Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
   "count": 144,
   "games": [
@@ -111,7 +111,7 @@
       "status": "lendable"
     },
     {
-      "title": "Bang: The Walking Dead",
+      "title": "BANG!: The Walking Dead",
       "types": [
         "Social Deduction"
       ],
@@ -154,7 +154,7 @@
       "status": "house"
     },
     {
-      "title": "Betrayal of House on the Hill",
+      "title": "Betrayal at House on the Hill",
       "types": [
         "Co-Op"
       ],
@@ -168,7 +168,7 @@
       "status": "lendable"
     },
     {
-      "title": "Between Two Castle of the Mad King Ludwig",
+      "title": "Between Two Castles of the Mad King Ludwig",
       "types": [
         "Tile Placement",
         "Drafting"
@@ -432,7 +432,7 @@
       "status": "lendable"
     },
     {
-      "title": "Catan Starfarers",
+      "title": "Catan: Starfarers",
       "types": [
         "Area Control",
         "Eurogame"
@@ -447,7 +447,7 @@
       "status": "house"
     },
     {
-      "title": "Chameleon*",
+      "title": "Chameleon",
       "types": [
         "Party",
         "Word Game"
@@ -796,7 +796,7 @@
       "status": "lendable"
     },
     {
-      "title": "Junkart",
+      "title": "Junk Art",
       "types": [
         "Abstract",
         "Family Game"
@@ -899,7 +899,7 @@
       "status": "lendable"
     },
     {
-      "title": "Let's Go Fish",
+      "title": "Let's Go Fishin'",
       "types": [
         "Abstract",
         "Dexterity",
@@ -944,7 +944,7 @@
       "status": "lendable"
     },
     {
-      "title": "Love Letters",
+      "title": "Love Letter",
       "types": [
         "Social Deduction",
         "Card Game"
@@ -989,7 +989,7 @@
       "status": "lendable"
     },
     {
-      "title": "Mantis*",
+      "title": "Mantis",
       "types": [
         "Drafting",
         "Party",
@@ -1005,7 +1005,7 @@
       "status": "lendable"
     },
     {
-      "title": "MIlle Bourne",
+      "title": "Mille Bornes",
       "types": [
         "Card Game",
         "Racing"
@@ -1034,7 +1034,7 @@
       "status": "house"
     },
     {
-      "title": "Monsters & Madiens",
+      "title": "Monsters & Maidens",
       "types": [],
       "locations": [],
       "max": 6,
@@ -1072,7 +1072,7 @@
       "status": "lendable"
     },
     {
-      "title": "Next Station London",
+      "title": "Next Station: London",
       "types": [],
       "locations": [
         "Hot Off the Press"
@@ -1100,7 +1100,7 @@
       "status": "lendable"
     },
     {
-      "title": "No Thanks!*",
+      "title": "No Thanks!",
       "types": [
         "Abstract",
         "Party",
@@ -1144,7 +1144,7 @@
       "status": "lendable"
     },
     {
-      "title": "Pandemic Contagion",
+      "title": "Pandemic: Contagion",
       "types": [
         "Co-Op"
       ],
@@ -1158,7 +1158,7 @@
       "status": "lendable"
     },
     {
-      "title": "Pandemic Fall of Rome",
+      "title": "Pandemic: Fall of Rome",
       "types": [
         "Co-Op"
       ],
@@ -1304,21 +1304,6 @@
       "status": "house"
     },
     {
-      "title": "Quacks of Quedlinburg",
-      "types": [
-        "Press Your Luck",
-        "Bag Building"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
-      "status": "lendable"
-    },
-    {
       "title": "Queendomino",
       "types": [
         "Tile Placement"
@@ -1333,7 +1318,7 @@
       "status": "lendable"
     },
     {
-      "title": "Qwirkle*",
+      "title": "Qwirkle",
       "types": [
         "Abstract"
       ],
@@ -1418,7 +1403,7 @@
       "status": "house"
     },
     {
-      "title": "Roll For The Galaxy",
+      "title": "Roll for the Galaxy",
       "types": [
         "Eurogame"
       ],
@@ -1594,7 +1579,7 @@
       "status": "lendable"
     },
     {
-      "title": "Sink n' Sand",
+      "title": "Sink N' Sand",
       "types": [
         "Dexterity",
         "Abstract",
@@ -1610,7 +1595,7 @@
       "status": "lendable"
     },
     {
-      "title": "Skip-bo",
+      "title": "Skip-Bo",
       "types": [
         "Card Game",
         "Classic"
@@ -1655,7 +1640,7 @@
       "status": "lendable"
     },
     {
-      "title": "Smallworld",
+      "title": "Small World",
       "types": [
         "Area Control",
         "Eurogame"
@@ -1670,7 +1655,7 @@
       "status": "lendable"
     },
     {
-      "title": "Smash-Up & Expansion",
+      "title": "Smash Up & Expansion",
       "types": [
         "Card Game",
         "Deck-Building",
@@ -1698,7 +1683,7 @@
       "status": "house"
     },
     {
-      "title": "Sorry Sliders",
+      "title": "Sorry! Sliders",
       "types": [
         "Classic"
       ],
@@ -1725,7 +1710,7 @@
       "status": "lendable"
     },
     {
-      "title": "Splendor*",
+      "title": "Splendor",
       "types": [
         "Eurogame",
         "Drafting"
@@ -1801,7 +1786,7 @@
       "status": "lendable"
     },
     {
-      "title": "Sushi Go Party",
+      "title": "Sushi Go Party!",
       "types": [
         "Drafting",
         "Family Game"
@@ -1832,7 +1817,7 @@
       "status": "lendable"
     },
     {
-      "title": "Telesrations: Upside Drawn",
+      "title": "Telestrations: Upside Drawn",
       "types": [
         "Abstract"
       ],
@@ -1908,7 +1893,7 @@
       "status": "lendable"
     },
     {
-      "title": "The Mind*",
+      "title": "The Mind",
       "types": [
         "Abstract",
         "Card Game"
@@ -1920,6 +1905,21 @@
       "open": true,
       "time": 120,
       "weight": "Light",
+      "status": "lendable"
+    },
+    {
+      "title": "The Quacks of Quedlinburg",
+      "types": [
+        "Press Your Luck",
+        "Bag Building"
+      ],
+      "locations": [
+        "Hot Off the Press"
+      ],
+      "max": 4,
+      "open": false,
+      "time": 60,
+      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -1979,7 +1979,7 @@
       "status": "lendable"
     },
     {
-      "title": "Tokiado",
+      "title": "Tokaido",
       "types": [
         "Eurogame",
         "Worker Placement"
@@ -2008,7 +2008,7 @@
       "status": "lendable"
     },
     {
-      "title": "Tsuro: Pheonix Rising",
+      "title": "Tsuro: Phoenix Rising",
       "types": [
         "Abstract"
       ],
@@ -2053,7 +2053,7 @@
       "status": "house"
     },
     {
-      "title": "Welcome To the Moon",
+      "title": "Welcome to the Moon",
       "types": [
         "Flip & Write"
       ],
@@ -2082,7 +2082,7 @@
       "status": "lendable"
     },
     {
-      "title": "Yahtzee*",
+      "title": "Yahtzee",
       "types": [
         "Roll & Write"
       ],
@@ -2096,7 +2096,7 @@
       "status": "lendable"
     },
     {
-      "title": "Zombie Dice*",
+      "title": "Zombie Dice",
       "types": [
         "AmeriTrash",
         "Press Your Luck",
