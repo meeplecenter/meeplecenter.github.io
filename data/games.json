@@ -1,9 +1,11 @@
 {
-  "generatedAt": "2026-11-08T15:50:42.475Z",
+  "generatedAt": "2026-11-08T16:34:27.830Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
   "count": 144,
   "games": [
     {
+      "id": "001",
+      "bggId": "",
       "title": "7 Wonders",
       "types": [
         "Drafting",
@@ -19,6 +21,8 @@
       "status": "lendable"
     },
     {
+      "id": "002",
+      "bggId": "",
       "title": "Animal Upon Animal",
       "types": [
         "Dexterity",
@@ -34,6 +38,8 @@
       "status": "lendable"
     },
     {
+      "id": "003",
+      "bggId": "",
       "title": "Azul",
       "types": [
         "Tile Placement",
@@ -50,6 +56,8 @@
       "status": "lendable"
     },
     {
+      "id": "004",
+      "bggId": "",
       "title": "Azul: Summer Pavilion",
       "types": [
         "Tile Placement",
@@ -66,6 +74,8 @@
       "status": "lendable"
     },
     {
+      "id": "005",
+      "bggId": "",
       "title": "Backgammon",
       "types": [
         "Abstract",
@@ -81,6 +91,8 @@
       "status": "house"
     },
     {
+      "id": "006",
+      "bggId": "",
       "title": "Balderdash",
       "types": [
         "Party",
@@ -96,6 +108,8 @@
       "status": "house"
     },
     {
+      "id": "007",
+      "bggId": "",
       "title": "Bananagrams",
       "types": [
         "Word Game",
@@ -111,6 +125,8 @@
       "status": "lendable"
     },
     {
+      "id": "008",
+      "bggId": "",
       "title": "BANG!: The Walking Dead",
       "types": [
         "Social Deduction"
@@ -125,6 +141,8 @@
       "status": "lendable"
     },
     {
+      "id": "009",
+      "bggId": "",
       "title": "Beat the Parents",
       "types": [
         "Party",
@@ -140,6 +158,8 @@
       "status": "house"
     },
     {
+      "id": "010",
+      "bggId": "",
       "title": "Betrayal at Baldur's Gate",
       "types": [
         "Co-Op"
@@ -154,6 +174,8 @@
       "status": "house"
     },
     {
+      "id": "011",
+      "bggId": "",
       "title": "Betrayal at House on the Hill",
       "types": [
         "Co-Op"
@@ -168,6 +190,8 @@
       "status": "lendable"
     },
     {
+      "id": "012",
+      "bggId": "",
       "title": "Between Two Castles of the Mad King Ludwig",
       "types": [
         "Tile Placement",
@@ -183,6 +207,8 @@
       "status": "lendable"
     },
     {
+      "id": "013",
+      "bggId": "",
       "title": "Block Party",
       "types": [
         "Abstract",
@@ -199,6 +225,8 @@
       "status": "lendable"
     },
     {
+      "id": "014",
+      "bggId": "",
       "title": "Blockbuster",
       "types": [
         "Party",
@@ -214,6 +242,8 @@
       "status": "lendable"
     },
     {
+      "id": "015",
+      "bggId": "",
       "title": "Blokus",
       "types": [
         "Tile Placement",
@@ -230,6 +260,8 @@
       "status": "lendable"
     },
     {
+      "id": "016",
+      "bggId": "",
       "title": "Bob Ross",
       "types": [
         "Eurogame",
@@ -243,6 +275,8 @@
       "status": "house"
     },
     {
+      "id": "017",
+      "bggId": "",
       "title": "Boggle",
       "types": [
         "Word Game"
@@ -255,8 +289,12 @@
       "status": "lendable"
     },
     {
+      "id": "018",
+      "bggId": "",
       "title": "Bohnanza",
-      "types": [],
+      "types": [
+        "Card Game"
+      ],
       "locations": [],
       "max": 4,
       "open": false,
@@ -265,6 +303,8 @@
       "status": "lendable"
     },
     {
+      "id": "019",
+      "bggId": "",
       "title": "Bombusters",
       "types": [
         "Co-Op",
@@ -282,6 +322,8 @@
       "status": "lendable"
     },
     {
+      "id": "020",
+      "bggId": "",
       "title": "Botany",
       "types": [
         "Eurogame"
@@ -296,6 +338,8 @@
       "status": "lendable"
     },
     {
+      "id": "021",
+      "bggId": "",
       "title": "Braintopia",
       "types": [
         "Trivia"
@@ -310,6 +354,8 @@
       "status": "lendable"
     },
     {
+      "id": "022",
+      "bggId": "",
       "title": "Buzzwords",
       "types": [
         "Word Game",
@@ -325,6 +371,8 @@
       "status": "house"
     },
     {
+      "id": "023",
+      "bggId": "",
       "title": "Carcassonne",
       "types": [
         "Area Control",
@@ -341,6 +389,8 @@
       "status": "lendable"
     },
     {
+      "id": "024",
+      "bggId": "",
       "title": "Carcassonne: Court, King, & Robber",
       "types": [
         "Tile Placement",
@@ -356,6 +406,8 @@
       "status": "lendable"
     },
     {
+      "id": "025",
+      "bggId": "",
       "title": "Cartographers",
       "types": [
         "Flip & Write"
@@ -370,6 +422,8 @@
       "status": "lendable"
     },
     {
+      "id": "026",
+      "bggId": "",
       "title": "Cascadia",
       "types": [
         "Tile Placement",
@@ -386,6 +440,8 @@
       "status": "lendable"
     },
     {
+      "id": "027",
+      "bggId": "",
       "title": "Cascadia: Landmarks",
       "types": [
         "Tile Placement",
@@ -402,6 +458,8 @@
       "status": "lendable"
     },
     {
+      "id": "028",
+      "bggId": "",
       "title": "Castle Panic",
       "types": [
         "AmeriTrash",
@@ -418,7 +476,9 @@
       "status": "lendable"
     },
     {
-      "title": "Catan Dice",
+      "id": "029",
+      "bggId": "27710",
+      "title": "Catan Dice Game",
       "types": [
         "Roll & Write"
       ],
@@ -432,6 +492,8 @@
       "status": "lendable"
     },
     {
+      "id": "030",
+      "bggId": "",
       "title": "Catan: Starfarers",
       "types": [
         "Area Control",
@@ -447,6 +509,8 @@
       "status": "house"
     },
     {
+      "id": "031",
+      "bggId": "",
       "title": "Chameleon",
       "types": [
         "Party",
@@ -462,6 +526,8 @@
       "status": "lendable"
     },
     {
+      "id": "032",
+      "bggId": "",
       "title": "Chinese Checkers",
       "types": [
         "Abstract"
@@ -474,6 +540,8 @@
       "status": "house"
     },
     {
+      "id": "033",
+      "bggId": "",
       "title": "Coaster Games",
       "types": [
         "Party"
@@ -488,6 +556,8 @@
       "status": "lendable"
     },
     {
+      "id": "034",
+      "bggId": "",
       "title": "Codenames",
       "types": [
         "Word Game",
@@ -504,6 +574,8 @@
       "status": "lendable"
     },
     {
+      "id": "035",
+      "bggId": "",
       "title": "Codenames: Pictures",
       "types": [
         "Word Game",
@@ -521,8 +593,12 @@
       "status": "lendable"
     },
     {
+      "id": "036",
+      "bggId": "",
       "title": "Command of Nature",
-      "types": [],
+      "types": [
+        "Card Game"
+      ],
       "locations": [
         "Hot Off the Press"
       ],
@@ -533,6 +609,8 @@
       "status": "house"
     },
     {
+      "id": "037",
+      "bggId": "",
       "title": "Coup",
       "types": [
         "Social Deduction"
@@ -547,6 +625,8 @@
       "status": "lendable"
     },
     {
+      "id": "038",
+      "bggId": "",
       "title": "Cranium",
       "types": [
         "Word Game",
@@ -562,6 +642,8 @@
       "status": "house"
     },
     {
+      "id": "039",
+      "bggId": "",
       "title": "Deck of Cards",
       "types": [
         "Abstract"
@@ -574,6 +656,8 @@
       "status": "lendable"
     },
     {
+      "id": "040",
+      "bggId": "",
       "title": "Dixit",
       "types": [
         "Abstract"
@@ -588,6 +672,8 @@
       "status": "lendable"
     },
     {
+      "id": "041",
+      "bggId": "",
       "title": "Drop It",
       "types": [
         "Abstract",
@@ -602,6 +688,8 @@
       "status": "lendable"
     },
     {
+      "id": "042",
+      "bggId": "260300",
       "title": "Dungeon Mayhem",
       "types": [
         "Card Game",
@@ -618,6 +706,8 @@
       "status": "lendable"
     },
     {
+      "id": "043",
+      "bggId": "",
       "title": "Earth",
       "types": [
         "Tableau",
@@ -633,6 +723,8 @@
       "status": "lendable"
     },
     {
+      "id": "044",
+      "bggId": "",
       "title": "Epic Card Game",
       "types": [
         "Deck-Building",
@@ -648,6 +740,8 @@
       "status": "lendable"
     },
     {
+      "id": "045",
+      "bggId": "",
       "title": "Flamecraft",
       "types": [
         "Eurogame",
@@ -663,6 +757,8 @@
       "status": "lendable"
     },
     {
+      "id": "046",
+      "bggId": "",
       "title": "Flip 7",
       "types": [
         "Press Your Luck",
@@ -678,6 +774,8 @@
       "status": "lendable"
     },
     {
+      "id": "047",
+      "bggId": "",
       "title": "Fun Facts",
       "types": [
         "Abstract",
@@ -693,6 +791,8 @@
       "status": "lendable"
     },
     {
+      "id": "048",
+      "bggId": "",
       "title": "Guesstures",
       "types": [
         "Word Game",
@@ -708,6 +808,8 @@
       "status": "house"
     },
     {
+      "id": "049",
+      "bggId": "",
       "title": "Horrified",
       "types": [
         "Co-Op",
@@ -721,6 +823,8 @@
       "status": "lendable"
     },
     {
+      "id": "050",
+      "bggId": "",
       "title": "Hues and Cues",
       "types": [
         "Party"
@@ -735,6 +839,8 @@
       "status": "lendable"
     },
     {
+      "id": "051",
+      "bggId": "",
       "title": "Imaginiff",
       "types": [
         "Party",
@@ -751,6 +857,8 @@
       "status": "house"
     },
     {
+      "id": "052",
+      "bggId": "",
       "title": "Imhotep",
       "types": [
         "Area Control",
@@ -767,6 +875,8 @@
       "status": "lendable"
     },
     {
+      "id": "053",
+      "bggId": "",
       "title": "Invasion of the Cow Snatchers",
       "types": [
         "AmeriTrash",
@@ -782,6 +892,8 @@
       "status": "house"
     },
     {
+      "id": "054",
+      "bggId": "",
       "title": "Jeopardy Card Game",
       "types": [
         "Trivia"
@@ -796,6 +908,8 @@
       "status": "lendable"
     },
     {
+      "id": "055",
+      "bggId": "",
       "title": "Junk Art",
       "types": [
         "Abstract",
@@ -811,6 +925,8 @@
       "status": "lendable"
     },
     {
+      "id": "056",
+      "bggId": "",
       "title": "Just One",
       "types": [
         "Party",
@@ -826,6 +942,8 @@
       "status": "lendable"
     },
     {
+      "id": "057",
+      "bggId": "",
       "title": "Kalah (Mancala)",
       "types": [
         "Abstract",
@@ -841,6 +959,8 @@
       "status": "house"
     },
     {
+      "id": "058",
+      "bggId": "",
       "title": "King of Tokyo",
       "types": [
         "Dice Rolling",
@@ -856,6 +976,8 @@
       "status": "lendable"
     },
     {
+      "id": "059",
+      "bggId": "",
       "title": "Kingdom Builder",
       "types": [
         "Area Control"
@@ -870,6 +992,8 @@
       "status": "lendable"
     },
     {
+      "id": "060",
+      "bggId": "",
       "title": "Kingdomino",
       "types": [
         "Tile Placement"
@@ -884,6 +1008,8 @@
       "status": "lendable"
     },
     {
+      "id": "061",
+      "bggId": "",
       "title": "Kites",
       "types": [
         "Party",
@@ -899,6 +1025,8 @@
       "status": "lendable"
     },
     {
+      "id": "062",
+      "bggId": "",
       "title": "Let's Go Fishin'",
       "types": [
         "Abstract",
@@ -915,6 +1043,8 @@
       "status": "house"
     },
     {
+      "id": "063",
+      "bggId": "",
       "title": "Life Goals",
       "types": [
         "Card Game",
@@ -930,6 +1060,8 @@
       "status": "lendable"
     },
     {
+      "id": "064",
+      "bggId": "",
       "title": "Longshot",
       "types": [
         "Racing"
@@ -944,6 +1076,8 @@
       "status": "lendable"
     },
     {
+      "id": "065",
+      "bggId": "",
       "title": "Love Letter",
       "types": [
         "Social Deduction",
@@ -959,6 +1093,8 @@
       "status": "lendable"
     },
     {
+      "id": "066",
+      "bggId": "",
       "title": "Lovecraft Letter",
       "types": [
         "Social Deduction",
@@ -974,6 +1110,8 @@
       "status": "lendable"
     },
     {
+      "id": "067",
+      "bggId": "",
       "title": "Machi Koro",
       "types": [
         "Eurogame",
@@ -989,6 +1127,8 @@
       "status": "lendable"
     },
     {
+      "id": "068",
+      "bggId": "",
       "title": "Mantis",
       "types": [
         "Drafting",
@@ -1005,6 +1145,8 @@
       "status": "lendable"
     },
     {
+      "id": "069",
+      "bggId": "",
       "title": "Mille Bornes",
       "types": [
         "Card Game",
@@ -1020,6 +1162,8 @@
       "status": "lendable"
     },
     {
+      "id": "070",
+      "bggId": "",
       "title": "Monopoly Gamer",
       "types": [
         "Classic"
@@ -1034,8 +1178,12 @@
       "status": "house"
     },
     {
+      "id": "071",
+      "bggId": "",
       "title": "Monsters & Maidens",
-      "types": [],
+      "types": [
+        "Dice Game"
+      ],
       "locations": [],
       "max": 6,
       "open": false,
@@ -1044,6 +1192,8 @@
       "status": "lendable"
     },
     {
+      "id": "072",
+      "bggId": "",
       "title": "Munchkin",
       "types": [
         "Card Game"
@@ -1058,6 +1208,8 @@
       "status": "house"
     },
     {
+      "id": "073",
+      "bggId": "",
       "title": "Munchkin Booty",
       "types": [
         "Card Game"
@@ -1072,8 +1224,12 @@
       "status": "lendable"
     },
     {
+      "id": "074",
+      "bggId": "",
       "title": "Next Station: London",
-      "types": [],
+      "types": [
+        "City Building"
+      ],
       "locations": [
         "Hot Off the Press"
       ],
@@ -1084,6 +1240,8 @@
       "status": "lendable"
     },
     {
+      "id": "075",
+      "bggId": "",
       "title": "Nidavellir",
       "types": [
         "Card Game",
@@ -1100,6 +1258,8 @@
       "status": "lendable"
     },
     {
+      "id": "076",
+      "bggId": "",
       "title": "No Thanks!",
       "types": [
         "Abstract",
@@ -1117,6 +1277,8 @@
       "status": "lendable"
     },
     {
+      "id": "077",
+      "bggId": "",
       "title": "Not Alone",
       "types": [
         "Co-Op",
@@ -1132,6 +1294,8 @@
       "status": "lendable"
     },
     {
+      "id": "078",
+      "bggId": "",
       "title": "Pandemic",
       "types": [
         "Co-Op"
@@ -1144,6 +1308,8 @@
       "status": "lendable"
     },
     {
+      "id": "079",
+      "bggId": "",
       "title": "Pandemic: Contagion",
       "types": [
         "Co-Op"
@@ -1158,6 +1324,8 @@
       "status": "lendable"
     },
     {
+      "id": "080",
+      "bggId": "",
       "title": "Pandemic: Fall of Rome",
       "types": [
         "Co-Op"
@@ -1172,6 +1340,8 @@
       "status": "house"
     },
     {
+      "id": "081",
+      "bggId": "",
       "title": "Pandemic: Hot Zone",
       "types": [
         "Co-Op"
@@ -1186,6 +1356,8 @@
       "status": "lendable"
     },
     {
+      "id": "082",
+      "bggId": "",
       "title": "Pass the Pigs",
       "types": [
         "Abstract",
@@ -1202,6 +1374,8 @@
       "status": "lendable"
     },
     {
+      "id": "083",
+      "bggId": "",
       "title": "Patchwork",
       "types": [
         "Drafting",
@@ -1218,6 +1392,8 @@
       "status": "lendable"
     },
     {
+      "id": "084",
+      "bggId": "",
       "title": "Phase 10",
       "types": [
         "Card Game",
@@ -1233,6 +1409,8 @@
       "status": "lendable"
     },
     {
+      "id": "085",
+      "bggId": "",
       "title": "Photosynthesis",
       "types": [
         "Area Control",
@@ -1248,6 +1426,8 @@
       "status": "lendable"
     },
     {
+      "id": "086",
+      "bggId": "",
       "title": "Poetry for Neanderthals",
       "types": [
         "Party",
@@ -1263,8 +1443,12 @@
       "status": "lendable"
     },
     {
+      "id": "087",
+      "bggId": "",
       "title": "Point Galaxy",
-      "types": [],
+      "types": [
+        "Card Game"
+      ],
       "locations": [
         "Hot Off the Press"
       ],
@@ -1275,6 +1459,8 @@
       "status": "lendable"
     },
     {
+      "id": "088",
+      "bggId": "",
       "title": "Point Salad",
       "types": [
         "Drafting",
@@ -1290,6 +1476,8 @@
       "status": "lendable"
     },
     {
+      "id": "089",
+      "bggId": "",
       "title": "Poker Chips",
       "types": [
         "Abstract"
@@ -1304,6 +1492,8 @@
       "status": "house"
     },
     {
+      "id": "091",
+      "bggId": "",
       "title": "Queendomino",
       "types": [
         "Tile Placement"
@@ -1318,6 +1508,8 @@
       "status": "lendable"
     },
     {
+      "id": "092",
+      "bggId": "",
       "title": "Qwirkle",
       "types": [
         "Abstract"
@@ -1332,6 +1524,8 @@
       "status": "lendable"
     },
     {
+      "id": "093",
+      "bggId": "",
       "title": "Qwixx",
       "types": [
         "Abstract",
@@ -1347,6 +1541,8 @@
       "status": "lendable"
     },
     {
+      "id": "094",
+      "bggId": "",
       "title": "Rack-O",
       "types": [
         "Card Game",
@@ -1360,6 +1556,8 @@
       "status": "lendable"
     },
     {
+      "id": "095",
+      "bggId": "",
       "title": "Railroad Ink",
       "types": [
         "Roll & Write"
@@ -1374,6 +1572,8 @@
       "status": "lendable"
     },
     {
+      "id": "096",
+      "bggId": "",
       "title": "Really Loud Librarians",
       "types": [
         "Party",
@@ -1389,6 +1589,8 @@
       "status": "lendable"
     },
     {
+      "id": "097",
+      "bggId": "",
       "title": "Relative Insanity",
       "types": [
         "Party"
@@ -1403,6 +1605,8 @@
       "status": "house"
     },
     {
+      "id": "098",
+      "bggId": "",
       "title": "Roll for the Galaxy",
       "types": [
         "Eurogame"
@@ -1417,6 +1621,8 @@
       "status": "house"
     },
     {
+      "id": "099",
+      "bggId": "",
       "title": "Root",
       "types": [
         "Asymetrical",
@@ -1432,6 +1638,8 @@
       "status": "house"
     },
     {
+      "id": "100",
+      "bggId": "",
       "title": "Root: Clockwork Expansion",
       "types": [
         "Asymetrical",
@@ -1447,6 +1655,8 @@
       "status": "house"
     },
     {
+      "id": "101",
+      "bggId": "",
       "title": "Sagrada",
       "types": [
         "Drafting",
@@ -1462,6 +1672,8 @@
       "status": "lendable"
     },
     {
+      "id": "102",
+      "bggId": "",
       "title": "Santorini",
       "types": [
         "Abstract",
@@ -1477,6 +1689,8 @@
       "status": "lendable"
     },
     {
+      "id": "103",
+      "bggId": "",
       "title": "Scattergories",
       "types": [
         "Word Game"
@@ -1491,6 +1705,8 @@
       "status": "house"
     },
     {
+      "id": "104",
+      "bggId": "",
       "title": "Sequence",
       "types": [
         "Abstract",
@@ -1505,6 +1721,8 @@
       "status": "house"
     },
     {
+      "id": "105",
+      "bggId": "",
       "title": "Settlers of Catan",
       "types": [
         "Area Control",
@@ -1520,6 +1738,8 @@
       "status": "lendable"
     },
     {
+      "id": "106",
+      "bggId": "",
       "title": "Settlers of Catan 5-6 Player Expansion",
       "types": [
         "Area Control",
@@ -1535,6 +1755,8 @@
       "status": "lendable"
     },
     {
+      "id": "107",
+      "bggId": "",
       "title": "Shackleton Base",
       "types": [
         "Asymetrical"
@@ -1549,6 +1771,8 @@
       "status": "lendable"
     },
     {
+      "id": "108",
+      "bggId": "",
       "title": "Shadows Over Camelot",
       "types": [
         "Co-Op",
@@ -1564,6 +1788,8 @@
       "status": "house"
     },
     {
+      "id": "109",
+      "bggId": "",
       "title": "Sheriff of Nottingham",
       "types": [
         "Social Deduction",
@@ -1579,6 +1805,8 @@
       "status": "lendable"
     },
     {
+      "id": "110",
+      "bggId": "",
       "title": "Sink N' Sand",
       "types": [
         "Dexterity",
@@ -1595,6 +1823,8 @@
       "status": "lendable"
     },
     {
+      "id": "111",
+      "bggId": "",
       "title": "Skip-Bo",
       "types": [
         "Card Game",
@@ -1610,6 +1840,8 @@
       "status": "lendable"
     },
     {
+      "id": "112",
+      "bggId": "",
       "title": "Skull",
       "types": [
         "Card Game",
@@ -1626,6 +1858,8 @@
       "status": "lendable"
     },
     {
+      "id": "113",
+      "bggId": "",
       "title": "Sleeping Queens",
       "types": [
         "Card Game"
@@ -1640,6 +1874,8 @@
       "status": "lendable"
     },
     {
+      "id": "114",
+      "bggId": "",
       "title": "Small World",
       "types": [
         "Area Control",
@@ -1655,6 +1891,8 @@
       "status": "lendable"
     },
     {
+      "id": "115",
+      "bggId": "",
       "title": "Smash Up & Expansion",
       "types": [
         "Card Game",
@@ -1671,8 +1909,12 @@
       "status": "house"
     },
     {
+      "id": "116",
+      "bggId": "",
       "title": "Snug as a Bug in a Rug",
-      "types": [],
+      "types": [
+        "Dice Game"
+      ],
       "locations": [
         "Storage"
       ],
@@ -1683,6 +1925,8 @@
       "status": "house"
     },
     {
+      "id": "117",
+      "bggId": "",
       "title": "Sorry! Sliders",
       "types": [
         "Classic"
@@ -1695,6 +1939,8 @@
       "status": "house"
     },
     {
+      "id": "118",
+      "bggId": "",
       "title": "Spirit Island",
       "types": [
         "Co-Op",
@@ -1710,6 +1956,8 @@
       "status": "lendable"
     },
     {
+      "id": "119",
+      "bggId": "",
       "title": "Splendor",
       "types": [
         "Eurogame",
@@ -1725,6 +1973,8 @@
       "status": "lendable"
     },
     {
+      "id": "121",
+      "bggId": "",
       "title": "Star Realms",
       "types": [
         "Deck-Building",
@@ -1740,6 +1990,8 @@
       "status": "lendable"
     },
     {
+      "id": "120",
+      "bggId": "",
       "title": "Star Realms: Colony Wars",
       "types": [
         "Deck-Building",
@@ -1755,6 +2007,8 @@
       "status": "lendable"
     },
     {
+      "id": "122",
+      "bggId": "",
       "title": "Star Wars: Deck-Building Game",
       "types": [
         "Deck-Building",
@@ -1771,6 +2025,8 @@
       "status": "lendable"
     },
     {
+      "id": "123",
+      "bggId": "",
       "title": "Super Mega Lucky Box",
       "types": [
         "AmeriTrash",
@@ -1786,6 +2042,8 @@
       "status": "lendable"
     },
     {
+      "id": "124",
+      "bggId": "",
       "title": "Sushi Go Party!",
       "types": [
         "Drafting",
@@ -1801,6 +2059,8 @@
       "status": "lendable"
     },
     {
+      "id": "125",
+      "bggId": "",
       "title": "Taco Cat Goat Cheese Pizza",
       "types": [
         "AmeriTrash",
@@ -1817,6 +2077,8 @@
       "status": "lendable"
     },
     {
+      "id": "126",
+      "bggId": "",
       "title": "Telestrations: Upside Drawn",
       "types": [
         "Abstract"
@@ -1831,6 +2093,8 @@
       "status": "lendable"
     },
     {
+      "id": "127",
+      "bggId": "",
       "title": "Tenzi",
       "types": [
         "AmeriTrash",
@@ -1847,6 +2111,8 @@
       "status": "lendable"
     },
     {
+      "id": "128",
+      "bggId": "",
       "title": "Tenzi (2nd Copy)",
       "types": [
         "AmeriTrash",
@@ -1863,6 +2129,8 @@
       "status": "lendable"
     },
     {
+      "id": "129",
+      "bggId": "",
       "title": "Terraforming Mars",
       "types": [
         "Tableau",
@@ -1879,6 +2147,8 @@
       "status": "lendable"
     },
     {
+      "id": "130",
+      "bggId": "",
       "title": "The Crew",
       "types": [
         "Trick Taking"
@@ -1893,6 +2163,8 @@
       "status": "lendable"
     },
     {
+      "id": "131",
+      "bggId": "",
       "title": "The Mind",
       "types": [
         "Abstract",
@@ -1908,6 +2180,8 @@
       "status": "lendable"
     },
     {
+      "id": "090",
+      "bggId": "",
       "title": "The Quacks of Quedlinburg",
       "types": [
         "Press Your Luck",
@@ -1923,6 +2197,8 @@
       "status": "lendable"
     },
     {
+      "id": "132",
+      "bggId": "",
       "title": "Ticket to Ride",
       "types": [
         "Area Control",
@@ -1938,6 +2214,8 @@
       "status": "lendable"
     },
     {
+      "id": "133",
+      "bggId": "",
       "title": "Ticket to Ride: New York City",
       "types": [
         "Area Control",
@@ -1953,8 +2231,12 @@
       "status": "lendable"
     },
     {
+      "id": "134",
+      "bggId": "",
       "title": "Tiny Epic Pirates",
-      "types": [],
+      "types": [
+        "Dice Game"
+      ],
       "locations": [
         "Hot Off the Press"
       ],
@@ -1965,6 +2247,8 @@
       "status": "lendable"
     },
     {
+      "id": "135",
+      "bggId": "",
       "title": "Tiny Towns",
       "types": [
         "Abstract"
@@ -1979,6 +2263,8 @@
       "status": "lendable"
     },
     {
+      "id": "136",
+      "bggId": "",
       "title": "Tokaido",
       "types": [
         "Eurogame",
@@ -1994,6 +2280,8 @@
       "status": "lendable"
     },
     {
+      "id": "137",
+      "bggId": "",
       "title": "Tsuro",
       "types": [
         "Abstract"
@@ -2008,6 +2296,8 @@
       "status": "lendable"
     },
     {
+      "id": "138",
+      "bggId": "",
       "title": "Tsuro: Phoenix Rising",
       "types": [
         "Abstract"
@@ -2022,6 +2312,8 @@
       "status": "lendable"
     },
     {
+      "id": "139",
+      "bggId": "",
       "title": "Unlock: Heroic Adventures",
       "types": [
         "Word Game",
@@ -2038,6 +2330,8 @@
       "status": "lendable"
     },
     {
+      "id": "140",
+      "bggId": "",
       "title": "Upwords",
       "types": [
         "Abstract",
@@ -2053,6 +2347,8 @@
       "status": "house"
     },
     {
+      "id": "141",
+      "bggId": "",
       "title": "Welcome to the Moon",
       "types": [
         "Flip & Write"
@@ -2067,6 +2363,8 @@
       "status": "lendable"
     },
     {
+      "id": "142",
+      "bggId": "",
       "title": "Wingspan",
       "types": [
         "Eurogame",
@@ -2082,6 +2380,8 @@
       "status": "lendable"
     },
     {
+      "id": "143",
+      "bggId": "",
       "title": "Yahtzee",
       "types": [
         "Roll & Write"
@@ -2096,6 +2396,8 @@
       "status": "lendable"
     },
     {
+      "id": "144",
+      "bggId": "",
       "title": "Zombie Dice",
       "types": [
         "AmeriTrash",
