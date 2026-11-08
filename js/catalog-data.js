@@ -139,7 +139,9 @@
     var games = [];
     for (var r = 1; r < table.length; r++) {
       var record = table[r];
-      var title = cell(record, idx.title);
+      // A trailing "*" is a marker for people reading the sheet; the site
+      // never shows it.
+      var title = cell(record, idx.title).replace(/\s*\*+$/, "");
       // The sheet keeps blank template rows below the real entries.
       if (!title) { continue; }
 

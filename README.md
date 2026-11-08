@@ -84,7 +84,7 @@ The spreadsheet is the [Meeple Center library sheet](https://docs.google.com/spr
 
 | Spreadsheet column | On the website |
 | --- | --- |
-| `Title` | The game's name. **A row with a blank title is skipped**, which is how the empty rows at the bottom of the sheet stay off the site. |
+| `Title` | The game's name. **A row with a blank title is skipped**, which is how the empty rows at the bottom of the sheet stay off the site. A `*` at the end of a title stays in the sheet but isn't shown on the site. |
 | `Type` (and the unnamed columns between it and `Location`) | The colored type tags, and the "Type" filter. Separate several with commas: `Eurogame, Drafting`. |
 | `Max Player Count` | The row of meeples. `5+ Player` draws four meeples and a `5+`. |
 | `Length` | The play time in minutes. It reads the first number it finds, so `~60 Minutes` becomes `60`. |
