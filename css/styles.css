@@ -47,7 +47,8 @@
 
 body[data-page="about"]      { --accent: var(--green);  --accent-lift: var(--green-lift); }
 body[data-page="membership"] { --accent: var(--berry);  --accent-lift: var(--berry-lift); }
-body[data-page="catalog"]    { --accent: var(--gold);   --accent-lift: var(--gold); }
+body[data-page="catalog"],
+body[data-page="game"]       { --accent: var(--gold);   --accent-lift: var(--gold); }
 body[data-page="calendar"]   { --accent: var(--blue);   --accent-lift: var(--blue-lift); }
 
 @media (prefers-color-scheme: dark) {
@@ -827,6 +828,49 @@ textarea { resize: vertical; min-height: 120px; }
 .card .badge {
   --chip: var(--band);
   margin-bottom: 0.6rem;
+}
+
+/* The facts list on a single game's page (game.html). */
+.game-facts {
+  display: grid;
+  grid-template-columns: minmax(6.5rem, max-content) minmax(0, 1fr);
+  gap: 0.85rem 1.5rem;
+  max-width: 40rem;
+  margin: 0;
+  padding: 1.5rem;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+}
+
+.game-facts[hidden],
+.game-actions [hidden],
+.catalog-status[hidden] { display: none; }
+
+.game-facts dt {
+  font-family: var(--font-mono);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--muted);
+  padding-top: 0.15rem;
+}
+
+.game-facts dd { margin: 0; }
+
+/* NFC scans land here on phones, so long chips have to fit the narrow card. */
+.game-facts .badge { white-space: normal; }
+
+@media (max-width: 480px) {
+  .game-facts { gap: 0.85rem 1rem; padding: 1.25rem; }
+}
+
+.game-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2rem;
 }
 
 /* --------------------------------------------------------------------------

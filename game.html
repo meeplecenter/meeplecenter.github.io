@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Game | Meeple Center</title>
+<meta name="description" content="Details for a game in the Meeple Center lending library.">
+<link rel="icon" href="assets/MeepleCenter_Logo.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://docs.google.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Baloo+2:wght@600;700;800&family=DM+Mono:wght@400;500&family=Figtree:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="css/styles.css">
+<script src="js/catalog-data.js" defer></script>
+<script src="js/game.js" defer></script>
+</head>
+<body data-page="game">
+<a class="skip-link" href="#main">Skip to content</a>
+
+<header class="site-header">
+  <div class="container header-inner">
+    <a class="logo" href="index.html"><img src="assets/MeepleCenter_Logo.svg" alt="Meeple Center home"></a>
+    <nav class="site-nav" aria-label="Main">
+      <ul>
+        <li><a data-nav="about" href="index.html">About</a></li>
+        <li><a data-nav="membership" href="membership.html">Membership</a></li>
+        <li><a data-nav="catalog" href="catalog.html" class="active">Game Catalog</a></li>
+        <li><a data-nav="calendar" href="calendar.html">Calendar</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+<main id="main">
+  <section class="hero">
+    <div class="container">
+      <p class="hero-tag">Meeple Center library</p>
+      <h1 id="game-title">Loading&hellip;</h1>
+    </div>
+  </section>
+
+  <section class="section">
+    <div class="container">
+      <p id="game-status" class="catalog-status" role="status">Loading this game&hellip;</p>
+
+      <noscript>
+        <p class="catalog-status">This page needs JavaScript to look up the game.</p>
+      </noscript>
+
+      <dl id="game-facts" class="game-facts" hidden>
+        <dt>Type</dt>
+        <dd id="fact-type"></dd>
+        <dt>Players</dt>
+        <dd id="fact-players"></dd>
+        <dt>Play time</dt>
+        <dd id="fact-time"></dd>
+        <dt>Complexity</dt>
+        <dd id="fact-weight"></dd>
+        <dt>Location</dt>
+        <dd id="fact-location"></dd>
+        <dt>Rental</dt>
+        <dd id="fact-rental"></dd>
+      </dl>
+
+      <p class="game-actions">
+        <a id="game-bgg" class="btn btn-primary" hidden>Rules &amp; how to play on BoardGameGeek</a>
+        <a class="btn" href="catalog.html">Browse the full catalog</a>
+      </p>
+    </div>
+  </section>
+</main>
+<footer class="site-footer">
+  <div class="rainbow-rule" aria-hidden="true"></div>
+  <div class="container">
+    <p class="footer-name">Meeple Center</p>
+    <p>Austin, Minnesota &middot; <a href="mailto:meeplecenter@gmail.com">meeplecenter@gmail.com</a></p>
+    <p>A member-supported 501(c)(7) non-profit tabletop gaming community.</p>
+    <p class="footer-legal">&copy; 2026 Meeple Center. All rights reserved. &middot; Website developed by Ethan Grahn.</p>
+  </div>
+</footer>
+</body>
+</html>

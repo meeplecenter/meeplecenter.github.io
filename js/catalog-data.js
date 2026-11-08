@@ -99,11 +99,34 @@
     return m ? parseInt(m[1], 10) : 0;
   }
 
+  // The first named column after "from", or -1 if there isn't one.
+  function nextNamed(header, from) {
+    for (var i = from + 1; i < header.length; i++) {
+      if (header[i].trim()) { return i; }
+    }
+    return -1;
+  }
+
+  // IDs are compared without leading zeros, so a tag reading 042 still finds
+  // its game if the sheet ever turns that cell into the number 42.
+  function normalizeId(id) {
+    return String(id).trim().replace(/^0+(?=\d)/, "");
+  }
+
+  // Finds the game a tag's ?id= points at. Blank IDs never match.
+  function findById(games, id) {
+    var wanted = normalizeId(id == null ? "" : id);
+    if (!wanted) { return null; }
+    for (var i = 0; i < games.length; i++) {
+      if (games[i].id && normalizeId(games[i].id) === wanted) { return games[i]; }
+    }
+    return null;
+  }
+
   // Both tag columns spill: the sheet writes comma-separated values in the
   // named column ("Tile Placement, Abstract") and continues into the unnamed
   // columns after it ("Under Age 5"). So a column runs until the next named
-  // one starts -- Type stops where Location begins -- and the last one runs
-  // to the end of the row. Pass a negative "to" for that.
+  // one starts, or to the end of the row if none does (a negative "to").
   function collectTags(record, from, to) {
     var seen = {};
     var list = [];
@@ -127,6 +150,8 @@
 
     var header = table[0];
     var idx = {
+      id: headerIndex(header, "ID"),
+      bggId: headerIndex(header, "BGG ID"),
       title: headerIndex(header, "Title"),
       players: headerIndex(header, "Max Player Count"),
       length: headerIndex(header, "Length"),
@@ -149,9 +174,11 @@
       var mc = cell(record, idx.mc);
 
       games.push({
+        id: cell(record, idx.id),
+        bggId: cell(record, idx.bggId),
         title: title,
-        types: collectTags(record, idx.type, idx.location),
-        locations: collectTags(record, idx.location, -1),
+        types: collectTags(record, idx.type, nextNamed(header, idx.type)),
+        locations: collectTags(record, idx.location, nextNamed(header, idx.location)),
         max: firstNumber(players),
         open: players.indexOf("+") !== -1, // "7+ Player" has no upper bound
         time: firstNumber(cell(record, idx.length)),
@@ -175,6 +202,7 @@
     SHEET_URL: SHEET_URL,
     parseCsv: parseCsv,
     toGames: toGames,
-    gamesFromCsv: gamesFromCsv
+    gamesFromCsv: gamesFromCsv,
+    findById: findById
   };
 });

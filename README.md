@@ -95,7 +95,7 @@ The spreadsheet is the [Meeple Center library sheet](https://docs.google.com/spr
 Two things worth knowing:
 
 - **Type and location tags don't need any setup.** Invent a new one in the spreadsheet and it appears on the site and in its dropdown on its own. It'll be a plain grey chip unless someone adds a color for it in the "Type colors" or "Location chips" block in `css/styles.css`.
-- **Column order matters for tags.** Type tags are read from the `Type` column up to `Location`, and locations from `Location` to the end of the row. If a new named column is inserted between them, `js/catalog-data.js` needs to know where the boundary now is.
+- **Column order matters for tags.** Type tags are read from the `Type` column up to the next named column, and locations the same way from `Location`. Leave the unnamed columns after each one for overflow tags only, because anything typed there is read as a tag.
 - **`Plays`, `Size`, `Condition`, and `Donated By` are ignored** by the website. They're only in the spreadsheet.
 
 ### The weekly saved copy
