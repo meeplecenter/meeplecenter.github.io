@@ -11,6 +11,7 @@ This is the website for Meeple Center. It's a small, plain HTML website hosted u
 - `catalog.html`: the searchable list of games in the lending library
 - `game.html`: one game's page, such as `game.html?id=042`
 - `calendar.html`: the Calendar page with the Google Calendar embed
+- `shop.html`: the Shop page, which explains the members' shop and links to the store on Zeffy
 - `css/styles.css`: all the styling for every page, in one file
 - `js/catalog.js`: builds the Game Catalog table and powers its filters
 - `js/game.js`: fills in a game's page
@@ -26,29 +27,22 @@ Every page links to the same stylesheet, so a change to `css/styles.css` updates
 
 ## The members' shop is maintained elsewhere
 
-Most of `www.meeplecenter.org` is this repository, served by GitHub Pages. Four paths are not:
+The store itself is on Zeffy; `shop.html` explains it and links there. Shop orders are
+fulfilled by the `meeple-shop` repository (private), which sends paid orders to the printer and
+emails tracking.
+
+Most of `www.meeplecenter.org` is this repository, served by GitHub Pages. Three paths are not:
 
 | Path | Served by |
 | --- | --- |
-| `/shop`, `/shop/...` | the members' shop, maintained in a separate private repository |
-| `/api/...` | same |
+| `/api/...` | the `meeple-shop` Cloudflare Worker |
 | `/webhooks/...` | same |
 | `/admin` | same |
 
-Those run on a Cloudflare Worker that sits in front of this site. Requests to those paths go
-to the Worker; **everything else falls through to these files, exactly as before.** Nothing
-about editing, previewing, or deploying this site changes because the shop exists.
-
-Three things are worth knowing if you edit this repo:
-
-- **Don't create a page at one of those paths.** A file named `shop.html` is fine; a folder
-  called `shop/` or `api/` would be shadowed by the Worker and never load.
-- **`css/styles.css` and `assets/MeepleCenter_Logo.svg` are used by the shop too.** The shop's
-  pages link them directly from this site, so they stay visually identical with no copying.
-  Renaming or moving either file will break the shop's styling — change the contents freely,
-  but leave the paths alone.
-- **A shared style belongs here**, in `css/styles.css`, not in the shop. The shop only holds
-  styling that nothing on this site uses.
+The Worker sits in front of this site. Requests to those paths go to it; **everything else
+falls through to these files, exactly as before.** Nothing about editing, previewing, or
+deploying this site changes because the shop exists. Just don't create a page or folder at
+one of those paths (an `api/` folder, say): the Worker would shadow it and it would never load.
 
 If the shop ever misbehaves, this site is unaffected: it is a separate deployment and can be
 switched off without touching these files.
