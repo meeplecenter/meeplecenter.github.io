@@ -36,9 +36,6 @@
   // The play time filter means "fits in this many minutes".
   var TIME_LIMITS = [15, 30, 45, 60, 90, 120];
 
-  var PIP_LIMIT = 5;  // at most this many meeples before a numeral takes over
-  var PIP_SHORT = 4;  // meeples drawn alongside that numeral
-  var PIP_MAX = 9;    // largest numeral shown; past it the count becomes "9+"
   // Shown for fields the sheet leaves blank. An entity rather than a literal
   // em dash so the file survives being served without a charset; every use
   // below goes through innerHTML.
@@ -80,32 +77,12 @@
      Rendering
      --------------------------------------------------------------------- */
 
-  // The player count in words, for the cell's tooltip and its screen readers.
-  function playersLabel(f) {
-    return DATA.playersText(f) || "Player count unknown";
-  }
-
-  // Player count, drawn as one meeple per seat up to five. Past that the row
-  // keeps four meeples and spells the rest as a numeral, so every wide count
-  // occupies the same width: XXXXX, XXXX6, XXXX7, XXXX9+.
-  function pipsHtml(f) {
-    var max = f.maxPlayers;
-    if (!max) { return "<span>" + EMPTY + "</span>"; }
-
-    var numeric = max > PIP_LIMIT;
-    var shown = numeric ? Math.min(max, PIP_SHORT) : max;
-    var pips = "";
-    for (var n = 1; n <= shown; n++) {
-      pips += '<span class="meeple-icon" aria-hidden="true"></span>';
-    }
-    if (numeric) {
-      pips += '<span class="more" aria-hidden="true">' +
-        Math.min(max, PIP_MAX) +
-        (max > PIP_MAX ? "+" : "") + "</span>";
-    }
-
-    return '<span class="pips">' + pips + "</span>" +
-      '<span class="sr-only">' + escapeHtml(playersLabel(f)) + "</span>";
+  // BGG's player range, "2&ndash;4", or a single number when it's fixed. The
+  // column header's meeple says what the numbers count.
+  function playersHtml(f) {
+    if (!f.maxPlayers) { return EMPTY; }
+    if (f.minPlayers === f.maxPlayers) { return String(f.maxPlayers); }
+    return f.minPlayers + "&ndash;" + f.maxPlayers;
   }
 
   // Both tag columns are drawn the same way; only the attribute the CSS
@@ -143,8 +120,7 @@
   function rowHtml(game, f) {
     return "<td>" + titleHtml(game) + "</td>" +
       "<td>" + tagsHtml(game.types, "data-type") + "</td>" +
-      '<td class="col-players" title="' + escapeHtml(playersLabel(f)) + '">' +
-        pipsHtml(f) + "</td>" +
+      '<td class="col-players">' + playersHtml(f) + "</td>" +
       "<td>" + (f.time ? f.time : EMPTY) + "</td>" +
       "<td>" + (f.weightText ? escapeHtml(f.weightText) : EMPTY) + "</td>" +
       '<td class="col-rental">' + rentalHtml(game) + "</td>" +

@@ -811,6 +811,10 @@ textarea { resize: vertical; min-height: 120px; }
 @media (prefers-color-scheme: dark) {
   .badge[data-type],
   .badge[data-location] { --chip-ink: #071f28; }
+  /* A tag with no color of its own (a new location, say) gets a light grey
+     chip for that dark text, as it does in light mode. :where() keeps this
+     at zero specificity, so every colored chip above still wins. */
+  :where(.badge[data-type], .badge[data-location]) { --chip: #c2d8de; }
   .badge[data-location="Storage"] { --chip: var(--line); --chip-ink: var(--on-dark); }
   .badge[data-type="AmeriTrash"],
   .badge[data-type="War"] { --chip: var(--line); --chip-ink: var(--on-dark); }
@@ -952,43 +956,17 @@ textarea { resize: vertical; min-height: 120px; }
    13. Catalog: player pips, complexity, availability
    -------------------------------------------------------------------------- */
 
-/* Player count, drawn as one meeple per seat up to five. Wider games keep four
-   meeples and finish with a numeral, so the column stays an even width; past
-   nine the numeral reads "9+". The count is BGG's maximum. Injected by
-   js/catalog.js. */
-/* The cell carries the count in words as a `title`, so hovering anywhere in it
-   spells out what the meeples mean. */
+/* Player count as BGG's range, "2-4", set like the play time beside it. One
+   meeple in the column header stands for "players". */
 .col-players {
-  cursor: help;
-}
-
-.pips {
-  display: inline-flex;
-  align-items: center;
-  gap: 2px;
-}
-
-.pips .meeple-icon {
-  width: 15px;
-  height: 15px;
-  background: var(--ink);
-}
-
-/* The legend above the table, showing what one meeple stands for. */
-.pips-key .meeple-icon {
-  width: 14px;
-  height: 14px;
-  vertical-align: -2px;
-}
-
-/* The numeral that stands in for the fifth meeple and beyond. Sized to a
-   meeple so a row of pips lines up with its neighbors either way. */
-.pips .more {
   font-family: var(--font-mono);
   font-size: 0.85rem;
-  line-height: 15px;
-  min-width: 15px;
-  margin-left: 1px;
+  white-space: nowrap;
+}
+
+th .meeple-icon {
+  width: 15px;
+  height: 15px;
 }
 
 /* Complexity, colored along its own scale: easy, middling, demanding. */

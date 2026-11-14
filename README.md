@@ -9,13 +9,18 @@ This is the website for Meeple Center. It's a small, plain HTML website hosted u
 - `index.html`: the homepage (About)
 - `membership.html`: membership levels, dues, and the sign-up form
 - `catalog.html`: the searchable list of games in the lending library
+- `game.html`: one game's page, such as `game.html?id=042`
 - `calendar.html`: the Calendar page with the Google Calendar embed
 - `css/styles.css`: all the styling for every page, in one file
 - `js/catalog.js`: builds the Game Catalog table and powers its filters
-- `js/catalog-data.js`: reads the library spreadsheet; shared by the page and the weekly refresh
-- `data/games.json`: a saved copy of the catalog, shown instantly while the live spreadsheet loads
-- `scripts/fetch-catalog.js`: rebuilds `data/games.json`
-- `.github/workflows/refresh-catalog.yml`: runs that script once a week
+- `js/game.js`: fills in a game's page
+- `js/catalog-data.js`: reads the library spreadsheet and combines it with BoardGameGeek's details; shared by the pages and the daily refresh
+- `data/games.json`: a saved copy of the catalog with BoardGameGeek's details, shown instantly while the live spreadsheet loads
+- `data/game-details.json`: BoardGameGeek's game descriptions, which only the game pages load
+- `scripts/fetch-catalog.js`: rebuilds both data files
+- `scripts/bgg.js`: talks to BoardGameGeek for the scripts
+- `scripts/suggest-bgg-ids.js`: a one-off helper that suggests a BGG ID for each game in the spreadsheet
+- `.github/workflows/refresh-catalog.yml`: runs `fetch-catalog.js` every day
 
 Every page links to the same stylesheet, so a change to `css/styles.css` updates the look of the whole site at once.
 
@@ -53,7 +58,7 @@ switched off without touching these files.
 The design comes from the logo: the deep teal of the words, the five meeple colors (purple, green, yellow, red, blue), and heavy rounded shapes with hard offset shadows. Two things are worth knowing if you edit pages:
 
 - **The meeple shape** lives in one file, `assets/Meeple_Generic.svg`. To draw a meeple anywhere, write `<span class="meeple-icon"></span>` and give it a size and a color in CSS: the shape is pulled in as a mask, so the color is just the element's `background` (by default it matches the surrounding text). Nothing needs to be copied into a new page.
-- **Each page owns a color**, set by the `data-page` attribute on the `<body>` tag (`about`, `membership`, `catalog`, `calendar`). It tints the nav underline and the small label above the page heading.
+- **Each page owns a color**, set by the `data-page` attribute on the `<body>` tag (`about`, `membership`, `catalog`, `game`, `calendar`). It tints the nav underline and the small label above the page heading.
 
 Fonts load from Google Fonts. If you open the files with no internet connection the site still works and just falls back to your computer's built-in fonts.
 
@@ -97,7 +102,7 @@ Two things worth knowing:
 - **Column order matters for tags.** Type tags are read from the `Type` column up to the next named column, and locations the same way from `Location`. Leave the unnamed columns after each one for overflow tags only, because anything typed there is read as a tag.
 - **`Plays`, `Size`, `Condition`, `Donated By`, `Max Player Count`, `Length`, and `MC` are ignored** by the website. They're only in the spreadsheet. The last three are replaced by BoardGameGeek's figures.
 
-### The weekly saved copy
+### The daily saved copy
 
 The page doesn't make visitors wait on Google. It draws the table straight from `data/games.json`, a copy of the catalog kept in this repository, so the games appear immediately. Then, in the background, it reads the real spreadsheet and quietly updates the table if anything has changed since that copy was made. In practice this is invisible: the list is on screen right away and correct a moment later.
 
@@ -105,9 +110,26 @@ If Google is ever unreachable, that background step simply fails and the saved c
 
 Two useful consequences: a change you make in the spreadsheet still shows up on the site the very next time someone loads the page, and if someone is already searching or filtering when the update lands, their search box and filters are left exactly as they were.
 
-That file refreshes itself every Monday morning through GitHub Actions, so it's never more than a week behind. Nobody has to run it by hand, but you can: go to the **Actions** tab on GitHub, pick **Refresh game catalog cache**, and click **Run workflow**. Or, on your own computer, `node scripts/fetch-catalog.js`.
+That file refreshes itself every morning through GitHub Actions, which is also when it collects BoardGameGeek's details for each game. Spreadsheet changes show up right away anyway; BoardGameGeek's details are at most a day old, so a game given a new `BGG ID` shows its details the next day. Nobody has to run the refresh by hand, but you can: go to the **Actions** tab on GitHub, pick **Refresh game catalog cache**, and click **Run workflow**. Or, on your own computer, `node scripts/fetch-catalog.js` (add the BoardGameGeek token as described below to include its details).
 
 As a safety net, the refresh refuses to overwrite a good copy if the game count suddenly drops by half, since that usually means the spreadsheet broke rather than that the library shrank. If you really did remove that many games, tick the **"Write even if the game count dropped by half"** box when running the workflow by hand.
+
+## BoardGameGeek details
+
+Players, play time, complexity, box art, and descriptions come from [BoardGameGeek](https://boardgamegeek.com) (BGG), matched by each game's `BGG ID`. Only the daily refresh talks to BGG; visitors' browsers never do.
+
+**The token.** BGG's API needs a token, registered to Meeple Center at [boardgamegeek.com/applications](https://boardgamegeek.com/applications). It's stored as the `BGG_TOKEN` secret under **Settings → Secrets and variables → Actions**. Never put it in a file in this repository: the repository is public. To run the refresh on your own computer with BGG's details, set it in your shell for that one command, for example `BGG_TOKEN=... node scripts/fetch-catalog.js`.
+
+**If BGG fails** (an expired token, or BGG being down), the refresh keeps the BGG details from the last good copy, so nothing disappears from the site, and the Actions run shows a yellow warning that says why. Spreadsheet changes still go through.
+
+**BGG's terms**, which the site has to keep following:
+
+- Every page that shows BGG's details carries the "Powered by BGG" logo (`assets/powered_by_bgg.webp`), linked to BoardGameGeek. The catalog and game pages already do.
+- BGG's data is shown as BGG gives it. Complexity is BGG's weight, shown as "2.4 / 5", not turned into our own rating. Filtering by ranges of it is fine.
+- Non-commercial use only. Meeple Center is a non-profit and the library pages sell nothing, but **don't show BGG's details on the members' shop.**
+- The data must never be used to train AI models.
+
+A game with no `BGG ID`, or a detail BGG doesn't have (some games have no complexity votes yet), shows a dash.
 
 ## Updating membership levels or dues
 
@@ -142,9 +164,9 @@ A few things worth knowing:
 - Every link in the site is relative, so it works the same whether the site lives at the root of a domain or in a subfolder (like the `/<repository>/` path GitHub Pages uses).
 - After you edit and push a change, it goes live on the site shortly after.
 
-### One note on the weekly catalog refresh
+### One note on the daily catalog refresh
 
-GitHub pauses scheduled workflows in repositories with no activity for 60 days, and emails the owner when it does. If the catalog copy ever goes stale for that reason, open the **Actions** tab and re-enable it.
+GitHub pauses scheduled workflows in repositories with no activity for 60 days, and emails the owner when it does. The refresh commits whenever BoardGameGeek's numbers shift, which keeps the repository active, but if the catalog copy ever goes stale for that reason, open the **Actions** tab and re-enable it.
 
 ## License
 
@@ -156,4 +178,4 @@ This repository is licensed in two parts.
 
 So: if you want to build on this site, take the code and the generic meeple, then delete the branded files in `assets/` and swap in your own logo and name. To ask about using the artwork, email meeplecenter@gmail.com.
 
-Neither license covers third-party material. Google Fonts, the embedded Google Calendar, and the Zeffy form keep their own terms, and board game titles in the catalog belong to their publishers.
+Neither license covers third-party material. Google Fonts, the embedded Google Calendar, and the Zeffy form keep their own terms, and board game titles in the catalog belong to their publishers. BoardGameGeek's data, images, and "Powered by BGG" logo (`assets/powered_by_bgg.webp`) belong to BoardGameGeek and are used under its terms.
