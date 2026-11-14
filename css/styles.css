@@ -482,6 +482,7 @@ code {
   background: var(--surface);
   box-shadow: 5px 5px 0 var(--drop);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
+  overflow-wrap: anywhere;  /* long email addresses wrap instead of spilling out */
 }
 
 .card:hover {
