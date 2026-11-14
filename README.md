@@ -86,9 +86,8 @@ The spreadsheet is the [Meeple Center library sheet](https://docs.google.com/spr
 | --- | --- |
 | `Title` | The game's name. **A row with a blank title is skipped**, which is how the empty rows at the bottom of the sheet stay off the site. A `*` at the end of a title stays in the sheet but isn't shown on the site. |
 | `Type` (and the unnamed columns between it and `Location`) | The colored type tags, and the "Type" filter. Separate several with commas: `Eurogame, Drafting`. |
-| `Max Player Count` | The row of meeples. `5+ Player` draws four meeples and a `5+`. |
-| `Length` | The play time in minutes. It reads the first number it finds, so `~60 Minutes` becomes `60`. |
-| `MC` | Complexity: `1` shows as Light, `2` as Medium, `3` as Heavy. Left blank, the row shows a dash. |
+| `ID` | The game's number, which its NFC tag and its page (`game.html?id=042`) use. Never reuse a number, even after a game leaves the library. |
+| `BGG ID` | The number in the game's BoardGameGeek address (`boardgamegeek.com/boardgame/68448`). Players, play time, complexity, box art, and the description all come from BoardGameGeek through it; without one, those show a dash. A new BGG ID shows its details after the next daily refresh. |
 | `Rental` | `TRUE` shows as a green checkmark, anything else as a gray circled x. |
 | `Location` (and the unnamed columns after it) | Where the game is, as its own column of chips, and the "Location" filter. Separate several with commas. |
 
@@ -96,7 +95,7 @@ Two things worth knowing:
 
 - **Type and location tags don't need any setup.** Invent a new one in the spreadsheet and it appears on the site and in its dropdown on its own. It'll be a plain grey chip unless someone adds a color for it in the "Type colors" or "Location chips" block in `css/styles.css`.
 - **Column order matters for tags.** Type tags are read from the `Type` column up to the next named column, and locations the same way from `Location`. Leave the unnamed columns after each one for overflow tags only, because anything typed there is read as a tag.
-- **`Plays`, `Size`, `Condition`, and `Donated By` are ignored** by the website. They're only in the spreadsheet.
+- **`Plays`, `Size`, `Condition`, `Donated By`, `Max Player Count`, `Length`, and `MC` are ignored** by the website. They're only in the spreadsheet. The last three are replaced by BoardGameGeek's figures.
 
 ### The weekly saved copy
 

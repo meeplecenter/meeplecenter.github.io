@@ -30,9 +30,6 @@
   // Same-origin copy written by scripts/fetch-catalog.js.
   var CACHE_URL = "data/games.json";
 
-  // Sorts sheet-only complexity words among BGG's 1-5 weights.
-  var WEIGHT_ORDER = { "Light": 1.5, "Medium": 2.5, "Heavy": 3.5 };
-
   // The player filter's options run 1 to PLAYER_CAP, the last meaning "or
   // more": BGG lists some party games for up to 99.
   var PLAYER_CAP = 8;
@@ -90,12 +87,12 @@
 
   // Player count, drawn as one meeple per seat up to five. Past that the row
   // keeps four meeples and spells the rest as a numeral, so every wide count
-  // occupies the same width: XXXXX, XXXX6, XXXX7+, XXXX9+.
+  // occupies the same width: XXXXX, XXXX6, XXXX7, XXXX9+.
   function pipsHtml(f) {
     var max = f.maxPlayers;
     if (!max) { return "<span>" + EMPTY + "</span>"; }
 
-    var numeric = f.openEnded || max > PIP_LIMIT;
+    var numeric = max > PIP_LIMIT;
     var shown = numeric ? Math.min(max, PIP_SHORT) : max;
     var pips = "";
     for (var n = 1; n <= shown; n++) {
@@ -104,7 +101,7 @@
     if (numeric) {
       pips += '<span class="more" aria-hidden="true">' +
         Math.min(max, PIP_MAX) +
-        (f.openEnded || max > PIP_MAX ? "+" : "") + "</span>";
+        (max > PIP_MAX ? "+" : "") + "</span>";
     }
 
     return '<span class="pips">' + pips + "</span>" +
@@ -217,7 +214,7 @@
       for (var t = 0; t < game.types.length; t++) { types[game.types[t]] = true; }
       var locs = game.locations || [];
       for (var l = 0; l < locs.length; l++) { locations[locs[l]] = true; }
-      mostPlayers = Math.max(mostPlayers, f.openEnded ? PLAYER_CAP : f.maxPlayers);
+      mostPlayers = Math.max(mostPlayers, f.maxPlayers);
       longest = Math.max(longest, f.time);
     }
 
@@ -275,16 +272,15 @@
     return false;
   }
 
-  // "Plays n": within BGG's range. Sheet-only games have just a maximum, so
-  // any count up to it matches; the top option means "n or more".
+  // "Plays n": within BGG's range. The top option means "n or more".
   function matchesPlayers(game, val) {
     if (!val) { return true; }
     var n = parseInt(val, 10);
     if (isNaN(n)) { return true; }
     var f = game.facts;
     if (!f.maxPlayers) { return false; }
-    if (n >= PLAYER_CAP) { return f.openEnded || f.maxPlayers >= n; }
-    return (f.minPlayers || 1) <= n && (f.openEnded || f.maxPlayers >= n);
+    if (n >= PLAYER_CAP) { return f.maxPlayers >= n; }
+    return f.minPlayers <= n && f.maxPlayers >= n;
   }
 
   // "Fits in n minutes": the listed play time is at most n.
@@ -365,11 +361,6 @@
      Sorting
      --------------------------------------------------------------------- */
 
-  function weightSortValue(f) {
-    if (f.weight) { return f.weight; }
-    return WEIGHT_ORDER.hasOwnProperty(f.weightBand) ? WEIGHT_ORDER[f.weightBand] : -1;
-  }
-
   function compareValues(a, b, key) {
     switch (key) {
       case "players":
@@ -377,7 +368,7 @@
       case "time":
         return a.facts.time - b.facts.time;
       case "weight":
-        return weightSortValue(a.facts) - weightSortValue(b.facts);
+        return a.facts.weight - b.facts.weight;
       case "type":
       case "location":
         var list = key === "type" ? "types" : "locations";
@@ -534,7 +525,7 @@
       var f = DATA.facts(g);
       return [
         g.id, g.title, (g.types || []).join("|"), (g.locations || []).join("|"),
-        f.minPlayers, f.maxPlayers, f.openEnded, f.time, f.weightText, g.status
+        f.minPlayers, f.maxPlayers, f.time, f.weightText, g.status
       ].join("\t");
     }).sort().join("\n");
   }

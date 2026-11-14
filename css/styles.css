@@ -953,9 +953,9 @@ textarea { resize: vertical; min-height: 120px; }
    -------------------------------------------------------------------------- */
 
 /* Player count, drawn as one meeple per seat up to five. Wider games keep four
-   meeples and finish with a numeral, so the column stays an even width; the
-   library spreadsheet records only a maximum, so a trailing "+" on that numeral
-   marks the open-ended "7+ Player" bucket. Injected by js/catalog.js. */
+   meeples and finish with a numeral, so the column stays an even width; past
+   nine the numeral reads "9+". The count is BGG's maximum. Injected by
+   js/catalog.js. */
 /* The cell carries the count in words as a `title`, so hovering anywhere in it
    spells out what the meeples mean. */
 .col-players {

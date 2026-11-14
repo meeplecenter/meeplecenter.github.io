@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-14T14:27:29.377Z",
+  "generatedAt": "2026-11-14T14:55:08.976Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
   "count": 144,
   "games": [
@@ -14,10 +14,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Heavy",
       "status": "lendable",
       "bgg": {
         "name": "7 Wonders",
@@ -46,10 +42,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Animal Upon Animal",
@@ -79,10 +71,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Azul",
@@ -112,10 +100,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Azul: Summer Pavilion",
@@ -144,10 +128,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Backgammon",
@@ -176,10 +156,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Balderdash",
@@ -208,10 +184,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Bananagrams",
@@ -239,10 +211,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "BANG!: The Walking Dead",
@@ -271,10 +239,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Beat the Parents",
@@ -302,10 +266,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "house",
       "bgg": {
         "name": "Betrayal at Baldur's Gate",
@@ -333,10 +293,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Betrayal at House on the Hill",
@@ -365,10 +321,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -383,10 +335,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -400,10 +348,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "",
       "status": "lendable",
       "bgg": {
         "name": "Blockbuster",
@@ -433,10 +377,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Blokus",
@@ -463,10 +403,6 @@
         "Racing"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "house"
     },
     {
@@ -477,10 +413,6 @@
         "Word Game"
       ],
       "locations": [],
-      "max": 7,
-      "open": true,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Boggle",
@@ -506,10 +438,6 @@
         "Card Game"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Bohnanza",
@@ -540,10 +468,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -556,10 +480,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 5,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "lendable",
       "bgg": {
         "name": "Botany",
@@ -587,10 +507,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Braintopia",
@@ -619,10 +535,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Buzzwords",
@@ -652,10 +564,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Carcassonne",
@@ -684,10 +592,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -700,10 +604,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Cartographers",
@@ -733,10 +633,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Cascadia",
@@ -766,10 +662,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Cascadia: Landmarks",
@@ -799,10 +691,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Castle Panic",
@@ -830,10 +718,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Catan Dice Game",
@@ -862,10 +746,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
       "status": "house",
       "bgg": {
         "name": "Catan: Starfarers",
@@ -894,10 +774,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -908,10 +784,6 @@
         "Abstract"
       ],
       "locations": [],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Chinese Checkers",
@@ -939,10 +811,6 @@
       "locations": [
         "Gravity Storm"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "COASTER games",
@@ -972,10 +840,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Codenames",
@@ -1006,10 +870,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Codenames: Pictures",
@@ -1037,10 +897,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "house",
       "bgg": {
         "name": "Command of Nature",
@@ -1068,10 +924,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1085,10 +937,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Cranium",
@@ -1114,10 +962,6 @@
         "Abstract"
       ],
       "locations": [],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1130,10 +974,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Dixit",
@@ -1161,10 +1001,6 @@
         "Rec. Two Player"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Drop It",
@@ -1194,10 +1030,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Dungeon Mayhem",
@@ -1226,10 +1058,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Earth",
@@ -1258,10 +1086,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Epic Card Game",
@@ -1290,10 +1114,6 @@
       "locations": [
         "Currently Rented"
       ],
-      "max": 5,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Flamecraft",
@@ -1322,10 +1142,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Flip 7",
@@ -1354,10 +1170,6 @@
       "locations": [
         "Currently Rented"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Fun Facts",
@@ -1386,10 +1198,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 15,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Guesstures",
@@ -1416,10 +1224,6 @@
         "Area Control"
       ],
       "locations": [],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Horrified",
@@ -1447,10 +1251,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 90,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Hues and Cues",
@@ -1480,10 +1280,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Imaginiff",
@@ -1513,10 +1309,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -1530,10 +1322,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 0,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "house"
     },
     {
@@ -1546,10 +1334,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1563,10 +1347,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Junk Art",
@@ -1595,10 +1375,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Just One",
@@ -1627,10 +1403,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "house"
     },
     {
@@ -1644,10 +1416,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "King of Tokyo",
@@ -1675,10 +1443,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Kingdom Builder",
@@ -1706,10 +1470,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Kingdomino",
@@ -1738,10 +1498,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Kites",
@@ -1771,10 +1527,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Let's Go Fishin'",
@@ -1803,10 +1555,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1819,10 +1567,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1836,10 +1580,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -1853,10 +1593,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Lovecraft Letter",
@@ -1885,10 +1621,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Machi Koro",
@@ -1918,10 +1650,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Mantis",
@@ -1950,10 +1678,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Mille Bornes",
@@ -1981,10 +1705,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "house",
       "bgg": {
         "name": "Monopoly Gamer",
@@ -2010,10 +1730,6 @@
         "Dice Game"
       ],
       "locations": [],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Monsters & Maidens",
@@ -2041,10 +1757,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "house",
       "bgg": {
         "name": "Munchkin",
@@ -2072,10 +1784,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Munchkin Booty",
@@ -2103,10 +1811,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "",
       "status": "lendable",
       "bgg": {
         "name": "Next Station: London",
@@ -2136,10 +1840,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Nidavellir",
@@ -2170,10 +1870,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "No Thanks!",
@@ -2202,10 +1898,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Not Alone",
@@ -2231,10 +1923,6 @@
         "Co-Op"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Pandemic",
@@ -2262,10 +1950,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Pandemic: Contagion",
@@ -2293,10 +1977,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "house",
       "bgg": {
         "name": "Fall of Rome",
@@ -2324,10 +2004,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -2342,10 +2018,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Pass the Pigs",
@@ -2375,10 +2047,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -2392,10 +2060,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Phase 10",
@@ -2424,10 +2088,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Photosynthesis",
@@ -2456,10 +2116,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Poetry for Neanderthals",
@@ -2487,10 +2143,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Point Galaxy",
@@ -2519,10 +2171,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Point Salad",
@@ -2550,10 +2198,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "house"
     },
     {
@@ -2566,10 +2210,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Queendomino",
@@ -2597,10 +2237,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Qwirkle",
@@ -2629,10 +2265,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Qwixx",
@@ -2659,10 +2291,6 @@
         "Classic"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Rack-O",
@@ -2690,10 +2318,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -2707,10 +2331,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Really Loud Librarians",
@@ -2738,10 +2358,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Relative Insanity",
@@ -2769,10 +2385,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 5,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
       "status": "house",
       "bgg": {
         "name": "Roll for the Galaxy",
@@ -2801,10 +2413,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "house",
       "bgg": {
         "name": "Root",
@@ -2833,10 +2441,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "house"
     },
     {
@@ -2850,10 +2454,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -2867,10 +2467,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -2883,10 +2479,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Scattergories",
@@ -2914,10 +2506,6 @@
         "Card Game"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "house"
     },
     {
@@ -2931,10 +2519,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 120,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -2948,10 +2532,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 6,
-      "open": false,
-      "time": 120,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -2964,10 +2544,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Heavy",
       "status": "lendable"
     },
     {
@@ -2981,10 +2557,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 90,
-      "weight": "Heavy",
       "status": "house",
       "bgg": {
         "name": "Shadows over Camelot",
@@ -3013,10 +2585,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Sheriff of Nottingham",
@@ -3046,10 +2614,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Sink N' Sand",
@@ -3078,10 +2642,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Skip-Bo",
@@ -3111,10 +2671,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -3127,10 +2683,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Sleeping Queens",
@@ -3159,10 +2711,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Heavy",
       "status": "lendable",
       "bgg": {
         "name": "Small World",
@@ -3192,10 +2740,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "house"
     },
     {
@@ -3208,10 +2752,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Snug as a Bug in a Rug",
@@ -3237,10 +2777,6 @@
         "Classic"
       ],
       "locations": [],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "house"
     },
     {
@@ -3254,10 +2790,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "lendable",
       "bgg": {
         "name": "Spirit Island",
@@ -3286,10 +2818,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Splendor",
@@ -3318,10 +2846,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -3335,10 +2859,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Star Realms: Colony Wars",
@@ -3368,10 +2888,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 2,
-      "open": false,
-      "time": 0,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -3385,10 +2901,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Super Mega Lucky Box",
@@ -3417,10 +2929,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Sushi Go Party!",
@@ -3450,10 +2958,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Taco Cat Goat Cheese Pizza",
@@ -3481,10 +2985,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Telestrations: Upside Drawn",
@@ -3514,10 +3014,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Tenzi",
@@ -3547,10 +3043,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -3565,10 +3057,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 5,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "lendable",
       "bgg": {
         "name": "Terraforming Mars",
@@ -3596,10 +3084,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -3613,10 +3097,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 120,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "The Mind",
@@ -3645,10 +3125,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Quacks",
@@ -3677,10 +3153,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Ticket to Ride",
@@ -3709,10 +3181,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 30,
-      "weight": "Medium",
       "status": "lendable"
     },
     {
@@ -3725,10 +3193,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Tiny Epic Pirates",
@@ -3756,10 +3220,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Tiny Towns",
@@ -3788,10 +3248,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 5,
-      "open": false,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Tokaido",
@@ -3819,10 +3275,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Tsuro",
@@ -3850,10 +3302,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Tsuro: Phoenix Rising",
@@ -3883,10 +3331,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 6,
-      "open": false,
-      "time": 60,
-      "weight": "Light",
       "status": "lendable"
     },
     {
@@ -3900,10 +3344,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 4,
-      "open": false,
-      "time": 90,
-      "weight": "Light",
       "status": "house",
       "bgg": {
         "name": "Upwords",
@@ -3931,10 +3371,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 60,
-      "weight": "Medium",
       "status": "lendable",
       "bgg": {
         "name": "Welcome to the Moon",
@@ -3963,10 +3399,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 4,
-      "open": false,
-      "time": 120,
-      "weight": "Heavy",
       "status": "lendable",
       "bgg": {
         "name": "Wingspan",
@@ -3994,10 +3426,6 @@
       "locations": [
         "Storage"
       ],
-      "max": 7,
-      "open": true,
-      "time": 30,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Yahtzee",
@@ -4027,10 +3455,6 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "max": 7,
-      "open": true,
-      "time": 15,
-      "weight": "Light",
       "status": "lendable",
       "bgg": {
         "name": "Zombie Dice",

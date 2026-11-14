@@ -28,9 +28,6 @@
   var SHEET_URL =
     "https://docs.google.com/spreadsheets/d/" + SHEET_ID + "/edit?gid=" + GID;
 
-  // The sheet rates complexity 1-3 in its "MC" column; the table shows words.
-  var MC_LABELS = { "1": "Light", "2": "Medium", "3": "Heavy" };
-
   // Minimal RFC 4180 parser: handles quoted fields, embedded commas and
   // quotes, and both LF and CRLF line endings. Returns an array of rows,
   // each an array of strings.
@@ -94,11 +91,6 @@
     return record[index].trim();
   }
 
-  function firstNumber(str) {
-    var m = /(\d+)/.exec(str);
-    return m ? parseInt(m[1], 10) : 0;
-  }
-
   // The first named column after "from", or -1 if there isn't one.
   function nextNamed(header, from) {
     for (var i = from + 1; i < header.length; i++) {
@@ -145,6 +137,9 @@
     return list;
   }
 
+  // Players, play time, and complexity aren't read from the sheet: they come
+  // from BoardGameGeek by BGG ID (see facts below), so the sheet's old "Max
+  // Player Count", "Length", and "MC" columns are ignored.
   function toGames(table) {
     if (!table.length) { return []; }
 
@@ -153,10 +148,7 @@
       id: headerIndex(header, "ID"),
       bggId: headerIndex(header, "BGG ID"),
       title: headerIndex(header, "Title"),
-      players: headerIndex(header, "Max Player Count"),
-      length: headerIndex(header, "Length"),
       rental: headerIndex(header, "Rental"),
-      mc: headerIndex(header, "MC"),
       type: headerIndex(header, "Type"),
       location: headerIndex(header, "Location")
     };
@@ -170,19 +162,12 @@
       // The sheet keeps blank template rows below the real entries.
       if (!title) { continue; }
 
-      var players = cell(record, idx.players);
-      var mc = cell(record, idx.mc);
-
       games.push({
         id: cell(record, idx.id),
         bggId: cell(record, idx.bggId),
         title: title,
         types: collectTags(record, idx.type, nextNamed(header, idx.type)),
         locations: collectTags(record, idx.location, nextNamed(header, idx.location)),
-        max: firstNumber(players),
-        open: players.indexOf("+") !== -1, // "7+ Player" has no upper bound
-        time: firstNumber(cell(record, idx.length)),
-        weight: MC_LABELS.hasOwnProperty(mc) ? MC_LABELS[mc] : "",
         status: cell(record, idx.rental).toUpperCase() === "TRUE"
           ? "lendable"
           : "house"
@@ -217,6 +202,10 @@
     });
   }
 
+  // Ranges read "2-4 players". Built from its code so the file stays plain
+  // ASCII and survives being served without a charset.
+  var EN_DASH = String.fromCharCode(0x2013);
+
   // BGG reports a missing value as 0 (no weight votes yet, no play time).
   function positive(value) {
     var n = parseFloat(value);
@@ -231,59 +220,40 @@
     return weight <= 3 ? "Medium" : "Heavy";
   }
 
-  // What both pages show for players, play time, and complexity. BGG's
-  // figures win; the sheet's older columns fill in for games without BGG
-  // data until those columns are retired. Numbers are 0 when unknown.
+  // What both pages show for players, play time, and complexity, all from
+  // BGG. A game without BGG data, or a value BGG doesn't have, is 0 and
+  // shows as a dash. The weight text is BGG's number as BGG shows it.
   function facts(game) {
     var b = game.bgg || {};
-    var out = {
-      minPlayers: positive(b.minPlayers),
-      maxPlayers: positive(b.maxPlayers),
-      openEnded: false,
+    var weight = positive(b.weight);
+    var minPlayers = positive(b.minPlayers);
+    var maxPlayers = positive(b.maxPlayers);
+    return {
+      minPlayers: minPlayers || (maxPlayers ? 1 : 0),
+      maxPlayers: maxPlayers,
       bestWith: b.bestWith || "",
       time: positive(b.playingTime),
       minTime: positive(b.minPlayTime),
       maxTime: positive(b.maxPlayTime),
-      weight: positive(b.weight),
-      weightBand: "",
-      weightText: ""
+      weight: weight,
+      weightBand: weightBand(weight),
+      weightText: weight ? weight.toFixed(1) + " / 5" : ""
     };
-
-    if (!out.maxPlayers && game.max) {
-      out.minPlayers = 0; // the sheet only ever recorded a maximum
-      out.maxPlayers = game.max;
-      out.openEnded = !!game.open;
-    }
-    if (!out.time && game.time) { out.time = game.time; }
-
-    if (out.weight) {
-      // BGG's number, shown as BGG shows it: "2.4 / 5".
-      out.weightBand = weightBand(out.weight);
-      out.weightText = out.weight.toFixed(1) + " / 5";
-    } else if (game.weight) {
-      out.weightBand = game.weight;
-      out.weightText = game.weight;
-    }
-    return out;
   }
 
-  // "2–4 players", "1 player", "Up to 6 players", "7 or more players", or "".
+  // "2-4 players", "1 player", "2 players", or "".
   function playersText(f) {
     if (!f.maxPlayers) { return ""; }
-    if (f.openEnded) { return f.maxPlayers + " or more players"; }
-    if (!f.minPlayers) {
-      return f.maxPlayers === 1 ? "1 player" : "Up to " + f.maxPlayers + " players";
-    }
     if (f.minPlayers === f.maxPlayers) {
       return f.maxPlayers + (f.maxPlayers === 1 ? " player" : " players");
     }
-    return f.minPlayers + "–" + f.maxPlayers + " players";
+    return f.minPlayers + EN_DASH + f.maxPlayers + " players";
   }
 
-  // "15–30 minutes", "About 45 minutes", or "".
+  // "15-30 minutes", "About 45 minutes", or "".
   function timeText(f) {
     if (f.minTime && f.maxTime && f.minTime !== f.maxTime) {
-      return f.minTime + "–" + f.maxTime + " minutes";
+      return f.minTime + EN_DASH + f.maxTime + " minutes";
     }
     return f.time ? "About " + f.time + " minutes" : "";
   }

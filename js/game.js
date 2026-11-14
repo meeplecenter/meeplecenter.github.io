@@ -18,7 +18,7 @@
   var DATA = window.MeepleCatalogData;
   var CACHE_URL = "data/games.json";
   var DETAILS_URL = "data/game-details.json";
-  var EMPTY = "—";
+  var EMPTY = String.fromCharCode(0x2014); // an em dash; this file stays ASCII
 
   var found = false;
   var cachedGames = [];
