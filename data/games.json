@@ -1,7 +1,7 @@
 {
-  "generatedAt": "2026-11-14T14:55:08.976Z",
+  "generatedAt": "2026-11-14T18:18:06.161Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
-  "count": 144,
+  "count": 145,
   "games": [
     {
       "id": "001",
@@ -312,8 +312,8 @@
     },
     {
       "id": "012",
-      "bggId": "",
-      "title": "Between Two Castles of the Mad King Ludwig",
+      "bggId": "258036",
+      "title": "Between Two Castles of Mad King Ludwig",
       "types": [
         "Tile Placement",
         "Drafting"
@@ -321,11 +321,26 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Between Two Castles of Mad King Ludwig",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "7",
+        "bestWith": "Best with 6 players",
+        "recommendedWith": "Recommended with 3–7 players",
+        "playingTime": "60",
+        "minPlayTime": "45",
+        "maxPlayTime": "60",
+        "minAge": "10",
+        "weight": "2.1824",
+        "image": "https://cf.geekdo-images.com/IwczsFUMHhIyI_39wFaHWw__original/img/jHHxcaBR6CKa16JvSEd5nY0MOsI=/0x0/filters:format(jpeg)/pic4285717.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/IwczsFUMHhIyI_39wFaHWw__small/img/ZYxFKVVLpPbjfxRw4OXpvQMrQto=/fit-in/200x150/filters:strip_icc()/pic4285717.jpg"
+      }
     },
     {
       "id": "013",
-      "bggId": "",
+      "bggId": "379300",
       "title": "Block Party",
       "types": [
         "Abstract",
@@ -335,7 +350,22 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Block Party",
+        "year": "2023",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 5 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "20",
+        "minPlayTime": "15",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/hh2t_DaRMVVsTPAIJwPLOA__original/img/rTolVvQDqUum6bhvXyZpSIYpf0g=/0x0/filters:format(jpeg)/pic7321926.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/hh2t_DaRMVVsTPAIJwPLOA__small/img/l36qRZc6jXQEkYdZfW0JlLDzBLo=/fit-in/200x150/filters:strip_icc()/pic7321926.jpg"
+      }
     },
     {
       "id": "014",
@@ -583,8 +613,8 @@
     },
     {
       "id": "024",
-      "bggId": "",
-      "title": "Carcassonne: Court, King, & Robber",
+      "bggId": "33458",
+      "title": "Carcassonne: Expansion 6 - Count, King & Robber",
       "types": [
         "Tile Placement",
         "Eurogame"
@@ -592,7 +622,22 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Carcassonne: Expansion 6 – Count, King & Robber",
+        "year": "2007",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "2.1899",
+        "image": "https://cf.geekdo-images.com/eTGI7r_ud_n2e0QjJg2F3g__original/img/vmUh80cSHUu8prgI57sBqzozXM4=/0x0/filters:format(jpeg)/pic4007858.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/eTGI7r_ud_n2e0QjJg2F3g__small/img/oQjC8FKyOqBt9Vo2OTFJggpMLE0=/fit-in/200x150/filters:strip_icc()/pic4007858.jpg"
+      }
     },
     {
       "id": "025",
@@ -764,19 +809,6 @@
       }
     },
     {
-      "id": "031",
-      "bggId": "",
-      "title": "Chameleon",
-      "types": [
-        "Party",
-        "Word Game"
-      ],
-      "locations": [
-        "Hot Off the Press"
-      ],
-      "status": "lendable"
-    },
-    {
       "id": "032",
       "bggId": "2386",
       "title": "Chinese Checkers",
@@ -916,7 +948,7 @@
     },
     {
       "id": "037",
-      "bggId": "",
+      "bggId": "131357",
       "title": "Coup",
       "types": [
         "Social Deduction"
@@ -924,7 +956,22 @@
       "locations": [
         "Hot Off the Press"
       ],
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Coup",
+        "year": "2012",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 5 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "13",
+        "weight": "1.414",
+        "image": "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__original/img/ayAAWBK1rAEumARNmROsOtvqW-4=/0x0/filters:format(jpeg)/pic2016054.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/MWhSY_GOe2-bmlQ2rntSVg__small/img/vuR_0PCX1w2EkjO_LbchOHZPOwU=/fit-in/200x150/filters:strip_icc()/pic2016054.jpg"
+      }
     },
     {
       "id": "038",
@@ -989,6 +1036,33 @@
         "weight": "1.1899",
         "image": "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__original/img/jt3kFCHJ3HJ2079dMLwipFZqdQg=/0x0/filters:format(jpeg)/pic6738336.jpg",
         "thumbnail": "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__small/img/QVwPXskFikQwBQlrdLJBAiRGgdg=/fit-in/200x150/filters:strip_icc()/pic6738336.jpg"
+      }
+    },
+    {
+      "id": "145",
+      "bggId": "211996",
+      "title": "Drinking Fluxx",
+      "types": [
+        "Card Game"
+      ],
+      "locations": [
+        "Gravity Storm"
+      ],
+      "status": "house",
+      "bgg": {
+        "name": "Drinking Fluxx",
+        "year": "2017",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "40",
+        "minPlayTime": "10",
+        "maxPlayTime": "40",
+        "minAge": "21",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/NnxLGq0wJuqA2JEYV9lrog__original/img/LXSBKVZkQeocjS4CBNTPGj-HFsY=/0x0/filters:format(jpeg)/pic3587406.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/NnxLGq0wJuqA2JEYV9lrog__small/img/DgvjfzEaCHiWrg0-9_GZa0jTvIc=/fit-in/200x150/filters:strip_icc()/pic3587406.jpg"
       }
     },
     {
@@ -3072,6 +3146,34 @@
         "weight": "3.2733",
         "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg",
         "thumbnail": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__small/img/BTxqxgYay5tHJfVoJ2NF5g43_gA=/fit-in/200x150/filters:strip_icc()/pic3536616.jpg"
+      }
+    },
+    {
+      "id": "031",
+      "bggId": "227072",
+      "title": "The Chameleon",
+      "types": [
+        "Party",
+        "Word Game"
+      ],
+      "locations": [
+        "Hot Off the Press"
+      ],
+      "status": "lendable",
+      "bgg": {
+        "name": "The Chameleon",
+        "year": "2017",
+        "minPlayers": "3",
+        "maxPlayers": "8",
+        "bestWith": "Best with 6–7 players",
+        "recommendedWith": "Recommended with 4–8 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "12",
+        "weight": "1.0472",
+        "image": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__original/img/Y_12y74FIaAXMfiQ0tFhpfkrN1U=/0x0/filters:format(png)/pic3552344.png",
+        "thumbnail": "https://cf.geekdo-images.com/-uBkiypUVyRKxNuOI_-ZpQ__small/img/qv_sRsagG0xQzNxg4Ol_AgiR2SY=/fit-in/200x150/filters:strip_icc()/pic3552344.png"
       }
     },
     {
