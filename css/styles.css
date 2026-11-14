@@ -873,6 +873,81 @@ textarea { resize: vertical; min-height: 120px; }
   margin-top: 2rem;
 }
 
+/* Box art beside the facts; above them on a phone. BGG's thumbnail is at
+   most 200x150 and about 10 KB, kind to a phone that just scanned a tag. */
+.game-top {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  gap: 1.5rem;
+}
+
+.game-top .game-facts { flex: 1 1 22rem; }
+
+.game-art {
+  flex: 0 0 auto;
+  max-width: 200px;
+  height: auto;
+  border: var(--border) solid var(--line);
+  border-radius: var(--radius-sm);
+  background: var(--surface);
+  box-shadow: 5px 5px 0 var(--drop);
+}
+
+.game-art[hidden],
+.game-about[hidden],
+.fact-note[hidden],
+.bgg-credit[hidden] { display: none; }
+
+/* BGG's own poll wording, under the player count. */
+.fact-note {
+  display: block;
+  margin-top: 0.2rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.game-about {
+  max-width: 40rem;
+  margin-top: 2.5rem;
+}
+
+.game-about h2 { margin-bottom: 0.75rem; }
+.game-about p { margin: 0 0 1rem; white-space: pre-line; }
+
+/* "Powered by BGG", required by BGG's terms wherever their data appears. The
+   logo's lettering is dark on a transparent ground, so it sits on a white
+   chip that keeps it legible in dark mode. */
+.bgg-credit {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem 1rem;
+  margin-top: 1.5rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+}
+
+.bgg-credit a {
+  display: inline-flex;
+  padding: 0.25rem 0.5rem;
+  border-radius: var(--radius-sm);
+  background: #fff;
+}
+
+.bgg-credit img { display: block; width: 150px; height: auto; }
+
+/* Catalog titles open the game's own page. */
+.game-link {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: var(--accent);
+  text-decoration-thickness: 2px;
+  text-underline-offset: 3px;
+}
+
+.game-link:hover { text-decoration-color: currentColor; }
+
 /* --------------------------------------------------------------------------
    13. Catalog: player pips, complexity, availability
    -------------------------------------------------------------------------- */
@@ -921,7 +996,7 @@ tr[data-weight="Light"]  td:nth-child(5) { color: var(--green); }
 tr[data-weight="Medium"] td:nth-child(5) { color: var(--muted); }
 tr[data-weight="Heavy"]  td:nth-child(5) { color: var(--berry); font-weight: 600; }
 
-#catalog td:nth-child(5) { font-family: var(--font-mono); font-size: 0.85rem; }
+#catalog td:nth-child(5) { font-family: var(--font-mono); font-size: 0.85rem; white-space: nowrap; }
 #catalog td:nth-child(4) { font-family: var(--font-mono); font-size: 0.85rem; }
 
 /* Rental reads as a state, not a sentence: a game either goes home with you

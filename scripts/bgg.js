@@ -68,15 +68,31 @@ async function request(command, params) {
 // BGG's responses are flat and regular, so a few regexes are enough and keep
 // the scripts free of dependencies.
 
+// XML's five entities, plus the HTML ones BGG's descriptions use. Unknown
+// names are left as they are rather than guessed at.
+const NAMED = {
+  quot: '"', apos: "'", lt: "<", gt: ">", amp: "&", nbsp: " ",
+  mdash: "—", ndash: "–", hellip: "…", times: "×",
+  lsquo: "‘", rsquo: "’", ldquo: "“", rdquo: "”",
+  laquo: "«", raquo: "»", bull: "•", middot: "·",
+  deg: "°", copy: "©", reg: "®", trade: "™",
+  eacute: "é", egrave: "è", ecirc: "ê", aacute: "á",
+  agrave: "à", acirc: "â", iacute: "í", oacute: "ó",
+  ocirc: "ô", uacute: "ú", ccedil: "ç", ntilde: "ñ",
+  auml: "ä", ouml: "ö", uuml: "ü", szlig: "ß"
+};
+
+// One pass, so "&amp;mdash;" becomes "&mdash;", not an em dash.
 function decode(str) {
-  return str
-    .replace(/&#x([0-9a-f]+);/gi, (m, hex) => String.fromCodePoint(parseInt(hex, 16)))
-    .replace(/&#(\d+);/g, (m, dec) => String.fromCodePoint(parseInt(dec, 10)))
-    .replace(/&quot;/g, '"')
-    .replace(/&apos;/g, "'")
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&amp;/g, "&");
+  return str.replace(/&(#x[0-9a-f]+|#\d+|[a-z]+);/gi, (m, name) => {
+    if (name[0] === "#") {
+      const code = name[1] === "x" || name[1] === "X"
+        ? parseInt(name.slice(2), 16)
+        : parseInt(name.slice(1), 10);
+      return String.fromCodePoint(code);
+    }
+    return Object.prototype.hasOwnProperty.call(NAMED, name) ? NAMED[name] : m;
+  });
 }
 
 function attrs(tagText) {
@@ -144,7 +160,8 @@ function parseThing(item) {
     weight: value(body, "averageweight"),
     image: text(body, "image"),
     thumbnail: text(body, "thumbnail"),
-    description: text(body, "description")
+    // BGG escapes descriptions twice ("&amp;mdash;"), so decode once more.
+    description: decode(text(body, "description"))
   };
 }
 

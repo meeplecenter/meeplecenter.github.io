@@ -2,11 +2,16 @@
  * Builds and powers the Meeple Center game catalog (catalog.html).
  *
  * The library spreadsheet is the source of truth, but the page doesn't wait on
- * it. We render data/games.json first -- a copy refreshed weekly by
+ * it. We render data/games.json first -- a copy refreshed daily by
  * .github/workflows/refresh-catalog.yml, served from our own domain, so the
  * table appears without a round trip to Google. Then we fetch the sheet in the
  * background and quietly swap the table only if something actually changed, so
  * an edit still shows up on the very next page load.
+ *
+ * Players, play time, and complexity come from BoardGameGeek, which only the
+ * cached copy carries; the live sheet's rows pick it up by BGG ID (see
+ * withBgg and facts in js/catalog-data.js). BGG's terms require the "Powered
+ * by BGG" credit under the table and BGG's weight shown as BGG gives it.
  *
  * If that background fetch fails -- Google is down, the sheet's sharing
  * changed, the visitor is offline -- the cached table simply stays, with a note
@@ -25,7 +30,14 @@
   // Same-origin copy written by scripts/fetch-catalog.js.
   var CACHE_URL = "data/games.json";
 
-  var WEIGHT_ORDER = { "Light": 0, "Medium": 1, "Heavy": 2 };
+  // Sorts sheet-only complexity words among BGG's 1-5 weights.
+  var WEIGHT_ORDER = { "Light": 1.5, "Medium": 2.5, "Heavy": 3.5 };
+
+  // The player filter's options run 1 to PLAYER_CAP, the last meaning "or
+  // more": BGG lists some party games for up to 99.
+  var PLAYER_CAP = 8;
+  // The play time filter means "fits in this many minutes".
+  var TIME_LIMITS = [15, 30, 45, 60, 90, 120];
 
   var PIP_LIMIT = 5;  // at most this many meeples before a numeral takes over
   var PIP_SHORT = 4;  // meeples drawn alongside that numeral
@@ -36,7 +48,7 @@
   var EMPTY = "&mdash;";
 
   var tbody = null;
-  var rows = []; // [{ el, title, types, locations, max, open, time, weight, status }]
+  var rows = []; // [{ el, title, types, locations, status, facts }]
 
   var els = {}; // cache of filter/control elements, looked up once
 
@@ -72,33 +84,31 @@
      --------------------------------------------------------------------- */
 
   // The player count in words, for the cell's tooltip and its screen readers.
-  function playersLabel(game) {
-    if (!game.max) { return "Player count unknown"; }
-    return game.open
-      ? game.max + " or more players"
-      : (game.max === 1 ? "1 player" : "up to " + game.max + " players");
+  function playersLabel(f) {
+    return DATA.playersText(f) || "Player count unknown";
   }
 
   // Player count, drawn as one meeple per seat up to five. Past that the row
   // keeps four meeples and spells the rest as a numeral, so every wide count
   // occupies the same width: XXXXX, XXXX6, XXXX7+, XXXX9+.
-  function pipsHtml(game) {
-    if (!game.max) { return "<span>" + EMPTY + "</span>"; }
+  function pipsHtml(f) {
+    var max = f.maxPlayers;
+    if (!max) { return "<span>" + EMPTY + "</span>"; }
 
-    var numeric = game.open || game.max > PIP_LIMIT;
-    var shown = numeric ? Math.min(game.max, PIP_SHORT) : game.max;
+    var numeric = f.openEnded || max > PIP_LIMIT;
+    var shown = numeric ? Math.min(max, PIP_SHORT) : max;
     var pips = "";
     for (var n = 1; n <= shown; n++) {
       pips += '<span class="meeple-icon" aria-hidden="true"></span>';
     }
     if (numeric) {
       pips += '<span class="more" aria-hidden="true">' +
-        Math.min(game.max, PIP_MAX) +
-        (game.open || game.max > PIP_MAX ? "+" : "") + "</span>";
+        Math.min(max, PIP_MAX) +
+        (f.openEnded || max > PIP_MAX ? "+" : "") + "</span>";
     }
 
     return '<span class="pips">' + pips + "</span>" +
-      '<span class="sr-only">' + playersLabel(game) + "</span>";
+      '<span class="sr-only">' + escapeHtml(playersLabel(f)) + "</span>";
   }
 
   // Both tag columns are drawn the same way; only the attribute the CSS
@@ -125,13 +135,21 @@
       (lendable ? "Available to rent" : "In-house only") + "</span>";
   }
 
-  function rowHtml(game) {
-    return "<td>" + escapeHtml(game.title) + "</td>" +
+  // Each title opens its own page, the one its NFC tag points at.
+  function titleHtml(game) {
+    var title = escapeHtml(game.title);
+    if (!game.id) { return title; }
+    return '<a class="game-link" href="game.html?id=' +
+      encodeURIComponent(game.id) + '">' + title + "</a>";
+  }
+
+  function rowHtml(game, f) {
+    return "<td>" + titleHtml(game) + "</td>" +
       "<td>" + tagsHtml(game.types, "data-type") + "</td>" +
-      '<td class="col-players" title="' + escapeHtml(playersLabel(game)) + '">' +
-        pipsHtml(game) + "</td>" +
-      "<td>" + (game.time ? game.time : EMPTY) + "</td>" +
-      "<td>" + (game.weight || EMPTY) + "</td>" +
+      '<td class="col-players" title="' + escapeHtml(playersLabel(f)) + '">' +
+        pipsHtml(f) + "</td>" +
+      "<td>" + (f.time ? f.time : EMPTY) + "</td>" +
+      "<td>" + (f.weightText ? escapeHtml(f.weightText) : EMPTY) + "</td>" +
       '<td class="col-rental">' + rentalHtml(game) + "</td>" +
       "<td>" + tagsHtml(game.locations, "data-location") + "</td>";
   }
@@ -142,10 +160,11 @@
 
     for (var i = 0; i < games.length; i++) {
       var game = games[i];
+      var f = DATA.facts(game);
       var tr = document.createElement("tr");
-      tr.setAttribute("data-weight", game.weight);
+      tr.setAttribute("data-weight", f.weightBand);
       tr.setAttribute("data-status", game.status);
-      tr.innerHTML = rowHtml(game);
+      tr.innerHTML = rowHtml(game, f);
       frag.appendChild(tr);
 
       // A fresh object rather than tacking .el onto the caller's game: the
@@ -156,11 +175,8 @@
         title: game.title,
         types: game.types,
         locations: game.locations || [],
-        max: game.max,
-        open: game.open,
-        time: game.time,
-        weight: game.weight,
-        status: game.status
+        status: game.status,
+        facts: f
       });
     }
 
@@ -192,16 +208,17 @@
   function populateFilters(games) {
     var types = {};
     var locations = {};
-    var counts = {};
-    var times = {};
+    var mostPlayers = 0;
+    var longest = 0;
 
     for (var i = 0; i < games.length; i++) {
       var game = games[i];
+      var f = DATA.facts(game);
       for (var t = 0; t < game.types.length; t++) { types[game.types[t]] = true; }
       var locs = game.locations || [];
       for (var l = 0; l < locs.length; l++) { locations[locs[l]] = true; }
-      if (game.max) { counts[game.max] = true; }
-      if (game.time) { times[game.time] = true; }
+      mostPlayers = Math.max(mostPlayers, f.openEnded ? PLAYER_CAP : f.maxPlayers);
+      longest = Math.max(longest, f.time);
     }
 
     addOptions(els.type, Object.keys(types).sort(function (a, b) {
@@ -212,16 +229,22 @@
       return a.localeCompare(b);
     }));
 
-    addOptions(els.players, Object.keys(counts).map(Number).sort(function (a, b) {
-      return a - b;
-    }), function (n) {
-      return n + " or more";
+    var counts = [];
+    for (var n = 1; n <= Math.min(mostPlayers, PLAYER_CAP); n++) { counts.push(n); }
+    addOptions(els.players, counts, function (n) {
+      if (n === PLAYER_CAP) { return n + " or more players"; }
+      return n === 1 ? "1 player" : n + " players";
     });
 
-    addOptions(els.time, Object.keys(times).map(Number).sort(function (a, b) {
-      return a - b;
-    }), function (n) {
-      return "~" + n + " min";
+    // Every limit up to the first one that fits the longest game.
+    var limits = [];
+    for (var k = 0; k < TIME_LIMITS.length; k++) {
+      limits.push(TIME_LIMITS[k]);
+      if (TIME_LIMITS[k] >= longest) { break; }
+    }
+    addOptions(els.time, limits, function (n) {
+      return n < 60 ? "Up to " + n + " min"
+        : "Up to " + (n / 60) + (n === 60 ? " hour" : " hours");
     });
   }
 
@@ -252,23 +275,29 @@
     return false;
   }
 
-  // The sheet records only a maximum, so "5 or more" means "seats at least 5".
+  // "Plays n": within BGG's range. Sheet-only games have just a maximum, so
+  // any count up to it matches; the top option means "n or more".
   function matchesPlayers(game, val) {
     if (!val) { return true; }
     var n = parseInt(val, 10);
     if (isNaN(n)) { return true; }
-    return game.max >= n;
+    var f = game.facts;
+    if (!f.maxPlayers) { return false; }
+    if (n >= PLAYER_CAP) { return f.openEnded || f.maxPlayers >= n; }
+    return (f.minPlayers || 1) <= n && (f.openEnded || f.maxPlayers >= n);
   }
 
+  // "Fits in n minutes": the listed play time is at most n.
   function matchesTime(game, val) {
     if (!val) { return true; }
     var n = parseInt(val, 10);
     if (isNaN(n)) { return true; }
-    return game.time === n;
+    return game.facts.time > 0 && game.facts.time <= n;
   }
 
+  // Light under 2, Medium 2-3, Heavy over 3, on BGG's weight.
   function matchesWeight(game, val) {
-    return !val || game.weight === val;
+    return !val || game.facts.weightBand === val;
   }
 
   function matchesStatus(game, val) {
@@ -336,16 +365,19 @@
      Sorting
      --------------------------------------------------------------------- */
 
+  function weightSortValue(f) {
+    if (f.weight) { return f.weight; }
+    return WEIGHT_ORDER.hasOwnProperty(f.weightBand) ? WEIGHT_ORDER[f.weightBand] : -1;
+  }
+
   function compareValues(a, b, key) {
     switch (key) {
       case "players":
-        return a.max - b.max;
+        return a.facts.maxPlayers - b.facts.maxPlayers;
       case "time":
-        return a.time - b.time;
+        return a.facts.time - b.facts.time;
       case "weight":
-        var wa = WEIGHT_ORDER.hasOwnProperty(a.weight) ? WEIGHT_ORDER[a.weight] : -1;
-        var wb = WEIGHT_ORDER.hasOwnProperty(b.weight) ? WEIGHT_ORDER[b.weight] : -1;
-        return wa - wb;
+        return weightSortValue(a.facts) - weightSortValue(b.facts);
       case "type":
       case "location":
         var list = key === "type" ? "types" : "locations";
@@ -495,13 +527,14 @@
 
   // A comparable fingerprint of the catalog. Sorted, so "did anything change?"
   // doesn't depend on the sheet's row order matching the cache's, and built
-  // from named fields only, so it can't be thrown off by an extra property
+  // from what the table shows, so it can't be thrown off by an extra property
   // hanging off a game object.
   function signature(games) {
     return games.map(function (g) {
+      var f = DATA.facts(g);
       return [
-        g.title, (g.types || []).join("|"), (g.locations || []).join("|"),
-        g.max, g.open, g.time, g.weight, g.status
+        g.id, g.title, (g.types || []).join("|"), (g.locations || []).join("|"),
+        f.minPlayers, f.maxPlayers, f.openEnded, f.time, f.weightText, g.status
       ].join("\t");
     }).sort().join("\n");
   }
@@ -533,7 +566,8 @@
   // nothing CORS would let us read anyway -- so fetching it outright is both
   // simpler and no slower than asking first.
   function revalidate(cached) {
-    return fetchLive().then(function (games) {
+    return fetchLive().then(function (live) {
+      var games = DATA.withBgg(live, cached);
       if (signature(games) !== signature(cached)) {
         show(games, true);
       }
@@ -564,7 +598,7 @@
   function load() {
     loadCache()
       .catch(function () {
-        // No cached copy yet -- a fresh checkout before the first weekly
+        // No cached copy yet -- a fresh checkout before the first daily
         // refresh, say. Fall back to the sheet on its own.
         return fetchLive().then(function (games) {
           show(games);

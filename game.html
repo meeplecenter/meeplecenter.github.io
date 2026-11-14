@@ -46,24 +46,38 @@
         <p class="catalog-status">This page needs JavaScript to look up the game.</p>
       </noscript>
 
-      <dl id="game-facts" class="game-facts" hidden>
-        <dt>Type</dt>
-        <dd id="fact-type"></dd>
-        <dt>Players</dt>
-        <dd id="fact-players"></dd>
-        <dt>Play time</dt>
-        <dd id="fact-time"></dd>
-        <dt>Complexity</dt>
-        <dd id="fact-weight"></dd>
-        <dt>Location</dt>
-        <dd id="fact-location"></dd>
-        <dt>Rental</dt>
-        <dd id="fact-rental"></dd>
-      </dl>
+      <div class="game-top">
+        <img id="game-art" class="game-art" alt="" hidden>
+
+        <dl id="game-facts" class="game-facts" hidden>
+          <dt>Type</dt>
+          <dd id="fact-type"></dd>
+          <dt>Players</dt>
+          <dd><span id="fact-players"></span><span id="fact-best" class="fact-note" hidden></span></dd>
+          <dt>Play time</dt>
+          <dd id="fact-time"></dd>
+          <dt>Complexity</dt>
+          <dd id="fact-weight"></dd>
+          <dt>Location</dt>
+          <dd id="fact-location"></dd>
+          <dt>Rental</dt>
+          <dd id="fact-rental"></dd>
+        </dl>
+      </div>
 
       <p class="game-actions">
         <a id="game-bgg" class="btn btn-primary" hidden>Rules &amp; how to play on BoardGameGeek</a>
         <a class="btn" href="catalog.html">Browse the full catalog</a>
+      </p>
+
+      <section id="game-about" class="game-about" aria-labelledby="game-about-heading" hidden>
+        <h2 id="game-about-heading">About this game</h2>
+        <div id="game-description"></div>
+      </section>
+
+      <p id="game-credit" class="bgg-credit" hidden>
+        Game details and box art come from BoardGameGeek.
+        <a href="https://boardgamegeek.com"><img src="assets/powered_by_bgg.webp" alt="Powered by BoardGameGeek" width="150" height="44"></a>
       </p>
     </div>
   </section>
