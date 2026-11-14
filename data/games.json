@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-11-08T16:34:27.830Z",
+  "generatedAt": "2026-11-14T14:27:29.377Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
   "count": 144,
   "games": [
     {
       "id": "001",
-      "bggId": "",
+      "bggId": "68448",
       "title": "7 Wonders",
       "types": [
         "Drafting",
@@ -18,11 +18,26 @@
       "open": true,
       "time": 60,
       "weight": "Heavy",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "7 Wonders",
+        "year": "2010",
+        "minPlayers": "2",
+        "maxPlayers": "7",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–7 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "10",
+        "weight": "2.3145",
+        "image": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__original/img/jt70jJDZ1y1FWJs4ZQf5FI8APVY=/0x0/filters:format(jpeg)/pic7149798.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/35h9Za_JvMMMtx_92kT0Jg__small/img/BUOso8b0M1aUOkU80FWlhE8uuxc=/fit-in/200x150/filters:strip_icc()/pic7149798.jpg"
+      }
     },
     {
       "id": "002",
-      "bggId": "",
+      "bggId": "17329",
       "title": "Animal Upon Animal",
       "types": [
         "Dexterity",
@@ -35,11 +50,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Animal Upon Animal",
+        "year": "2005",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "4",
+        "weight": "1.0428",
+        "image": "https://cf.geekdo-images.com/5RHnNYBqmNXYvDtIeJw3pA__original/img/mD1qqRY_sjE0G6ojCQwy_mkErHY=/0x0/filters:format(jpeg)/pic403502.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/5RHnNYBqmNXYvDtIeJw3pA__small/img/k3dUd6Gx-ogOeDtH2HsyVX0n-8E=/fit-in/200x150/filters:strip_icc()/pic403502.jpg"
+      }
     },
     {
       "id": "003",
-      "bggId": "",
+      "bggId": "230802",
       "title": "Azul",
       "types": [
         "Tile Placement",
@@ -53,11 +83,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Azul",
+        "year": "2017",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "1.7746",
+        "image": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__original/img/AkbtYVc6xXJF3c9EUrakklcclKw=/0x0/filters:format(png)/pic6973671.png",
+        "thumbnail": "https://cf.geekdo-images.com/aPSHJO0d0XOpQR5X-wJonw__small/img/ccsXKrdGJw-YSClWwzVUwk5Nh9Y=/fit-in/200x150/filters:strip_icc()/pic6973671.png"
+      }
     },
     {
       "id": "004",
-      "bggId": "",
+      "bggId": "287954",
       "title": "Azul: Summer Pavilion",
       "types": [
         "Tile Placement",
@@ -71,11 +116,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Azul: Summer Pavilion",
+        "year": "2019",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2–3 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "2.0791",
+        "image": "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__original/img/VtYGvhy_YCSw14FpV8FGzv0eMe4=/0x0/filters:format(jpeg)/pic4930887.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/843kZ6WR0HfyXWEybA6L7A__small/img/sOiQSPo_DM7G1Om0PF1T2Z8ACcA=/fit-in/200x150/filters:strip_icc()/pic4930887.jpg"
+      }
     },
     {
       "id": "005",
-      "bggId": "",
+      "bggId": "2397",
       "title": "Backgammon",
       "types": [
         "Abstract",
@@ -88,11 +148,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Backgammon",
+        "year": "1635",
+        "minPlayers": "2",
+        "maxPlayers": "2",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.9971",
+        "image": "https://cf.geekdo-images.com/PournqDRZ4mb9yFpJvAc_Q__original/img/Ifrj-OZIhhfQCrWpC6Aqp2bEV-E=/0x0/filters:format(jpeg)/pic9098768.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/PournqDRZ4mb9yFpJvAc_Q__small/img/AJeWF8FohhEjsbLUMu68f0xcZhk=/fit-in/200x150/filters:strip_icc()/pic9098768.jpg"
+      }
     },
     {
       "id": "006",
-      "bggId": "",
+      "bggId": "163",
       "title": "Balderdash",
       "types": [
         "Party",
@@ -105,11 +180,26 @@
       "open": false,
       "time": 60,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Balderdash",
+        "year": "1984",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 5–6 players",
+        "recommendedWith": "Recommended with 4–6+ players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "12",
+        "weight": "1.39",
+        "image": "https://cf.geekdo-images.com/hXNqiCcLt9AJzcqBSsyKiQ__original/img/77EMP3lRlpwjMTGP1cHQqv7w5lk=/0x0/filters:format(jpeg)/pic5121000.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/hXNqiCcLt9AJzcqBSsyKiQ__small/img/z9TNjpF6z2JxYMWRDtsF958SX8A=/fit-in/200x150/filters:strip_icc()/pic5121000.jpg"
+      }
     },
     {
       "id": "007",
-      "bggId": "",
+      "bggId": "27225",
       "title": "Bananagrams",
       "types": [
         "Word Game",
@@ -122,11 +212,26 @@
       "open": true,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Bananagrams",
+        "year": "2006",
+        "minPlayers": "1",
+        "maxPlayers": "8",
+        "bestWith": "Best with 3–5 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "7",
+        "weight": "1.289",
+        "image": "https://cf.geekdo-images.com/1QjYPI4bXx4OUMJPlrsNBA__original/img/WA2NRNJx83xq81H2dnnwEDV2Ork=/0x0/filters:format(jpeg)/pic2463443.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/1QjYPI4bXx4OUMJPlrsNBA__small/img/nC_gG-4CYy7VBfYez2qSfTkU2ik=/fit-in/200x150/filters:strip_icc()/pic2463443.jpg"
+      }
     },
     {
       "id": "008",
-      "bggId": "",
+      "bggId": "160567",
       "title": "BANG!: The Walking Dead",
       "types": [
         "Social Deduction"
@@ -138,11 +243,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "BANG!: The Walking Dead",
+        "year": "2014",
+        "minPlayers": "4",
+        "maxPlayers": "7",
+        "bestWith": "Best with 6–7 players",
+        "recommendedWith": "Recommended with 5–7 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "13",
+        "weight": "1.75",
+        "image": "https://cf.geekdo-images.com/MukUiz5sha9lxdLWMVoFgQ__original/img/B93tmMi-aehBLhtUbkD8a3uXDNs=/0x0/filters:format(jpeg)/pic2062142.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/MukUiz5sha9lxdLWMVoFgQ__small/img/Y4SvFfAi9lOII7dCZZm85V5CjP8=/fit-in/200x150/filters:strip_icc()/pic2062142.jpg"
+      }
     },
     {
       "id": "009",
-      "bggId": "",
+      "bggId": "20422",
       "title": "Beat the Parents",
       "types": [
         "Party",
@@ -155,11 +275,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Beat the Parents",
+        "year": "2004",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 4, 6 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.125",
+        "image": "https://cf.geekdo-images.com/BBTS1IJxjbaTZFGOpBIZeQ__original/img/-bSkMIShPZFzEMOSbstI1RXTeEU=/0x0/filters:format(jpeg)/pic101278.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/BBTS1IJxjbaTZFGOpBIZeQ__small/img/TcdyPl-m3Z5de-71fNq-vcjWGo8=/fit-in/200x150/filters:strip_icc()/pic101278.jpg"
+      }
     },
     {
       "id": "010",
-      "bggId": "",
+      "bggId": "228660",
       "title": "Betrayal at Baldur's Gate",
       "types": [
         "Co-Op"
@@ -171,11 +306,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Betrayal at Baldur's Gate",
+        "year": "2017",
+        "minPlayers": "3",
+        "maxPlayers": "6",
+        "bestWith": "Best with 5 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "12",
+        "weight": "2.5814",
+        "image": "https://cf.geekdo-images.com/O6TfqmDWCkJvZPZw6pcxpg__original/img/tkQGqsTWjyxc46gblN31CRP4JU4=/0x0/filters:format(png)/pic6552099.png",
+        "thumbnail": "https://cf.geekdo-images.com/O6TfqmDWCkJvZPZw6pcxpg__small/img/LqmZdde9lw05eGIfxYJZiF1DaYs=/fit-in/200x150/filters:strip_icc()/pic6552099.png"
+      }
     },
     {
       "id": "011",
-      "bggId": "",
+      "bggId": "10547",
       "title": "Betrayal at House on the Hill",
       "types": [
         "Co-Op"
@@ -187,7 +337,22 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Betrayal at House on the Hill",
+        "year": "2004",
+        "minPlayers": "3",
+        "maxPlayers": "6",
+        "bestWith": "Best with 5–6 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "12",
+        "weight": "2.3999",
+        "image": "https://cf.geekdo-images.com/lqmt2Oti_qJS65XqHcB8AA__original/img/7R6yYk8A2eUMmSDaxGjae5SceGI=/0x0/filters:format(png)/pic5146864.png",
+        "thumbnail": "https://cf.geekdo-images.com/lqmt2Oti_qJS65XqHcB8AA__small/img/EDOmDbRhLy4za2PHkJ5IbhNxZmk=/fit-in/200x150/filters:strip_icc()/pic5146864.png"
+      }
     },
     {
       "id": "012",
@@ -226,7 +391,7 @@
     },
     {
       "id": "014",
-      "bggId": "",
+      "bggId": "272438",
       "title": "Blockbuster",
       "types": [
         "Party",
@@ -239,11 +404,26 @@
       "open": false,
       "time": 90,
       "weight": "",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Blockbuster",
+        "year": "2019",
+        "minPlayers": "4",
+        "maxPlayers": "10",
+        "bestWith": "Best with 6, 8 players",
+        "recommendedWith": "Recommended with 4, 6–10 players",
+        "playingTime": "60",
+        "minPlayTime": "30",
+        "maxPlayTime": "60",
+        "minAge": "12",
+        "weight": "1.087",
+        "image": "https://cf.geekdo-images.com/OixUz80u_9uHo2cax1hjIw__original/img/B1kP8Yzu3tJtqf9FcSxW3cr1tPk=/0x0/filters:format(png)/pic6348636.png",
+        "thumbnail": "https://cf.geekdo-images.com/OixUz80u_9uHo2cax1hjIw__small/img/6aulGtFoCmIauLJgwk9PI7pzhmY=/fit-in/200x150/filters:strip_icc()/pic6348636.png"
+      }
     },
     {
       "id": "015",
-      "bggId": "",
+      "bggId": "2453",
       "title": "Blokus",
       "types": [
         "Tile Placement",
@@ -257,7 +437,22 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Blokus",
+        "year": "2000",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2, 4 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "7",
+        "weight": "1.73",
+        "image": "https://cf.geekdo-images.com/96YA5wUJDxtPkmPxemr5Qg__original/img/sdX6o0TZpXjsDMw071k2P80wpYw=/0x0/filters:format(jpeg)/pic2197702.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/96YA5wUJDxtPkmPxemr5Qg__small/img/EBt2y7Awj5djyo185R7g6FV3P9g=/fit-in/200x150/filters:strip_icc()/pic2197702.jpg"
+      }
     },
     {
       "id": "016",
@@ -276,7 +471,7 @@
     },
     {
       "id": "017",
-      "bggId": "",
+      "bggId": "1293",
       "title": "Boggle",
       "types": [
         "Word Game"
@@ -286,11 +481,26 @@
       "open": true,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Boggle",
+        "year": "1972",
+        "minPlayers": "1",
+        "maxPlayers": "8",
+        "bestWith": "Best with 3–4 players",
+        "recommendedWith": "Recommended with 2–7 players",
+        "playingTime": "10",
+        "minPlayTime": "10",
+        "maxPlayTime": "10",
+        "minAge": "8",
+        "weight": "1.4559",
+        "image": "https://cf.geekdo-images.com/dsI6-jUj8mzOuC6gL4e42w__original/img/xf5XFqvj3TZxf3B_z9xR6lyGxic=/0x0/filters:format(jpeg)/pic7024967.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/dsI6-jUj8mzOuC6gL4e42w__small/img/YEc1l4n4HKd5_L1s1yTsqHyLjSw=/fit-in/200x150/filters:strip_icc()/pic7024967.jpg"
+      }
     },
     {
       "id": "018",
-      "bggId": "",
+      "bggId": "11",
       "title": "Bohnanza",
       "types": [
         "Card Game"
@@ -300,7 +510,22 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Bohnanza",
+        "year": "1997",
+        "minPlayers": "3",
+        "maxPlayers": "7",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–7 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "12",
+        "weight": "1.6663",
+        "image": "https://cf.geekdo-images.com/8SADtu_4zBH_UJrCo935Iw__original/img/RNuAr2CDbxE3XzeJVkxj4Df3eVM=/0x0/filters:format(jpeg)/pic6348964.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/8SADtu_4zBH_UJrCo935Iw__small/img/vwTEQOWA3Mw__ztkTMulOgJ82Pw=/fit-in/200x150/filters:strip_icc()/pic6348964.jpg"
+      }
     },
     {
       "id": "019",
@@ -323,7 +548,7 @@
     },
     {
       "id": "020",
-      "bggId": "",
+      "bggId": "380837",
       "title": "Botany",
       "types": [
         "Eurogame"
@@ -335,11 +560,26 @@
       "open": false,
       "time": 120,
       "weight": "Heavy",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Botany",
+        "year": "2024",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "90",
+        "minPlayTime": "45",
+        "maxPlayTime": "90",
+        "minAge": "8",
+        "weight": "2.0923",
+        "image": "https://cf.geekdo-images.com/keC0oy0nbpewpRTdcte42Q__original/img/QNK35DZ__DvatgNqOkXKdZF5QM0=/0x0/filters:format(png)/pic7361181.png",
+        "thumbnail": "https://cf.geekdo-images.com/keC0oy0nbpewpRTdcte42Q__small/img/HZKE-1leOFpU4Ny_dVpzPITexXs=/fit-in/200x150/filters:strip_icc()/pic7361181.png"
+      }
     },
     {
       "id": "021",
-      "bggId": "",
+      "bggId": "206175",
       "title": "Braintopia",
       "types": [
         "Trivia"
@@ -351,11 +591,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Braintopia",
+        "year": "2016",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "8",
+        "weight": "1.0556",
+        "image": "https://cf.geekdo-images.com/cOKyWfTL7Wb9ECC-34gsdQ__original/img/AqG49rHyLAU0OM4CJ_4KPb6FIbo=/0x0/filters:format(jpeg)/pic3539828.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/cOKyWfTL7Wb9ECC-34gsdQ__small/img/OuvwUUpVIiJgRQMpw9ePyzdAnG4=/fit-in/200x150/filters:strip_icc()/pic3539828.jpg"
+      }
     },
     {
       "id": "022",
-      "bggId": "",
+      "bggId": "286910",
       "title": "Buzzwords",
       "types": [
         "Word Game",
@@ -368,11 +623,26 @@
       "open": true,
       "time": 60,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Buzzwords",
+        "year": "1987",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "",
+        "recommendedWith": "(no votes)",
+        "playingTime": "0",
+        "minPlayTime": "0",
+        "maxPlayTime": "0",
+        "minAge": "8",
+        "weight": "0",
+        "image": "https://cf.geekdo-images.com/eYFVQUTzpG1s43degp38fA__original/img/OauDd-e9pxov5q_ljeXQNyi-nGg=/0x0/filters:format(jpeg)/pic4925181.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/eYFVQUTzpG1s43degp38fA__small/img/8z4wS1aw0-WYul08SUXPYZOMgWY=/fit-in/200x150/filters:strip_icc()/pic4925181.jpg"
+      }
     },
     {
       "id": "023",
-      "bggId": "",
+      "bggId": "822",
       "title": "Carcassonne",
       "types": [
         "Area Control",
@@ -386,7 +656,22 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Carcassonne",
+        "year": "2000",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "7",
+        "weight": "1.8822",
+        "image": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__original/img/bP18m_PYjyFOv1IBGgMOteQUneA=/0x0/filters:format(jpeg)/pic8621446.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/peUgu3A20LRmAXAMyDQfpQ__small/img/oEEslN-EGqh82sNI6Aj4_MFXYg0=/fit-in/200x150/filters:strip_icc()/pic8621446.jpg"
+      }
     },
     {
       "id": "024",
@@ -407,7 +692,7 @@
     },
     {
       "id": "025",
-      "bggId": "",
+      "bggId": "263918",
       "title": "Cartographers",
       "types": [
         "Flip & Write"
@@ -419,11 +704,26 @@
       "open": true,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Cartographers",
+        "year": "2019",
+        "minPlayers": "1",
+        "maxPlayers": "100",
+        "bestWith": "Best with 3–4 players",
+        "recommendedWith": "Recommended with 1–8 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "10",
+        "weight": "1.892",
+        "image": "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__original/img/YzJORdIDNza8kmrY6KEU_h2p2Wo=/0x0/filters:format(png)/pic4397932.png",
+        "thumbnail": "https://cf.geekdo-images.com/GifbnAmsA4lfEcDkeaC9VA__small/img/TTxZzwbna07hMcPQ0xaFtT10egE=/fit-in/200x150/filters:strip_icc()/pic4397932.png"
+      }
     },
     {
       "id": "026",
-      "bggId": "",
+      "bggId": "295947",
       "title": "Cascadia",
       "types": [
         "Tile Placement",
@@ -437,11 +737,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Cascadia",
+        "year": "2021",
+        "minPlayers": "1",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2–3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "10",
+        "weight": "1.8434",
+        "image": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__original/img/B374C04Eip7fmQBGJzgiOTp-jyQ=/0x0/filters:format(jpeg)/pic5100691.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/MjeJZfulbsM1DSV3DrGJYA__small/img/tVSFjSxYEcw7sKj3unIIQV8kxoc=/fit-in/200x150/filters:strip_icc()/pic5100691.jpg"
+      }
     },
     {
       "id": "027",
-      "bggId": "",
+      "bggId": "385318",
       "title": "Cascadia: Landmarks",
       "types": [
         "Tile Placement",
@@ -455,11 +770,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Cascadia: Landmarks",
+        "year": "2023",
+        "minPlayers": "1",
+        "maxPlayers": "6",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 1–6 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "10",
+        "weight": "2.2262",
+        "image": "https://cf.geekdo-images.com/sD3EGm2CyvQGrp7FhScs0w__original/img/MS_E_-lJJ8SDopcqra9yq4JopbA=/0x0/filters:format(jpeg)/pic7453773.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/sD3EGm2CyvQGrp7FhScs0w__small/img/wPg8YV5oURy3SQ18vYrpBf-R3_s=/fit-in/200x150/filters:strip_icc()/pic7453773.jpg"
+      }
     },
     {
       "id": "028",
-      "bggId": "",
+      "bggId": "43443",
       "title": "Castle Panic",
       "types": [
         "AmeriTrash",
@@ -473,7 +803,22 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Castle Panic",
+        "year": "2009",
+        "minPlayers": "1",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 1–6 players",
+        "playingTime": "60",
+        "minPlayTime": "30",
+        "maxPlayTime": "60",
+        "minAge": "8",
+        "weight": "1.657",
+        "image": "https://cf.geekdo-images.com/ryPiCH15spkrdtvUI-utuA__original/img/RYiSrrenTejCl149T6tc2d9CuwA=/0x0/filters:format(jpeg)/pic6966125.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/ryPiCH15spkrdtvUI-utuA__small/img/2MMQHuG-dSRngk0E2EKeqyE8e9o=/fit-in/200x150/filters:strip_icc()/pic6966125.jpg"
+      }
     },
     {
       "id": "029",
@@ -489,11 +834,26 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Catan Dice Game",
+        "year": "2007",
+        "minPlayers": "1",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 1–3 players",
+        "playingTime": "30",
+        "minPlayTime": "15",
+        "maxPlayTime": "30",
+        "minAge": "7",
+        "weight": "1.2263",
+        "image": "https://cf.geekdo-images.com/lNVa_4IQ3pBHuh5CRzSe-w__original/img/nDWd2-dY7D1ZoFPZhXvDqQs_BA8=/0x0/filters:format(jpeg)/pic3661032.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/lNVa_4IQ3pBHuh5CRzSe-w__small/img/ICEhSw8IrhG7i-zNf9k7E3I3rrs=/fit-in/200x150/filters:strip_icc()/pic3661032.jpg"
+      }
     },
     {
       "id": "030",
-      "bggId": "",
+      "bggId": "282853",
       "title": "Catan: Starfarers",
       "types": [
         "Area Control",
@@ -506,7 +866,22 @@
       "open": false,
       "time": 90,
       "weight": "Heavy",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Catan: Starfarers",
+        "year": "2019",
+        "minPlayers": "3",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 3–4 players",
+        "playingTime": "120",
+        "minPlayTime": "120",
+        "maxPlayTime": "120",
+        "minAge": "14",
+        "weight": "2.5849",
+        "image": "https://cf.geekdo-images.com/r5AgUHuyt_jg4lOHcqL12A__original/img/lS7ACi4uTxqZnPwJ84rL-li9eFA=/0x0/filters:format(png)/pic6753707.png",
+        "thumbnail": "https://cf.geekdo-images.com/r5AgUHuyt_jg4lOHcqL12A__small/img/Hrqe-n4HPVHbcriS--573oLj9Y0=/fit-in/200x150/filters:strip_icc()/pic6753707.png"
+      }
     },
     {
       "id": "031",
@@ -527,7 +902,7 @@
     },
     {
       "id": "032",
-      "bggId": "",
+      "bggId": "2386",
       "title": "Chinese Checkers",
       "types": [
         "Abstract"
@@ -537,11 +912,26 @@
       "open": false,
       "time": 60,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Chinese Checkers",
+        "year": "1893",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 2–4, 6 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "7",
+        "weight": "1.5804",
+        "image": "https://cf.geekdo-images.com/MFhxbJJRHjIb4oWn70pJuQ__original/img/zvWQ28-I0i77QCaJlbNagykZHGo=/0x0/filters:format(jpeg)/pic113974.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/MFhxbJJRHjIb4oWn70pJuQ__small/img/dFpzaSl1vXFC4WqqZu-96SBbfhA=/fit-in/200x150/filters:strip_icc()/pic113974.jpg"
+      }
     },
     {
       "id": "033",
-      "bggId": "",
+      "bggId": "360817",
       "title": "Coaster Games",
       "types": [
         "Party"
@@ -553,11 +943,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "COASTER games",
+        "year": "2017",
+        "minPlayers": "1",
+        "maxPlayers": "99",
+        "bestWith": "",
+        "recommendedWith": "(no votes)",
+        "playingTime": "2",
+        "minPlayTime": "2",
+        "maxPlayTime": "2",
+        "minAge": "14",
+        "weight": "0",
+        "image": "https://cf.geekdo-images.com/5RtCgZPitEyCbfmodimbng__original/img/HDLU8uHpieMSU0gyFp8QHflhkxY=/0x0/filters:format(png)/pic9117889.png",
+        "thumbnail": "https://cf.geekdo-images.com/5RtCgZPitEyCbfmodimbng__small/img/6xmR5tNX9E1gyik0DfSQ7Qs6t_k=/fit-in/200x150/filters:strip_icc()/pic9117889.png"
+      }
     },
     {
       "id": "034",
-      "bggId": "",
+      "bggId": "178900",
       "title": "Codenames",
       "types": [
         "Word Game",
@@ -571,11 +976,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Codenames",
+        "year": "2015",
+        "minPlayers": "2",
+        "maxPlayers": "8",
+        "bestWith": "Best with 6, 8 players",
+        "recommendedWith": "Recommended with 4–8+ players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "10",
+        "weight": "1.251",
+        "image": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__original/img/Id-jjIer_61ZbvI2_RVRCeBZFY4=/0x0/filters:format(jpeg)/pic8907965.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/nC6ifPCDnAItwoKSKXVrnw__small/img/1iZav_8ZqurrDbvkZA9GcFhB5x0=/fit-in/200x150/filters:strip_icc()/pic8907965.jpg"
+      }
     },
     {
       "id": "035",
-      "bggId": "",
+      "bggId": "198773",
       "title": "Codenames: Pictures",
       "types": [
         "Word Game",
@@ -590,11 +1010,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Codenames: Pictures",
+        "year": "2016",
+        "minPlayers": "2",
+        "maxPlayers": "8",
+        "bestWith": "Best with 6 players",
+        "recommendedWith": "Recommended with 4–8+ players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "10",
+        "weight": "1.2333",
+        "image": "https://cf.geekdo-images.com/TGHPcdYEnD3_QzMohEIrNw__original/img/BjCphUnm_GLYJ2I1VAkxqNiNTWk=/0x0/filters:format(png)/pic9206059.png",
+        "thumbnail": "https://cf.geekdo-images.com/TGHPcdYEnD3_QzMohEIrNw__small/img/0bZIFaJEW-3FquBb8jY-SqrrUx8=/fit-in/200x150/filters:strip_icc()/pic9206059.png"
+      }
     },
     {
       "id": "036",
-      "bggId": "",
+      "bggId": "390422",
       "title": "Command of Nature",
       "types": [
         "Card Game"
@@ -606,7 +1041,22 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Command of Nature",
+        "year": "2024",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2 players",
+        "playingTime": "60",
+        "minPlayTime": "30",
+        "maxPlayTime": "60",
+        "minAge": "10",
+        "weight": "2.3939",
+        "image": "https://cf.geekdo-images.com/2n-CNMTJ6cPEPaeAzKWCeg__original/img/jDaOE8GMqbd_UO3x2HYtYq3qTvU=/0x0/filters:format(png)/pic7570458.png",
+        "thumbnail": "https://cf.geekdo-images.com/2n-CNMTJ6cPEPaeAzKWCeg__small/img/B59330ps94L1QLuGkOoz29_Mp94=/fit-in/200x150/filters:strip_icc()/pic7570458.png"
+      }
     },
     {
       "id": "037",
@@ -626,7 +1076,7 @@
     },
     {
       "id": "038",
-      "bggId": "",
+      "bggId": "891",
       "title": "Cranium",
       "types": [
         "Word Game",
@@ -639,7 +1089,22 @@
       "open": true,
       "time": 60,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Cranium",
+        "year": "1998",
+        "minPlayers": "4",
+        "maxPlayers": "99",
+        "bestWith": "Best with 8 players",
+        "recommendedWith": "Recommended with 4–12, 14, 16 players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "13",
+        "weight": "1.4168",
+        "image": "https://cf.geekdo-images.com/-RAQw4eCx3i__6ctz6-N9A__original/img/Z1nfWJlFJQiirtkqCoMmoDbIQIE=/0x0/filters:format(jpeg)/pic4994220.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/-RAQw4eCx3i__6ctz6-N9A__small/img/6zwKtSbuLcz8negvxaM4hRA6rBw=/fit-in/200x150/filters:strip_icc()/pic4994220.jpg"
+      }
     },
     {
       "id": "039",
@@ -657,7 +1122,7 @@
     },
     {
       "id": "040",
-      "bggId": "",
+      "bggId": "39856",
       "title": "Dixit",
       "types": [
         "Abstract"
@@ -669,11 +1134,26 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Dixit",
+        "year": "2008",
+        "minPlayers": "3",
+        "maxPlayers": "8",
+        "bestWith": "Best with 5–6 players",
+        "recommendedWith": "Recommended with 4–8 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.1899",
+        "image": "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__original/img/jt3kFCHJ3HJ2079dMLwipFZqdQg=/0x0/filters:format(jpeg)/pic6738336.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/J0PlHArkZDJ57H-brXW2Fw__small/img/QVwPXskFikQwBQlrdLJBAiRGgdg=/fit-in/200x150/filters:strip_icc()/pic6738336.jpg"
+      }
     },
     {
       "id": "041",
-      "bggId": "",
+      "bggId": "244916",
       "title": "Drop It",
       "types": [
         "Abstract",
@@ -685,7 +1165,22 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Drop It",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2, 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.0847",
+        "image": "https://cf.geekdo-images.com/CwlOEAEzD-O09vdbvyD2Gw__original/img/C9b_1Wjp5-1m8AnaKlYrWmnB6NA=/0x0/filters:format(jpeg)/pic7988716.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/CwlOEAEzD-O09vdbvyD2Gw__small/img/MlBFEI8Stn8fmmHhF9Wgym9PHVU=/fit-in/200x150/filters:strip_icc()/pic7988716.jpg"
+      }
     },
     {
       "id": "042",
@@ -703,11 +1198,26 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Dungeon Mayhem",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "10",
+        "minPlayTime": "10",
+        "maxPlayTime": "10",
+        "minAge": "8",
+        "weight": "1.1441",
+        "image": "https://cf.geekdo-images.com/faJfKYz6tG8JvDYqYHBjHg__original/img/-DwgkWe6yIa2GAaf5VugWHMNrH4=/0x0/filters:format(jpeg)/pic5322689.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/faJfKYz6tG8JvDYqYHBjHg__small/img/JGJi0rrNusi2_aZ3d9SCN9wp4aw=/fit-in/200x150/filters:strip_icc()/pic5322689.jpg"
+      }
     },
     {
       "id": "043",
-      "bggId": "",
+      "bggId": "350184",
       "title": "Earth",
       "types": [
         "Tableau",
@@ -720,11 +1230,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Earth",
+        "year": "2023",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 2–3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "90",
+        "minPlayTime": "45",
+        "maxPlayTime": "90",
+        "minAge": "13",
+        "weight": "2.9143",
+        "image": "https://cf.geekdo-images.com/0xqF_KyOb7V26Lu5YT3fxw__original/img/uqxMcj1QPt-U34drYdL6mmv2eos=/0x0/filters:format(jpeg)/pic6699821.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/0xqF_KyOb7V26Lu5YT3fxw__small/img/ABTwzzMGekkz2jVl01LC4789TcQ=/fit-in/200x150/filters:strip_icc()/pic6699821.jpg"
+      }
     },
     {
       "id": "044",
-      "bggId": "",
+      "bggId": "175621",
       "title": "Epic Card Game",
       "types": [
         "Deck-Building",
@@ -737,11 +1262,26 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Epic Card Game",
+        "year": "2015",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "40",
+        "minPlayTime": "20",
+        "maxPlayTime": "40",
+        "minAge": "13",
+        "weight": "2.5185",
+        "image": "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__original/img/o7b9oFEfBQ4BOtY_bOhDQ6C4Jlw=/0x0/filters:format(jpeg)/pic2691347.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/DfhQjeh-IzvUMFH__QUDXA__small/img/TrfK1csWE7BMdCMmG8TQWLb5fAE=/fit-in/200x150/filters:strip_icc()/pic2691347.jpg"
+      }
     },
     {
       "id": "045",
-      "bggId": "",
+      "bggId": "336986",
       "title": "Flamecraft",
       "types": [
         "Eurogame",
@@ -754,11 +1294,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Flamecraft",
+        "year": "2022",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–5 players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "10",
+        "weight": "2.1897",
+        "image": "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__original/img/7yj8nA0ObuZ1w5AYCThEOK6meWA=/0x0/filters:format(jpeg)/pic6605448.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/EvGtnsBDcfnKiqSiXHothQ__small/img/bQcyvzYRdMFFvcdQkFVnIRiCPjE=/fit-in/200x150/filters:strip_icc()/pic6605448.jpg"
+      }
     },
     {
       "id": "046",
-      "bggId": "",
+      "bggId": "420087",
       "title": "Flip 7",
       "types": [
         "Press Your Luck",
@@ -771,11 +1326,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Flip 7",
+        "year": "2024",
+        "minPlayers": "3",
+        "maxPlayers": "18",
+        "bestWith": "Best with 5–6 players",
+        "recommendedWith": "Recommended with 3–9 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.0409",
+        "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg"
+      }
     },
     {
       "id": "047",
-      "bggId": "",
+      "bggId": "370164",
       "title": "Fun Facts",
       "types": [
         "Abstract",
@@ -788,11 +1358,26 @@
       "open": false,
       "time": 60,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Fun Facts",
+        "year": "2022",
+        "minPlayers": "4",
+        "maxPlayers": "8",
+        "bestWith": "Best with 6–8 players",
+        "recommendedWith": "Recommended with 4–8 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.0312",
+        "image": "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__original/img/4qUgF74h0l6EMn-HPzGI4Nydszk=/0x0/filters:format(jpeg)/pic7070521.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/wkj9lur-J5Bxun09mnI2rQ__small/img/WD6rjSm3DZS3JD2Bb4EXM9fL5bk=/fit-in/200x150/filters:strip_icc()/pic7070521.jpg"
+      }
     },
     {
       "id": "048",
-      "bggId": "",
+      "bggId": "2379",
       "title": "Guesstures",
       "types": [
         "Word Game",
@@ -805,11 +1390,26 @@
       "open": true,
       "time": 15,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Guesstures",
+        "year": "1990",
+        "minPlayers": "4",
+        "maxPlayers": "99",
+        "bestWith": "Best with 6, 8, 10, 12 players",
+        "recommendedWith": "Recommended with 4–16 players",
+        "playingTime": "10",
+        "minPlayTime": "10",
+        "maxPlayTime": "10",
+        "minAge": "8",
+        "weight": "1.1739",
+        "image": "https://cf.geekdo-images.com/d-nb2hUIkGqiA9o0pJoXjw__original/img/zJxp7VKCwwzabm0mBkhLFE5dbD4=/0x0/filters:format(jpeg)/pic3784837.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/d-nb2hUIkGqiA9o0pJoXjw__small/img/Edco377RbashsgUTVc_oB84xYIs=/fit-in/200x150/filters:strip_icc()/pic3784837.jpg"
+      }
     },
     {
       "id": "049",
-      "bggId": "",
+      "bggId": "282524",
       "title": "Horrified",
       "types": [
         "Co-Op",
@@ -820,11 +1420,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Horrified",
+        "year": "2019",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–5 players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "10",
+        "weight": "2.0212",
+        "image": "https://cf.geekdo-images.com/SoClIcwjDo_iZs0idVikDw__original/img/TEprFkOM3G_u2HnUvh05WITeXbg=/0x0/filters:format(jpeg)/pic4848330.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/SoClIcwjDo_iZs0idVikDw__small/img/YSf5Z99aBqAlNKaGBj_oGb1oKH4=/fit-in/200x150/filters:strip_icc()/pic4848330.jpg"
+      }
     },
     {
       "id": "050",
-      "bggId": "",
+      "bggId": "302520",
       "title": "Hues and Cues",
       "types": [
         "Party"
@@ -836,11 +1451,26 @@
       "open": true,
       "time": 90,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Hues and Cues",
+        "year": "2020",
+        "minPlayers": "3",
+        "maxPlayers": "10",
+        "bestWith": "Best with 6, 8 players",
+        "recommendedWith": "Recommended with 3–10 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.0625",
+        "image": "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__original/img/i8nlw_c9CYgJMzixadYVh7GTTPc=/0x0/filters:format(jpeg)/pic5390676.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/jdR8WW75HkaoHGMTCIx9lA__small/img/EJ5gcczwsYvSavYuO4UoNPS45vo=/fit-in/200x150/filters:strip_icc()/pic5390676.jpg"
+      }
     },
     {
       "id": "051",
-      "bggId": "",
+      "bggId": "2750",
       "title": "Imaginiff",
       "types": [
         "Party",
@@ -854,7 +1484,22 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Imaginiff",
+        "year": "1998",
+        "minPlayers": "3",
+        "maxPlayers": "8",
+        "bestWith": "Best with 6–8 players",
+        "recommendedWith": "Recommended with 4–8 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "12",
+        "weight": "1.2177",
+        "image": "https://cf.geekdo-images.com/wfhigRDClr2BkJJb5_CB9w__original/img/msqp5cHWR7h2aQ0Lo6ociZRf1us=/0x0/filters:format(jpeg)/pic212910.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/wfhigRDClr2BkJJb5_CB9w__small/img/475cIeOaIfYts63b0O-qdBQtSr8=/fit-in/200x150/filters:strip_icc()/pic212910.jpg"
+      }
     },
     {
       "id": "052",
@@ -909,7 +1554,7 @@
     },
     {
       "id": "055",
-      "bggId": "",
+      "bggId": "193042",
       "title": "Junk Art",
       "types": [
         "Abstract",
@@ -922,11 +1567,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Junk Art",
+        "year": "2016",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.1913",
+        "image": "https://cf.geekdo-images.com/5VDnpX_3ykgCjTJSmHdfCA__original/img/jb13nJHqbMmoK0P9gpjGaVu8v3U=/0x0/filters:format(jpeg)/pic2884509.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/5VDnpX_3ykgCjTJSmHdfCA__small/img/LLHF9t1MxB0m-NBe_C9cxAyIslA=/fit-in/200x150/filters:strip_icc()/pic2884509.jpg"
+      }
     },
     {
       "id": "056",
-      "bggId": "",
+      "bggId": "254640",
       "title": "Just One",
       "types": [
         "Party",
@@ -939,7 +1599,22 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Just One",
+        "year": "2018",
+        "minPlayers": "3",
+        "maxPlayers": "7",
+        "bestWith": "Best with 6–7 players",
+        "recommendedWith": "Recommended with 4–7+ players",
+        "playingTime": "60",
+        "minPlayTime": "20",
+        "maxPlayTime": "60",
+        "minAge": "8",
+        "weight": "1.0324",
+        "image": "https://cf.geekdo-images.com/74haNunMBn85beBi-yIKwA__original/img/hA22qL6nZxchA8FMTIfhLMcI53I=/0x0/filters:format(png)/pic8669313.png",
+        "thumbnail": "https://cf.geekdo-images.com/74haNunMBn85beBi-yIKwA__small/img/feIV-gqMeza43ycvxh6PGx4lA_w=/fit-in/200x150/filters:strip_icc()/pic8669313.png"
+      }
     },
     {
       "id": "057",
@@ -960,7 +1635,7 @@
     },
     {
       "id": "058",
-      "bggId": "",
+      "bggId": "70323",
       "title": "King of Tokyo",
       "types": [
         "Dice Rolling",
@@ -973,11 +1648,26 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "King of Tokyo",
+        "year": "2011",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.4843",
+        "image": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__original/img/hSvWgiRYJCTTuoLOWTW3c8sYtl8=/0x0/filters:format(jpeg)/pic3043734.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__small/img/OfgWmkGJj5BgOO0zFHEtP5CHfbU=/fit-in/200x150/filters:strip_icc()/pic3043734.jpg"
+      }
     },
     {
       "id": "059",
-      "bggId": "",
+      "bggId": "107529",
       "title": "Kingdom Builder",
       "types": [
         "Area Control"
@@ -989,11 +1679,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Kingdom Builder",
+        "year": "2011",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "2.0722",
+        "image": "https://cf.geekdo-images.com/kJOP_BICVX-88sKqFRh9PQ__original/img/2m6YJhA3JbYe1cNhybRtFJrRECw=/0x0/filters:format(jpeg)/pic1152359.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/kJOP_BICVX-88sKqFRh9PQ__small/img/KwrWpSRncnCE0cEldldyVQ-0Cdk=/fit-in/200x150/filters:strip_icc()/pic1152359.jpg"
+      }
     },
     {
       "id": "060",
-      "bggId": "",
+      "bggId": "204583",
       "title": "Kingdomino",
       "types": [
         "Tile Placement"
@@ -1005,11 +1710,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Kingdomino",
+        "year": "2016",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2, 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "25",
+        "minPlayTime": "15",
+        "maxPlayTime": "25",
+        "minAge": "8",
+        "weight": "1.2427",
+        "image": "https://cf.geekdo-images.com/c0m3gwZTcfKoLI63ASio8g__original/img/HT6NQPT0cSFcZXjSewtjTO_NBAE=/0x0/filters:format(png)/pic8443569.png",
+        "thumbnail": "https://cf.geekdo-images.com/c0m3gwZTcfKoLI63ASio8g__small/img/4p4Xydg0tze9UFcd6oUbCnVyxCw=/fit-in/200x150/filters:strip_icc()/pic8443569.png"
+      }
     },
     {
       "id": "061",
-      "bggId": "",
+      "bggId": "348096",
       "title": "Kites",
       "types": [
         "Party",
@@ -1022,11 +1742,26 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Kites",
+        "year": "2022",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–6 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "10",
+        "minPlayTime": "10",
+        "maxPlayTime": "10",
+        "minAge": "10",
+        "weight": "1.0933",
+        "image": "https://cf.geekdo-images.com/TIEYwnIRV6kvAEnFkYe2OA__original/img/F_I7FrEWXrTcl-3fYOgC4OZcryQ=/0x0/filters:format(png)/pic6858706.png",
+        "thumbnail": "https://cf.geekdo-images.com/TIEYwnIRV6kvAEnFkYe2OA__small/img/ysbEGf4Z0tNnYPSnGOH8tw5sa8Y=/fit-in/200x150/filters:strip_icc()/pic6858706.png"
+      }
     },
     {
       "id": "062",
-      "bggId": "",
+      "bggId": "13166",
       "title": "Let's Go Fishin'",
       "types": [
         "Abstract",
@@ -1040,7 +1775,22 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Let's Go Fishin'",
+        "year": "1979",
+        "minPlayers": "1",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2–4 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "10",
+        "minPlayTime": "10",
+        "maxPlayTime": "10",
+        "minAge": "4",
+        "weight": "1.08",
+        "image": "https://cf.geekdo-images.com/gtALcHIvYejqtfQM6Hgs_A__original/img/t4p6S3jUCp6OPSA8z8h7m1e5uss=/0x0/filters:format(jpeg)/pic8252131.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/gtALcHIvYejqtfQM6Hgs_A__small/img/6Wt4lhf_oNSBeMi3Ts2xvyO55Bc=/fit-in/200x150/filters:strip_icc()/pic8252131.jpg"
+      }
     },
     {
       "id": "063",
@@ -1094,7 +1844,7 @@
     },
     {
       "id": "066",
-      "bggId": "",
+      "bggId": "198740",
       "title": "Lovecraft Letter",
       "types": [
         "Social Deduction",
@@ -1107,11 +1857,26 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Lovecraft Letter",
+        "year": "2017",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "15",
+        "minPlayTime": "5",
+        "maxPlayTime": "15",
+        "minAge": "10",
+        "weight": "1.4286",
+        "image": "https://cf.geekdo-images.com/iRDSJ4wnIjbcZnYYmxrS7w__original/img/bSIutW2D3GSfc8vFkkio4NW2pEw=/0x0/filters:format(png)/pic3485528.png",
+        "thumbnail": "https://cf.geekdo-images.com/iRDSJ4wnIjbcZnYYmxrS7w__small/img/a3lM0zDNSGhWG-Q_7h5sMk24xCU=/fit-in/200x150/filters:strip_icc()/pic3485528.png"
+      }
     },
     {
       "id": "067",
-      "bggId": "",
+      "bggId": "143884",
       "title": "Machi Koro",
       "types": [
         "Eurogame",
@@ -1124,11 +1889,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Machi Koro",
+        "year": "2012",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "10",
+        "weight": "1.5196",
+        "image": "https://cf.geekdo-images.com/_lI2eUDHfesfe5SswJiFAg__original/img/H4XHVffQ4SOxgWoG396I9LUrwg8=/0x0/filters:format(png)/pic4783831.png",
+        "thumbnail": "https://cf.geekdo-images.com/_lI2eUDHfesfe5SswJiFAg__small/img/tCTP0XMMmsAfNqzb0iYmp0b-YUc=/fit-in/200x150/filters:strip_icc()/pic4783831.png"
+      }
     },
     {
       "id": "068",
-      "bggId": "",
+      "bggId": "358690",
       "title": "Mantis",
       "types": [
         "Drafting",
@@ -1142,11 +1922,26 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Mantis",
+        "year": "2022",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "10",
+        "minPlayTime": "10",
+        "maxPlayTime": "10",
+        "minAge": "7",
+        "weight": "1.0411",
+        "image": "https://cf.geekdo-images.com/lEkzT07ZX_iDNBusFDS_jA__original/img/snPIUx3vjhuVAkjMAnxN1PfpW3c=/0x0/filters:format(png)/pic6811649.png",
+        "thumbnail": "https://cf.geekdo-images.com/lEkzT07ZX_iDNBusFDS_jA__small/img/OAi6sxJMeIyuP7ANxhDNRu08wUY=/fit-in/200x150/filters:strip_icc()/pic6811649.png"
+      }
     },
     {
       "id": "069",
-      "bggId": "",
+      "bggId": "590",
       "title": "Mille Bornes",
       "types": [
         "Card Game",
@@ -1159,11 +1954,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Mille Bornes",
+        "year": "1954",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "1.2496",
+        "image": "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__original/img/v5fEmVXDcDomVNhd9O02bGsVskI=/0x0/filters:format(jpeg)/pic4330533.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/kzLZY_DHTh-hBcqXP34a5w__small/img/82b4hCqE8tTLkwexnLrp3ubGU_c=/fit-in/200x150/filters:strip_icc()/pic4330533.jpg"
+      }
     },
     {
       "id": "070",
-      "bggId": "",
+      "bggId": "230408",
       "title": "Monopoly Gamer",
       "types": [
         "Classic"
@@ -1175,11 +1985,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Monopoly Gamer",
+        "year": "2017",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "60",
+        "minPlayTime": "45",
+        "maxPlayTime": "60",
+        "minAge": "8",
+        "weight": "1.1892",
+        "image": "https://cf.geekdo-images.com/ZNX8p1k9r0d5QMcpKp64NQ__original/img/kn0fPbiirY2hLNrzTtO2qAjRvAI=/0x0/filters:format(png)/pic3925506.png",
+        "thumbnail": "https://cf.geekdo-images.com/ZNX8p1k9r0d5QMcpKp64NQ__small/img/MllrO1v2jBGO6hw0UIYsHuzgiws=/fit-in/200x150/filters:strip_icc()/pic3925506.png"
+      }
     },
     {
       "id": "071",
-      "bggId": "",
+      "bggId": "120268",
       "title": "Monsters & Maidens",
       "types": [
         "Dice Game"
@@ -1189,11 +2014,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Monsters & Maidens",
+        "year": "2014",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2 players",
+        "playingTime": "30",
+        "minPlayTime": "10",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.0833",
+        "image": "https://cf.geekdo-images.com/4tCZKXzzOsPrXsti2aaMQA__original/img/LHGL2zba9AF8Qa7pfCKWyBCZ3y0=/0x0/filters:format(png)/pic1425574.png",
+        "thumbnail": "https://cf.geekdo-images.com/4tCZKXzzOsPrXsti2aaMQA__small/img/8njs7uGMVyhhaWqNOYFWL5qRXCk=/fit-in/200x150/filters:strip_icc()/pic1425574.png"
+      }
     },
     {
       "id": "072",
-      "bggId": "",
+      "bggId": "1927",
       "title": "Munchkin",
       "types": [
         "Card Game"
@@ -1205,11 +2045,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Munchkin",
+        "year": "2001",
+        "minPlayers": "3",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "120",
+        "minPlayTime": "60",
+        "maxPlayTime": "120",
+        "minAge": "10",
+        "weight": "1.818",
+        "image": "https://cf.geekdo-images.com/J-ts3MW0UhDzs621TR6cog__original/img/FbqPPCilgZKND2xmhWJgkfjZiYE=/0x0/filters:format(jpeg)/pic1871016.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/J-ts3MW0UhDzs621TR6cog__small/img/8hVkpMC5pDLr6ARI_4gI4N3aF5M=/fit-in/200x150/filters:strip_icc()/pic1871016.jpg"
+      }
     },
     {
       "id": "073",
-      "bggId": "",
+      "bggId": "31920",
       "title": "Munchkin Booty",
       "types": [
         "Card Game"
@@ -1221,11 +2076,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Munchkin Booty",
+        "year": "2008",
+        "minPlayers": "3",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–6 players",
+        "playingTime": "90",
+        "minPlayTime": "90",
+        "maxPlayTime": "90",
+        "minAge": "10",
+        "weight": "1.9444",
+        "image": "https://cf.geekdo-images.com/zTZwoDaaeBw_iUK8I3_dYg__original/img/pSPjuE4KIp0qKTeFmJuKETkeHhI=/0x0/filters:format(jpeg)/pic338759.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/zTZwoDaaeBw_iUK8I3_dYg__small/img/F-BR4sbXAGPOUcETreUjOma_EXU=/fit-in/200x150/filters:strip_icc()/pic338759.jpg"
+      }
     },
     {
       "id": "074",
-      "bggId": "",
+      "bggId": "353545",
       "title": "Next Station: London",
       "types": [
         "City Building"
@@ -1237,11 +2107,26 @@
       "open": false,
       "time": 30,
       "weight": "",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Next Station: London",
+        "year": "2022",
+        "minPlayers": "1",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2, 4 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "30",
+        "minPlayTime": "25",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.4945",
+        "image": "https://cf.geekdo-images.com/T-eq9Ux4gkmqfEXry8HC1w__original/img/FgPzhjwC0X0-6ZNLhowN8iccREA=/0x0/filters:format(jpeg)/pic9018430.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/T-eq9Ux4gkmqfEXry8HC1w__small/img/6OG1_bmI_3NkAeD-IT9dJnFHmmc=/fit-in/200x150/filters:strip_icc()/pic9018430.jpg"
+      }
     },
     {
       "id": "075",
-      "bggId": "",
+      "bggId": "293014",
       "title": "Nidavellir",
       "types": [
         "Card Game",
@@ -1255,11 +2140,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Nidavellir",
+        "year": "2020",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "10",
+        "weight": "2.125",
+        "image": "https://cf.geekdo-images.com/PX7t5xXDLI2XqxoTShLayg__original/img/KYzd3fBTCxrRxEvNvzabNbll7Wg=/0x0/filters:format(jpeg)/pic5039625.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/PX7t5xXDLI2XqxoTShLayg__small/img/jV7kN2k9IkGKLhus2FJ5_VP9awc=/fit-in/200x150/filters:strip_icc()/pic5039625.jpg"
+      }
     },
     {
       "id": "076",
-      "bggId": "",
+      "bggId": "12942",
       "title": "No Thanks!",
       "types": [
         "Abstract",
@@ -1274,11 +2174,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "No Thanks!",
+        "year": "2004",
+        "minPlayers": "3",
+        "maxPlayers": "7",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–7 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.13",
+        "image": "https://cf.geekdo-images.com/JSAs8aMopjf8P9JXwTMV7w__original/img/pm0ioQ1vNabJExMgcXwB2oMIalY=/0x0/filters:format(png)/pic9005058.png",
+        "thumbnail": "https://cf.geekdo-images.com/JSAs8aMopjf8P9JXwTMV7w__small/img/j7oqDPsahGkdKQMXbKjYMZ0jmwM=/fit-in/200x150/filters:strip_icc()/pic9005058.png"
+      }
     },
     {
       "id": "077",
-      "bggId": "",
+      "bggId": "194879",
       "title": "Not Alone",
       "types": [
         "Co-Op",
@@ -1291,11 +2206,26 @@
       "open": true,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Not Alone",
+        "year": "2016",
+        "minPlayers": "2",
+        "maxPlayers": "7",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–7 players",
+        "playingTime": "45",
+        "minPlayTime": "30",
+        "maxPlayTime": "45",
+        "minAge": "10",
+        "weight": "2.0038",
+        "image": "https://cf.geekdo-images.com/2nPAI9x1rOjj2fq30qRFvQ__original/img/Sc9SmhfC5cLiDdXeY9HOQphCKcQ=/0x0/filters:format(jpeg)/pic3118416.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/2nPAI9x1rOjj2fq30qRFvQ__small/img/JXiKvNcM8FmuJxJV6-SSm-2CN2o=/fit-in/200x150/filters:strip_icc()/pic3118416.jpg"
+      }
     },
     {
       "id": "078",
-      "bggId": "",
+      "bggId": "30549",
       "title": "Pandemic",
       "types": [
         "Co-Op"
@@ -1305,11 +2235,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Pandemic",
+        "year": "2008",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "2.3925",
+        "image": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__original/img/IsrvRLpUV1TEyZsO5rC-btXaPz0=/0x0/filters:format(jpeg)/pic1534148.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/S3ybV1LAp-8SnHIXLLjVqA__small/img/oqViRj6nVxK3m36NluTxU1PZkrk=/fit-in/200x150/filters:strip_icc()/pic1534148.jpg"
+      }
     },
     {
       "id": "079",
-      "bggId": "",
+      "bggId": "157789",
       "title": "Pandemic: Contagion",
       "types": [
         "Co-Op"
@@ -1321,11 +2266,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Pandemic: Contagion",
+        "year": "2014",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–5 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "14",
+        "weight": "1.9065",
+        "image": "https://cf.geekdo-images.com/xzvsFlkgqol2UPF_qxKBFQ__original/img/2ejpxK3-W8MBJoWYcaMavw0_9Zs=/0x0/filters:format(png)/pic2037506.png",
+        "thumbnail": "https://cf.geekdo-images.com/xzvsFlkgqol2UPF_qxKBFQ__small/img/H06sFJkk14_wquReTiy55zqHALg=/fit-in/200x150/filters:strip_icc()/pic2037506.png"
+      }
     },
     {
       "id": "080",
-      "bggId": "",
+      "bggId": "260428",
       "title": "Pandemic: Fall of Rome",
       "types": [
         "Co-Op"
@@ -1337,7 +2297,22 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Fall of Rome",
+        "year": "2018",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–5 players",
+        "playingTime": "60",
+        "minPlayTime": "45",
+        "maxPlayTime": "60",
+        "minAge": "8",
+        "weight": "2.5",
+        "image": "https://cf.geekdo-images.com/eGXgHOp40KYVqUGoSJ09bw__original/img/V17DBpCDqoRpLPwa3jZNGNqwvm8=/0x0/filters:format(jpeg)/pic8031112.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/eGXgHOp40KYVqUGoSJ09bw__small/img/a8c2EEdqjhV4qugPomb62J49ANc=/fit-in/200x150/filters:strip_icc()/pic8031112.jpg"
+      }
     },
     {
       "id": "081",
@@ -1357,7 +2332,7 @@
     },
     {
       "id": "082",
-      "bggId": "",
+      "bggId": "2593",
       "title": "Pass the Pigs",
       "types": [
         "Abstract",
@@ -1371,7 +2346,22 @@
       "open": true,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Pass the Pigs",
+        "year": "1977",
+        "minPlayers": "2",
+        "maxPlayers": "10",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 2–8 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.0665",
+        "image": "https://cf.geekdo-images.com/blW_a3O5Md5bE1jFygJ6SA__original/img/rbBCCKoEY8QvfaXeDSySuVVTUXk=/0x0/filters:format(jpeg)/pic697422.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/blW_a3O5Md5bE1jFygJ6SA__small/img/s9q6W3Z7i4uW8x9CYZuL8wHzesE=/fit-in/200x150/filters:strip_icc()/pic697422.jpg"
+      }
     },
     {
       "id": "083",
@@ -1393,7 +2383,7 @@
     },
     {
       "id": "084",
-      "bggId": "",
+      "bggId": "1258",
       "title": "Phase 10",
       "types": [
         "Card Game",
@@ -1406,11 +2396,26 @@
       "open": false,
       "time": 60,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Phase 10",
+        "year": "1982",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "1.251",
+        "image": "https://cf.geekdo-images.com/jvHGs95ShI8VEhDBdxKs6w__original/img/xzQGx7DR_4w0co_tte0KhCqZqcA=/0x0/filters:format(png)/pic7621070.png",
+        "thumbnail": "https://cf.geekdo-images.com/jvHGs95ShI8VEhDBdxKs6w__small/img/mjMr9BgjDUiz1ITatBLPOMe-QOw=/fit-in/200x150/filters:strip_icc()/pic7621070.png"
+      }
     },
     {
       "id": "085",
-      "bggId": "",
+      "bggId": "218603",
       "title": "Photosynthesis",
       "types": [
         "Area Control",
@@ -1423,11 +2428,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Photosynthesis",
+        "year": "2017",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "60",
+        "minPlayTime": "30",
+        "maxPlayTime": "60",
+        "minAge": "10",
+        "weight": "2.2672",
+        "image": "https://cf.geekdo-images.com/HhkYuVxMy-XrRCBWmZ78Eg__original/img/V6bgfuxV2jfmRbz9pJVyK01x6dI=/0x0/filters:format(jpeg)/pic3364832.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/HhkYuVxMy-XrRCBWmZ78Eg__small/img/eVdvmMALg8vjPr6eDoj-mqvDbUc=/fit-in/200x150/filters:strip_icc()/pic3364832.jpg"
+      }
     },
     {
       "id": "086",
-      "bggId": "",
+      "bggId": "312786",
       "title": "Poetry for Neanderthals",
       "types": [
         "Party",
@@ -1440,11 +2460,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Poetry for Neanderthals",
+        "year": "2020",
+        "minPlayers": "2",
+        "maxPlayers": "12",
+        "bestWith": "Best with 6, 8 players",
+        "recommendedWith": "Recommended with 4–10, 12 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "7",
+        "weight": "1.1071",
+        "image": "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__original/img/FgAyx5Q1pe7TyHsYskhbab_S_os=/0x0/filters:format(jpeg)/pic5702797.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/CDlBjXSPT-3Zyrj8ENBkvQ__small/img/0ON18UcLepuwPLhwkRtRUjhvAZ8=/fit-in/200x150/filters:strip_icc()/pic5702797.jpg"
+      }
     },
     {
       "id": "087",
-      "bggId": "",
+      "bggId": "431998",
       "title": "Point Galaxy",
       "types": [
         "Card Game"
@@ -1456,11 +2491,26 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Point Galaxy",
+        "year": "2025",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "30",
+        "minPlayTime": "15",
+        "maxPlayTime": "30",
+        "minAge": "10",
+        "weight": "1.9697",
+        "image": "https://cf.geekdo-images.com/J7_O8J6IU38a-NS9WMD_2A__original/img/SivLr1q8QsSx2hW1b3W34xIZt0Q=/0x0/filters:format(png)/pic8514367.png",
+        "thumbnail": "https://cf.geekdo-images.com/J7_O8J6IU38a-NS9WMD_2A__small/img/cjMFqmB0fuofRIcQMynj1r5jKZs=/fit-in/200x150/filters:strip_icc()/pic8514367.png"
+      }
     },
     {
       "id": "088",
-      "bggId": "",
+      "bggId": "274960",
       "title": "Point Salad",
       "types": [
         "Drafting",
@@ -1473,7 +2523,22 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Point Salad",
+        "year": "2019",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "30",
+        "minPlayTime": "15",
+        "maxPlayTime": "30",
+        "minAge": "10",
+        "weight": "1.1584",
+        "image": "https://cf.geekdo-images.com/Xy0W9NtEpX0EVjwgxO3IEA__original/img/WdLBZcryNqysYsyC3PNF9FeaPWQ=/0x0/filters:format(png)/pic4621571.png",
+        "thumbnail": "https://cf.geekdo-images.com/Xy0W9NtEpX0EVjwgxO3IEA__small/img/1gKeE2_50dXcL03gH3cEU-Ixj6c=/fit-in/200x150/filters:strip_icc()/pic4621571.png"
+      }
     },
     {
       "id": "089",
@@ -1493,7 +2558,7 @@
     },
     {
       "id": "091",
-      "bggId": "",
+      "bggId": "232043",
       "title": "Queendomino",
       "types": [
         "Tile Placement"
@@ -1505,11 +2570,26 @@
       "open": false,
       "time": 90,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Queendomino",
+        "year": "2017",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "25",
+        "minPlayTime": "25",
+        "maxPlayTime": "25",
+        "minAge": "8",
+        "weight": "2.0645",
+        "image": "https://cf.geekdo-images.com/_6VtTmeI4e7cORxFWRC7Og__original/img/Uem_ewrSp4uzwG19S2CSnHwrmEU=/0x0/filters:format(png)/pic3672901.png",
+        "thumbnail": "https://cf.geekdo-images.com/_6VtTmeI4e7cORxFWRC7Og__small/img/uzS2wD_CvrjO8KQsNZDoT0RBvmY=/fit-in/200x150/filters:strip_icc()/pic3672901.png"
+      }
     },
     {
       "id": "092",
-      "bggId": "",
+      "bggId": "25669",
       "title": "Qwirkle",
       "types": [
         "Abstract"
@@ -1521,11 +2601,26 @@
       "open": false,
       "time": 60,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Qwirkle",
+        "year": "2006",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "6",
+        "weight": "1.5735",
+        "image": "https://cf.geekdo-images.com/k7zHj8j_a6uUAtXUt5Fvuw__original/img/FNi6yap-UmVKX8X6rj0A_YW2q8Y=/0x0/filters:format(jpeg)/pic309353.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/k7zHj8j_a6uUAtXUt5Fvuw__small/img/APPui4zwBuwAIHXSTW6UxYcY6Ow=/fit-in/200x150/filters:strip_icc()/pic309353.jpg"
+      }
     },
     {
       "id": "093",
-      "bggId": "",
+      "bggId": "131260",
       "title": "Qwixx",
       "types": [
         "Abstract",
@@ -1538,11 +2633,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Qwixx",
+        "year": "2012",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3–4 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "8",
+        "weight": "1.1101",
+        "image": "https://cf.geekdo-images.com/aOt-bT9nDzZdWl0dUqLy4w__original/img/BBC0kwf7JPYMxYGnsSDRaZ_BRF4=/0x0/filters:format(jpeg)/pic1950487.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/aOt-bT9nDzZdWl0dUqLy4w__small/img/VSCBC4785-3S8YMBzu8tafaoa_w=/fit-in/200x150/filters:strip_icc()/pic1950487.jpg"
+      }
     },
     {
       "id": "094",
-      "bggId": "",
+      "bggId": "917",
       "title": "Rack-O",
       "types": [
         "Card Game",
@@ -1553,7 +2663,22 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Rack-O",
+        "year": "1956",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "1.1895",
+        "image": "https://cf.geekdo-images.com/M49aMRX_EmQIh56Kx-Snfg__original/img/eGSpzQgF1tOoZ19WkjwPIHj3E28=/0x0/filters:format(jpeg)/pic1287239.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/M49aMRX_EmQIh56Kx-Snfg__small/img/26pAKkrplP9CZXkJYio9jto6pjw=/fit-in/200x150/filters:strip_icc()/pic1287239.jpg"
+      }
     },
     {
       "id": "095",
@@ -1573,7 +2698,7 @@
     },
     {
       "id": "096",
-      "bggId": "",
+      "bggId": "378367",
       "title": "Really Loud Librarians",
       "types": [
         "Party",
@@ -1586,11 +2711,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Really Loud Librarians",
+        "year": "2023",
+        "minPlayers": "2",
+        "maxPlayers": "12",
+        "bestWith": "Best with 4, 6 players",
+        "recommendedWith": "Recommended with 4–6, 8 players",
+        "playingTime": "20",
+        "minPlayTime": "15",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.1538",
+        "image": "https://cf.geekdo-images.com/T7rYsKBB-M38VKAOwCXG-w__original/img/ailMBTvhac46iQpsViXsZkSBFSs=/0x0/filters:format(png)/pic7282812.png",
+        "thumbnail": "https://cf.geekdo-images.com/T7rYsKBB-M38VKAOwCXG-w__small/img/kDnCdyAQ3xIvjfgr049HejvQylU=/fit-in/200x150/filters:strip_icc()/pic7282812.png"
+      }
     },
     {
       "id": "097",
-      "bggId": "",
+      "bggId": "250448",
       "title": "Relative Insanity",
       "types": [
         "Party"
@@ -1602,11 +2742,26 @@
       "open": true,
       "time": 60,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Relative Insanity",
+        "year": "2018",
+        "minPlayers": "4",
+        "maxPlayers": "12",
+        "bestWith": "Best with 5–6 players",
+        "recommendedWith": "Recommended with 4–10 players",
+        "playingTime": "0",
+        "minPlayTime": "0",
+        "maxPlayTime": "0",
+        "minAge": "14",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/jv9DvfLRsQaScpk7R9ZuUA__original/img/KNOjYSxYRbtNRMAbB59Jxc0pbfs=/0x0/filters:format(jpeg)/pic6531157.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/jv9DvfLRsQaScpk7R9ZuUA__small/img/UxmsPk_5UY24E4mSgl96bIan1mE=/fit-in/200x150/filters:strip_icc()/pic6531157.jpg"
+      }
     },
     {
       "id": "098",
-      "bggId": "",
+      "bggId": "132531",
       "title": "Roll for the Galaxy",
       "types": [
         "Eurogame"
@@ -1618,11 +2773,26 @@
       "open": false,
       "time": 90,
       "weight": "Heavy",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Roll for the Galaxy",
+        "year": "2014",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3–4 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "13",
+        "weight": "2.7871",
+        "image": "https://cf.geekdo-images.com/nhoyoLpYPC2b3UiJ5kJ0yg__original/img/LoETJCbq1HpSlhPLdci3qJekpwA=/0x0/filters:format(jpeg)/pic1473629.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/nhoyoLpYPC2b3UiJ5kJ0yg__small/img/KVmexHT6N_fquB1CQl9QRNYCvD0=/fit-in/200x150/filters:strip_icc()/pic1473629.jpg"
+      }
     },
     {
       "id": "099",
-      "bggId": "",
+      "bggId": "237182",
       "title": "Root",
       "types": [
         "Asymetrical",
@@ -1635,7 +2805,22 @@
       "open": false,
       "time": 120,
       "weight": "Heavy",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Root",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 3–4 players",
+        "playingTime": "90",
+        "minPlayTime": "60",
+        "maxPlayTime": "90",
+        "minAge": "14",
+        "weight": "3.8431",
+        "image": "https://cf.geekdo-images.com/JUAUWaVUzeBgzirhZNmHHw__original/img/E0s2LvtFA1L5YKk-_44D4u2VD2s=/0x0/filters:format(jpeg)/pic4254509.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/JUAUWaVUzeBgzirhZNmHHw__small/img/ACovMZzGGIsBRyEQXFnsT8282NM=/fit-in/200x150/filters:strip_icc()/pic4254509.jpg"
+      }
     },
     {
       "id": "100",
@@ -1690,7 +2875,7 @@
     },
     {
       "id": "103",
-      "bggId": "",
+      "bggId": "2381",
       "title": "Scattergories",
       "types": [
         "Word Game"
@@ -1702,7 +2887,22 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Scattergories",
+        "year": "1988",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4–6 players",
+        "recommendedWith": "Recommended with 2–6+ players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "12",
+        "weight": "1.356",
+        "image": "https://cf.geekdo-images.com/eIL4hvMb7ZPgizc7BZOh-g__original/img/ZjWZidMJYVPML2OXLGfvQqR8Hyw=/0x0/filters:format(jpeg)/pic4994410.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/eIL4hvMb7ZPgizc7BZOh-g__small/img/sx0XxYqv0FtsIp-RoW-5C42sLOc=/fit-in/200x150/filters:strip_icc()/pic4994410.jpg"
+      }
     },
     {
       "id": "104",
@@ -1772,7 +2972,7 @@
     },
     {
       "id": "108",
-      "bggId": "",
+      "bggId": "15062",
       "title": "Shadows Over Camelot",
       "types": [
         "Co-Op",
@@ -1785,11 +2985,26 @@
       "open": true,
       "time": 90,
       "weight": "Heavy",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Shadows over Camelot",
+        "year": "2005",
+        "minPlayers": "3",
+        "maxPlayers": "7",
+        "bestWith": "Best with 5–7 players",
+        "recommendedWith": "Recommended with 4–7 players",
+        "playingTime": "90",
+        "minPlayTime": "60",
+        "maxPlayTime": "90",
+        "minAge": "10",
+        "weight": "2.569",
+        "image": "https://cf.geekdo-images.com/JYqwG_v1B3RhpB7NcmeDOA__original/img/_eAaG7PMaTcj1DpHbmUaOBTisoY=/0x0/filters:format(jpeg)/pic70547.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/JYqwG_v1B3RhpB7NcmeDOA__small/img/QOG1zO0uvqxGTDF9V_OewVPMvNE=/fit-in/200x150/filters:strip_icc()/pic70547.jpg"
+      }
     },
     {
       "id": "109",
-      "bggId": "",
+      "bggId": "157969",
       "title": "Sheriff of Nottingham",
       "types": [
         "Social Deduction",
@@ -1802,11 +3017,26 @@
       "open": false,
       "time": 60,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Sheriff of Nottingham",
+        "year": "2014",
+        "minPlayers": "3",
+        "maxPlayers": "5",
+        "bestWith": "Best with 5 players",
+        "recommendedWith": "Recommended with 3–5 players",
+        "playingTime": "60",
+        "minPlayTime": "60",
+        "maxPlayTime": "60",
+        "minAge": "14",
+        "weight": "1.6585",
+        "image": "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__original/img/fll2MuTBPVKb7fyBJ8D-4_c1XHM=/0x0/filters:format(jpeg)/pic2075830.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/BBgLFKUzr6tcKtlIM2JSFw__small/img/JD5L_XrtkaKINUj8ILZqFMGcTsE=/fit-in/200x150/filters:strip_icc()/pic2075830.jpg"
+      }
     },
     {
       "id": "110",
-      "bggId": "",
+      "bggId": "367704",
       "title": "Sink N' Sand",
       "types": [
         "Dexterity",
@@ -1820,11 +3050,26 @@
       "open": false,
       "time": 90,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Sink N' Sand",
+        "year": "2022",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "4",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/YQ7c6E0Y9rpC2DmE47Wlng__original/img/fah_fWqDgdxFoKNxf6JmASuILyk=/0x0/filters:format(jpeg)/pic6987162.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/YQ7c6E0Y9rpC2DmE47Wlng__small/img/Je4yHMtZR2D3fA3Ln5lFVW4n2Hs=/fit-in/200x150/filters:strip_icc()/pic6987162.jpg"
+      }
     },
     {
       "id": "111",
-      "bggId": "",
+      "bggId": "1269",
       "title": "Skip-Bo",
       "types": [
         "Card Game",
@@ -1837,7 +3082,22 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Skip-Bo",
+        "year": "1967",
+        "minPlayers": "2",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.1927",
+        "image": "https://cf.geekdo-images.com/aaUJua2zRXA6lqbVbNcBGg__original/img/dWxG7nwxGBijXQ1849TFwtym06I=/0x0/filters:format(jpeg)/pic8204244.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/aaUJua2zRXA6lqbVbNcBGg__small/img/81Ix-m3uliKZ43ouEhnOzUivMj4=/fit-in/200x150/filters:strip_icc()/pic8204244.jpg"
+      }
     },
     {
       "id": "112",
@@ -1859,7 +3119,7 @@
     },
     {
       "id": "113",
-      "bggId": "",
+      "bggId": "17053",
       "title": "Sleeping Queens",
       "types": [
         "Card Game"
@@ -1871,11 +3131,26 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Sleeping Queens",
+        "year": "2005",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.0553",
+        "image": "https://cf.geekdo-images.com/hkJWvm7VJD4yqrbjCHmLFA__original/img/jRyxA0n-aAfOR6WP36OGGVzTgAs=/0x0/filters:format(jpeg)/pic2401336.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/hkJWvm7VJD4yqrbjCHmLFA__small/img/HO7ztPNgbQybExPszjY2K7hD-uQ=/fit-in/200x150/filters:strip_icc()/pic2401336.jpg"
+      }
     },
     {
       "id": "114",
-      "bggId": "",
+      "bggId": "40692",
       "title": "Small World",
       "types": [
         "Area Control",
@@ -1888,7 +3163,22 @@
       "open": false,
       "time": 60,
       "weight": "Heavy",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Small World",
+        "year": "2009",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "80",
+        "minPlayTime": "40",
+        "maxPlayTime": "80",
+        "minAge": "8",
+        "weight": "2.3446",
+        "image": "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__original/img/bYLzrwZO9u-3h2wyU-PHc8aTOY4=/0x0/filters:format(jpeg)/pic428828.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/aoPM07XzoceB-RydLh08zA__small/img/o3Bw9heVDJRgPYlI_PksCvLAgnM=/fit-in/200x150/filters:strip_icc()/pic428828.jpg"
+      }
     },
     {
       "id": "115",
@@ -1910,7 +3200,7 @@
     },
     {
       "id": "116",
-      "bggId": "",
+      "bggId": "132322",
       "title": "Snug as a Bug in a Rug",
       "types": [
         "Dice Game"
@@ -1922,7 +3212,22 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Snug as a Bug in a Rug",
+        "year": "2012",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "15",
+        "minPlayTime": "15",
+        "maxPlayTime": "15",
+        "minAge": "3",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/I7aNab2sudNOiFEU4Lq0nQ__original/img/m4I-qZBWpYVZVMFm1mECPhHh8X8=/0x0/filters:format(jpeg)/pic1467086.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/I7aNab2sudNOiFEU4Lq0nQ__small/img/m6rr2bfoIN9OcQauowj1f7FY1g4=/fit-in/200x150/filters:strip_icc()/pic1467086.jpg"
+      }
     },
     {
       "id": "117",
@@ -1940,7 +3245,7 @@
     },
     {
       "id": "118",
-      "bggId": "",
+      "bggId": "162886",
       "title": "Spirit Island",
       "types": [
         "Co-Op",
@@ -1953,11 +3258,26 @@
       "open": false,
       "time": 120,
       "weight": "Heavy",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Spirit Island",
+        "year": "2017",
+        "minPlayers": "1",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "120",
+        "minPlayTime": "90",
+        "maxPlayTime": "120",
+        "minAge": "13",
+        "weight": "4.0779",
+        "image": "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__original/img/9uLd9C3XAvInLCLhAoXqKVk56zs=/0x0/filters:format(jpeg)/pic7013651.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__small/img/aUlIih2_R7P8IYKeyNl2heLQbu8=/fit-in/200x150/filters:strip_icc()/pic7013651.jpg"
+      }
     },
     {
       "id": "119",
-      "bggId": "",
+      "bggId": "148228",
       "title": "Splendor",
       "types": [
         "Eurogame",
@@ -1970,7 +3290,22 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Splendor",
+        "year": "2014",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "10",
+        "weight": "1.7742",
+        "image": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__original/img/rqcUdtu_N4v-SpI96XVmpYHnJww=/0x0/filters:format(png)/pic8234167.png",
+        "thumbnail": "https://cf.geekdo-images.com/vNFe4JkhKAERzi4T0Ntwpw__small/img/KKU_42Uswt4tKCpf1zY5kTzgr-g=/fit-in/200x150/filters:strip_icc()/pic8234167.png"
+      }
     },
     {
       "id": "121",
@@ -1991,7 +3326,7 @@
     },
     {
       "id": "120",
-      "bggId": "",
+      "bggId": "182631",
       "title": "Star Realms: Colony Wars",
       "types": [
         "Deck-Building",
@@ -2004,7 +3339,22 @@
       "open": false,
       "time": 30,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Star Realms: Colony Wars",
+        "year": "2015",
+        "minPlayers": "2",
+        "maxPlayers": "2",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2+ players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "12",
+        "weight": "1.8742",
+        "image": "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__original/img/Ixujer_N-Ro0jFErjGdmCdo152k=/0x0/filters:format(jpeg)/pic4324043.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/FKEjArvFzBTpPJRvU34t8A__small/img/v4xPFJ7qUbkc6f7Dpgsn21ZM5YQ=/fit-in/200x150/filters:strip_icc()/pic4324043.jpg"
+      }
     },
     {
       "id": "122",
@@ -2026,7 +3376,7 @@
     },
     {
       "id": "123",
-      "bggId": "",
+      "bggId": "341530",
       "title": "Super Mega Lucky Box",
       "types": [
         "AmeriTrash",
@@ -2039,11 +3389,26 @@
       "open": false,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Super Mega Lucky Box",
+        "year": "2021",
+        "minPlayers": "1",
+        "maxPlayers": "6",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.2435",
+        "image": "https://cf.geekdo-images.com/grnvMmEKa_jRg4ZBX5Fadw__original/img/2jFwR_GdPUCUv6QjDxsgw3DQCkQ=/0x0/filters:format(png)/pic6254861.png",
+        "thumbnail": "https://cf.geekdo-images.com/grnvMmEKa_jRg4ZBX5Fadw__small/img/Fs2vCJ0dkPZxMHm4A_vEkl0yiT0=/fit-in/200x150/filters:strip_icc()/pic6254861.png"
+      }
     },
     {
       "id": "124",
-      "bggId": "",
+      "bggId": "192291",
       "title": "Sushi Go Party!",
       "types": [
         "Drafting",
@@ -2056,11 +3421,26 @@
       "open": true,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Sushi Go Party!",
+        "year": "2016",
+        "minPlayers": "2",
+        "maxPlayers": "8",
+        "bestWith": "Best with 4–5 players",
+        "recommendedWith": "Recommended with 3–8 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.3277",
+        "image": "https://cf.geekdo-images.com/2f9uTicUSXkdPp2Yks6zFw__original/img/WQcFmlhYBMIp8f6gNNVhnnue1w4=/0x0/filters:format(jpeg)/pic5885689.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/2f9uTicUSXkdPp2Yks6zFw__small/img/_mXR9Tlo0f-i80h6pfhDEOBgvpY=/fit-in/200x150/filters:strip_icc()/pic5885689.jpg"
+      }
     },
     {
       "id": "125",
-      "bggId": "",
+      "bggId": "253664",
       "title": "Taco Cat Goat Cheese Pizza",
       "types": [
         "AmeriTrash",
@@ -2074,11 +3454,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Taco Cat Goat Cheese Pizza",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "8",
+        "bestWith": "Best with 4–6 players",
+        "recommendedWith": "Recommended with 3–8 players",
+        "playingTime": "30",
+        "minPlayTime": "10",
+        "maxPlayTime": "30",
+        "minAge": "8",
+        "weight": "1.0321",
+        "image": "https://cf.geekdo-images.com/GHrnr-Khb0LvBU_QkrC_qA__original/img/1BR5aHWIz_v4ki-YB2IiMuS-uIs=/0x0/filters:format(png)/pic7192024.png",
+        "thumbnail": "https://cf.geekdo-images.com/GHrnr-Khb0LvBU_QkrC_qA__small/img/pFt03CkI8uo3rOi4E7_ZrZfSmIM=/fit-in/200x150/filters:strip_icc()/pic7192024.png"
+      }
     },
     {
       "id": "126",
-      "bggId": "",
+      "bggId": "302463",
       "title": "Telestrations: Upside Drawn",
       "types": [
         "Abstract"
@@ -2090,11 +3485,26 @@
       "open": true,
       "time": 60,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Telestrations: Upside Drawn",
+        "year": "2020",
+        "minPlayers": "4",
+        "maxPlayers": "12",
+        "bestWith": "Best with 6, 8 players",
+        "recommendedWith": "Recommended with 4, 6, 8 players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "12",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/PktcqPAlKWjcG6916wWd2Q__original/img/WRtIhpbO-2_Z037tsGIZ3dkCM3s=/0x0/filters:format(jpeg)/pic5249010.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/PktcqPAlKWjcG6916wWd2Q__small/img/EIAh4fDq_PHJHoHOXGRxzRVBeWI=/fit-in/200x150/filters:strip_icc()/pic5249010.jpg"
+      }
     },
     {
       "id": "127",
-      "bggId": "",
+      "bggId": "113819",
       "title": "Tenzi",
       "types": [
         "AmeriTrash",
@@ -2108,7 +3518,22 @@
       "open": false,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Tenzi",
+        "year": "2011",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4+ players",
+        "recommendedWith": "Recommended with 2–4+ players",
+        "playingTime": "5",
+        "minPlayTime": "1",
+        "maxPlayTime": "5",
+        "minAge": "7",
+        "weight": "1",
+        "image": "https://cf.geekdo-images.com/ewDx0hBb5fTq8YTnOACL2w__original/img/MGLC3FGwvEXNF3VBs1f3GGLo20Y=/0x0/filters:format(jpeg)/pic1404788.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/ewDx0hBb5fTq8YTnOACL2w__small/img/YGZwYbvTogHLgqAHJk-vXABzoAk=/fit-in/200x150/filters:strip_icc()/pic1404788.jpg"
+      }
     },
     {
       "id": "128",
@@ -2130,7 +3555,7 @@
     },
     {
       "id": "129",
-      "bggId": "",
+      "bggId": "167791",
       "title": "Terraforming Mars",
       "types": [
         "Tableau",
@@ -2144,7 +3569,22 @@
       "open": false,
       "time": 120,
       "weight": "Heavy",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Terraforming Mars",
+        "year": "2016",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "120",
+        "minPlayTime": "120",
+        "maxPlayTime": "120",
+        "minAge": "12",
+        "weight": "3.2733",
+        "image": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__original/img/thIqWDnH9utKuoKVEUqveDixprI=/0x0/filters:format(jpeg)/pic3536616.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/wg9oOLcsKvDesSUdZQ4rxw__small/img/BTxqxgYay5tHJfVoJ2NF5g43_gA=/fit-in/200x150/filters:strip_icc()/pic3536616.jpg"
+      }
     },
     {
       "id": "130",
@@ -2164,7 +3604,7 @@
     },
     {
       "id": "131",
-      "bggId": "",
+      "bggId": "244992",
       "title": "The Mind",
       "types": [
         "Abstract",
@@ -2177,11 +3617,26 @@
       "open": true,
       "time": 120,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "The Mind",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4+ players",
+        "playingTime": "20",
+        "minPlayTime": "20",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.0736",
+        "image": "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__original/img/8VjZEG278faO9JZwzce3v3EKssI=/0x0/filters:format(png)/pic3979766.png",
+        "thumbnail": "https://cf.geekdo-images.com/q_JGK291hrhnhiRB0667oA__small/img/PUrzEmTo5kOcK5BOb4cbOOcH86I=/fit-in/200x150/filters:strip_icc()/pic3979766.png"
+      }
     },
     {
       "id": "090",
-      "bggId": "",
+      "bggId": "244521",
       "title": "The Quacks of Quedlinburg",
       "types": [
         "Press Your Luck",
@@ -2194,11 +3649,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Quacks",
+        "year": "2018",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "10",
+        "weight": "1.9444",
+        "image": "https://cf.geekdo-images.com/B1bLRWzTASZ-xx9NoAE79A__original/img/HulJk6gFzp_bxl0wzc2XEMq8NLM=/0x0/filters:format(png)/pic8780293.png",
+        "thumbnail": "https://cf.geekdo-images.com/B1bLRWzTASZ-xx9NoAE79A__small/img/deG3pr-ORZ3JrGvQA-oQNrwh0l0=/fit-in/200x150/filters:strip_icc()/pic8780293.png"
+      }
     },
     {
       "id": "132",
-      "bggId": "",
+      "bggId": "9209",
       "title": "Ticket to Ride",
       "types": [
         "Area Control",
@@ -2211,7 +3681,22 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Ticket to Ride",
+        "year": "2004",
+        "minPlayers": "2",
+        "maxPlayers": "5",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "60",
+        "minPlayTime": "30",
+        "maxPlayTime": "60",
+        "minAge": "8",
+        "weight": "1.8181",
+        "image": "https://cf.geekdo-images.com/kdWYkW-7AqG63HhqPL6ekA__original/img/rWF8r4JXXCQQ7QhiWHhmT-rQ3Pc=/0x0/filters:format(jpeg)/pic8937637.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/kdWYkW-7AqG63HhqPL6ekA__small/img/5G46jv8MFh_BfX67iMSouTMhKxc=/fit-in/200x150/filters:strip_icc()/pic8937637.jpg"
+      }
     },
     {
       "id": "133",
@@ -2232,7 +3717,7 @@
     },
     {
       "id": "134",
-      "bggId": "",
+      "bggId": "309430",
       "title": "Tiny Epic Pirates",
       "types": [
         "Dice Game"
@@ -2244,11 +3729,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Tiny Epic Pirates",
+        "year": "2021",
+        "minPlayers": "1",
+        "maxPlayers": "4",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "60",
+        "minPlayTime": "30",
+        "maxPlayTime": "60",
+        "minAge": "14",
+        "weight": "2.8571",
+        "image": "https://cf.geekdo-images.com/OACc4dCZKetKnT2hzAO1Mg__original/img/8hM0Y4fF_KxOEnm-rXK_ZmnaKR0=/0x0/filters:format(jpeg)/pic5410377.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/OACc4dCZKetKnT2hzAO1Mg__small/img/bCHPPDZK8gPmVI0KWiwUwhMWXgU=/fit-in/200x150/filters:strip_icc()/pic5410377.jpg"
+      }
     },
     {
       "id": "135",
-      "bggId": "",
+      "bggId": "265736",
       "title": "Tiny Towns",
       "types": [
         "Abstract"
@@ -2260,11 +3760,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Tiny Towns",
+        "year": "2019",
+        "minPlayers": "1",
+        "maxPlayers": "6",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–5 players",
+        "playingTime": "60",
+        "minPlayTime": "45",
+        "maxPlayTime": "60",
+        "minAge": "14",
+        "weight": "2.0572",
+        "image": "https://cf.geekdo-images.com/aE1EoOzr530gQin8bj8QDA__original/img/-GDAsvmQ3wkuHaZ8h9G5Gk_nvVA=/0x0/filters:format(jpeg)/pic4460401.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/aE1EoOzr530gQin8bj8QDA__small/img/AI-Ro3wLJtpyZLmCMNywOlpz0S8=/fit-in/200x150/filters:strip_icc()/pic4460401.jpg"
+      }
     },
     {
       "id": "136",
-      "bggId": "",
+      "bggId": "123540",
       "title": "Tokaido",
       "types": [
         "Eurogame",
@@ -2277,11 +3792,26 @@
       "open": false,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Tokaido",
+        "year": "2012",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–5 players",
+        "playingTime": "45",
+        "minPlayTime": "45",
+        "maxPlayTime": "45",
+        "minAge": "8",
+        "weight": "1.7411",
+        "image": "https://cf.geekdo-images.com/7kLkx3k3ovL8fP-2krPqwA__original/img/NWuaZkfygEeQ7nvi0Ih7_FW9jO0=/0x0/filters:format(jpeg)/pic8758132.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/7kLkx3k3ovL8fP-2krPqwA__small/img/yQg2AyLDdtfArqfb866NW2Wv1Es=/fit-in/200x150/filters:strip_icc()/pic8758132.jpg"
+      }
     },
     {
       "id": "137",
-      "bggId": "",
+      "bggId": "16992",
       "title": "Tsuro",
       "types": [
         "Abstract"
@@ -2293,11 +3823,26 @@
       "open": true,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Tsuro",
+        "year": "2005",
+        "minPlayers": "2",
+        "maxPlayers": "8",
+        "bestWith": "Best with 4, 6 players",
+        "recommendedWith": "Recommended with 2–8 players",
+        "playingTime": "20",
+        "minPlayTime": "15",
+        "maxPlayTime": "20",
+        "minAge": "8",
+        "weight": "1.2193",
+        "image": "https://cf.geekdo-images.com/2V3d4ryhxkS3RoPtDrvpUw__original/img/TP5U-O2eujPBK9IVmmifdfkWwdQ=/0x0/filters:format(jpeg)/pic875761.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/2V3d4ryhxkS3RoPtDrvpUw__small/img/NWgNhoxUIF7Lmj1apRkZQhFL6NU=/fit-in/200x150/filters:strip_icc()/pic875761.jpg"
+      }
     },
     {
       "id": "138",
-      "bggId": "",
+      "bggId": "266177",
       "title": "Tsuro: Phoenix Rising",
       "types": [
         "Abstract"
@@ -2309,7 +3854,22 @@
       "open": true,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Tsuro: Phoenix Rising",
+        "year": "2019",
+        "minPlayers": "2",
+        "maxPlayers": "8",
+        "bestWith": "Best with 3–4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "50",
+        "minPlayTime": "20",
+        "maxPlayTime": "50",
+        "minAge": "8",
+        "weight": "2.2",
+        "image": "https://cf.geekdo-images.com/CZYYv2N4L2r_CLVtlsz3Wg__original/img/OeiKXrITX4E0gcbu86u3110wkbs=/0x0/filters:format(png)/pic4434739.png",
+        "thumbnail": "https://cf.geekdo-images.com/CZYYv2N4L2r_CLVtlsz3Wg__small/img/EWrbTkizwJ322a_5zviiLrRcf6M=/fit-in/200x150/filters:strip_icc()/pic4434739.png"
+      }
     },
     {
       "id": "139",
@@ -2331,7 +3891,7 @@
     },
     {
       "id": "140",
-      "bggId": "",
+      "bggId": "1515",
       "title": "Upwords",
       "types": [
         "Abstract",
@@ -2344,11 +3904,26 @@
       "open": false,
       "time": 90,
       "weight": "Light",
-      "status": "house"
+      "status": "house",
+      "bgg": {
+        "name": "Upwords",
+        "year": "1982",
+        "minPlayers": "2",
+        "maxPlayers": "4",
+        "bestWith": "Best with 2 players",
+        "recommendedWith": "Recommended with 2–4 players",
+        "playingTime": "90",
+        "minPlayTime": "90",
+        "maxPlayTime": "90",
+        "minAge": "8",
+        "weight": "1.675",
+        "image": "https://cf.geekdo-images.com/B8CW-TKNknUhvqVeUJsy6A__original/img/Q3weSoBpl0MWMc1rRU2kCgw9PNo=/0x0/filters:format(jpeg)/pic2503759.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/B8CW-TKNknUhvqVeUJsy6A__small/img/e3bqmrr-V-ztni2ZjPltsERt1Ic=/fit-in/200x150/filters:strip_icc()/pic2503759.jpg"
+      }
     },
     {
       "id": "141",
-      "bggId": "",
+      "bggId": "339789",
       "title": "Welcome to the Moon",
       "types": [
         "Flip & Write"
@@ -2360,11 +3935,26 @@
       "open": true,
       "time": 60,
       "weight": "Medium",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Welcome to the Moon",
+        "year": "2021",
+        "minPlayers": "1",
+        "maxPlayers": "6",
+        "bestWith": "Best with 2–4 players",
+        "recommendedWith": "Recommended with 1–6 players",
+        "playingTime": "30",
+        "minPlayTime": "25",
+        "maxPlayTime": "30",
+        "minAge": "10",
+        "weight": "2.4589",
+        "image": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__original/img/U4DY7_OUE1XI1m1Fi0iubbf2sEI=/0x0/filters:format(png)/pic6204967.png",
+        "thumbnail": "https://cf.geekdo-images.com/eCdiHCB9OobumwaGl4dbOQ__small/img/dyaAIesMyeQWUoLRA25Dj9MhruI=/fit-in/200x150/filters:strip_icc()/pic6204967.png"
+      }
     },
     {
       "id": "142",
-      "bggId": "",
+      "bggId": "266192",
       "title": "Wingspan",
       "types": [
         "Eurogame",
@@ -2377,11 +3967,26 @@
       "open": false,
       "time": 120,
       "weight": "Heavy",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Wingspan",
+        "year": "2019",
+        "minPlayers": "1",
+        "maxPlayers": "5",
+        "bestWith": "Best with 3 players",
+        "recommendedWith": "Recommended with 1–4 players",
+        "playingTime": "70",
+        "minPlayTime": "40",
+        "maxPlayTime": "70",
+        "minAge": "10",
+        "weight": "2.4796",
+        "image": "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__original/img/cI782Zis9cT66j2MjSHKJGnFPNw=/0x0/filters:format(jpeg)/pic4458123.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/yLZJCVLlIx4c7eJEWUNJ7w__small/img/VNToqgS2-pOGU6MuvIkMPKn_y-s=/fit-in/200x150/filters:strip_icc()/pic4458123.jpg"
+      }
     },
     {
       "id": "143",
-      "bggId": "",
+      "bggId": "2243",
       "title": "Yahtzee",
       "types": [
         "Roll & Write"
@@ -2393,11 +3998,26 @@
       "open": true,
       "time": 30,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Yahtzee",
+        "year": "1956",
+        "minPlayers": "2",
+        "maxPlayers": "10",
+        "bestWith": "Best with 3–4 players",
+        "recommendedWith": "Recommended with 2–6 players",
+        "playingTime": "30",
+        "minPlayTime": "30",
+        "maxPlayTime": "30",
+        "minAge": "6",
+        "weight": "1.1739",
+        "image": "https://cf.geekdo-images.com/dp-pJkUemCjhrwi9QItrPA__original/img/eeYPdva8ti4Hi2PYxkTLRPrtfKk=/0x0/filters:format(jpeg)/pic378237.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/dp-pJkUemCjhrwi9QItrPA__small/img/jzdzVAjd75yiZkIoJ4JsindSmCs=/fit-in/200x150/filters:strip_icc()/pic378237.jpg"
+      }
     },
     {
       "id": "144",
-      "bggId": "",
+      "bggId": "62871",
       "title": "Zombie Dice",
       "types": [
         "AmeriTrash",
@@ -2411,7 +4031,22 @@
       "open": true,
       "time": 15,
       "weight": "Light",
-      "status": "lendable"
+      "status": "lendable",
+      "bgg": {
+        "name": "Zombie Dice",
+        "year": "2010",
+        "minPlayers": "2",
+        "maxPlayers": "99",
+        "bestWith": "Best with 4 players",
+        "recommendedWith": "Recommended with 2–8 players",
+        "playingTime": "20",
+        "minPlayTime": "10",
+        "maxPlayTime": "20",
+        "minAge": "10",
+        "weight": "1.0919",
+        "image": "https://cf.geekdo-images.com/iPy584JMAJYrupqRdQp8gA__original/img/zPbWjPYgLscrjd96Uitf3GTPb34=/0x0/filters:format(jpeg)/pic4991962.jpg",
+        "thumbnail": "https://cf.geekdo-images.com/iPy584JMAJYrupqRdQp8gA__small/img/0qjQ2T0wXNZDVvMie54bEVmKeT8=/fit-in/200x150/filters:strip_icc()/pic4991962.jpg"
+      }
     }
   ]
 }

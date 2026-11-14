@@ -3,7 +3,7 @@
  *
  * This file is shared by two callers, which is why it exports both ways:
  *   - js/catalog.js, in the browser, fetching the sheet live on page load
- *   - scripts/fetch-catalog.js, in Node, building the weekly cached copy
+ *   - scripts/fetch-catalog.js, in Node, building the daily cached copy
  * Keeping one copy of the parsing means the cache can never disagree with
  * the live page about what a row means.
  */

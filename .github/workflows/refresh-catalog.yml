@@ -1,16 +1,20 @@
 name: Refresh game catalog cache
 
-# Rebuilds data/games.json, the copy of the library spreadsheet that
-# catalog.html draws first so the table appears without waiting on Google.
-# The page still checks the live sheet in the background on every load, so
-# this job is about how fast the catalog paints and whether it survives an
-# outage -- not about how current it is.
+# Rebuilds data/games.json and data/game-details.json: the library
+# spreadsheet merged with BoardGameGeek's facts for each game (players, play
+# time, weight, box art, description). The pages draw this cache first, then
+# check the live sheet in the background, so sheet fields are always current
+# and BGG fields are at most a day old.
+#
+# BGG_TOKEN is a repository secret and only ever reaches this job, never a
+# browser. Without it the job still runs and keeps the last BGG data.
 
 on:
   schedule:
-    # Mondays at 11:00 UTC (6am Central in summer, 5am in winter). GitHub runs
+    # Daily at 11:00 UTC (6am Central in summer, 5am in winter), so a game
+    # added to the sheet shows its BGG details by the next day. GitHub runs
     # scheduled jobs on a best-effort basis, so it may start a bit late.
-    - cron: "0 11 * * 1"
+    - cron: "0 11 * * *"
   workflow_dispatch:
     inputs:
       allow_shrink:
@@ -18,7 +22,7 @@ on:
         type: boolean
         default: false
 
-# Never let a manual run and the weekly run push over each other.
+# Never let a manual run and the daily run push over each other.
 concurrency:
   group: refresh-catalog
   cancel-in-progress: false
@@ -36,19 +40,21 @@ jobs:
         with:
           node-version: "20"
 
-      - name: Fetch the spreadsheet
+      - name: Fetch the spreadsheet and BGG
         env:
+          BGG_TOKEN: ${{ secrets.BGG_TOKEN }}
           ALLOW_SHRINK: ${{ inputs.allow_shrink && '1' || '' }}
         run: node scripts/fetch-catalog.js
 
       - name: Commit if the catalog changed
         run: |
-          if git diff --quiet -- data/games.json; then
+          git add -N data/game-details.json
+          if git diff --quiet -- data/games.json data/game-details.json; then
             echo "Catalog unchanged; nothing to commit."
             exit 0
           fi
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add data/games.json
+          git add data/games.json data/game-details.json
           git commit -m "Refresh game catalog cache ($(node -p "require('./data/games.json').count") games)"
           git push
