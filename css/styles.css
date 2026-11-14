@@ -20,6 +20,7 @@
   --blue-lift: #6ec1e4;
   --green-lift: #6fd3ab;
   --berry-lift: #ff7d96;
+  --purple-lift: #b394dd;
 
   /* Surfaces */
   --paper: #edf3f5;        /* page background: ink, watered down */
@@ -50,6 +51,7 @@ body[data-page="membership"] { --accent: var(--berry);  --accent-lift: var(--ber
 body[data-page="catalog"],
 body[data-page="game"]       { --accent: var(--gold);   --accent-lift: var(--gold); }
 body[data-page="calendar"]   { --accent: var(--blue);   --accent-lift: var(--blue-lift); }
+body[data-page="shop"]       { --accent: var(--purple); --accent-lift: var(--purple-lift); }
 
 @media (prefers-color-scheme: dark) {
   :root {
@@ -163,6 +165,7 @@ code {
 /* Caps the measure of running text without pulling it off the page's left
    edge, so every section still starts in the same column. */
 .narrow { max-width: 68ch; }
+.narrow > * + h2 { margin-top: 2.5rem; }  /* a second heading in one block */
 .center { text-align: center; }
 .center .narrow { margin-inline: auto; }
 .muted { color: var(--muted); }
@@ -258,6 +261,7 @@ code {
 /* Each destination keeps one meeple color, on every page. */
 .site-nav a[data-nav="about"]      { --nav-color: var(--green); }
 .site-nav a[data-nav="membership"] { --nav-color: var(--berry); }
+.site-nav a[data-nav="shop"]       { --nav-color: var(--purple); }
 .site-nav a[data-nav="catalog"]    { --nav-color: var(--gold); }
 .site-nav a[data-nav="calendar"]   { --nav-color: var(--blue); }
 
@@ -478,6 +482,7 @@ code {
   background: var(--surface);
   box-shadow: 5px 5px 0 var(--drop);
   transition: transform 0.12s ease, box-shadow 0.12s ease;
+  overflow-wrap: anywhere;  /* long email addresses wrap instead of spilling out */
 }
 
 .card:hover {
