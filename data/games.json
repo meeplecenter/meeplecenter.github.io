@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-21T17:53:20.775Z",
+  "generatedAt": "2026-11-22T18:16:09.745Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
   "count": 145,
   "games": [
@@ -54,7 +54,7 @@
         "minPlayTime": "15",
         "maxPlayTime": "15",
         "minAge": "4",
-        "weight": "1.0428",
+        "weight": "1.0427",
         "image": "https://cf.geekdo-images.com/5RHnNYBqmNXYvDtIeJw3pA__original/img/mD1qqRY_sjE0G6ojCQwy_mkErHY=/0x0/filters:format(jpeg)/pic403502.jpg",
         "thumbnail": "https://cf.geekdo-images.com/5RHnNYBqmNXYvDtIeJw3pA__small/img/k3dUd6Gx-ogOeDtH2HsyVX0n-8E=/fit-in/200x150/filters:strip_icc()/pic403502.jpg"
       }
@@ -2104,7 +2104,7 @@
         "minPlayTime": "30",
         "maxPlayTime": "30",
         "minAge": "8",
-        "weight": "1.0665",
+        "weight": "1.0664",
         "image": "https://cf.geekdo-images.com/blW_a3O5Md5bE1jFygJ6SA__original/img/rbBCCKoEY8QvfaXeDSySuVVTUXk=/0x0/filters:format(jpeg)/pic697422.jpg",
         "thumbnail": "https://cf.geekdo-images.com/blW_a3O5Md5bE1jFygJ6SA__small/img/s9q6W3Z7i4uW8x9CYZuL8wHzesE=/fit-in/200x150/filters:strip_icc()/pic697422.jpg"
       }
