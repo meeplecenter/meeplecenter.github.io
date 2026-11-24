@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-23T22:28:16.061Z",
+  "generatedAt": "2026-11-24T21:00:21.062Z",
   "source": "https://docs.google.com/spreadsheets/d/14E2W7WBHVCCoZHOgNvSgtmfyr-WgxsfsuN92z7g48Wk/edit?gid=768323261",
   "count": 145,
   "games": [
@@ -914,7 +914,7 @@
         "minPlayTime": "15",
         "maxPlayTime": "15",
         "minAge": "10",
-        "weight": "1.2333",
+        "weight": "1.2327",
         "image": "https://cf.geekdo-images.com/TGHPcdYEnD3_QzMohEIrNw__original/img/BjCphUnm_GLYJ2I1VAkxqNiNTWk=/0x0/filters:format(png)/pic9206059.png",
         "thumbnail": "https://cf.geekdo-images.com/TGHPcdYEnD3_QzMohEIrNw__small/img/0bZIFaJEW-3FquBb8jY-SqrrUx8=/fit-in/200x150/filters:strip_icc()/pic9206059.png"
       }
@@ -1228,7 +1228,7 @@
         "minPlayTime": "20",
         "maxPlayTime": "20",
         "minAge": "8",
-        "weight": "1.0405",
+        "weight": "1.0404",
         "image": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__original/img/hK6k-x_GYfooemrkkRuF0bTvKxE=/0x0/filters:format(jpeg)/pic8780246.jpg",
         "thumbnail": "https://cf.geekdo-images.com/YrQxEB9Ef0kQorRApzG5vQ__small/img/_dNNsSelyw9qUEOIXBRt6PE_1us=/fit-in/200x150/filters:strip_icc()/pic8780246.jpg"
       }
@@ -1502,7 +1502,7 @@
         "minPlayTime": "30",
         "maxPlayTime": "30",
         "minAge": "8",
-        "weight": "1.4843",
+        "weight": "1.4841",
         "image": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__original/img/hSvWgiRYJCTTuoLOWTW3c8sYtl8=/0x0/filters:format(jpeg)/pic3043734.jpg",
         "thumbnail": "https://cf.geekdo-images.com/m_RzXpHURC0_xLkvRSR_sw__small/img/OfgWmkGJj5BgOO0zFHEtP5CHfbU=/fit-in/200x150/filters:strip_icc()/pic3043734.jpg"
       }
@@ -2876,7 +2876,7 @@
         "minPlayTime": "90",
         "maxPlayTime": "120",
         "minAge": "13",
-        "weight": "4.0781",
+        "weight": "4.0783",
         "image": "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__original/img/9uLd9C3XAvInLCLhAoXqKVk56zs=/0x0/filters:format(jpeg)/pic7013651.jpg",
         "thumbnail": "https://cf.geekdo-images.com/kjCm4ZvPjIZxS-mYgSPy1g__small/img/aUlIih2_R7P8IYKeyNl2heLQbu8=/fit-in/200x150/filters:strip_icc()/pic7013651.jpg"
       }
